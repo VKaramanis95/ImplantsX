@@ -53,7 +53,10 @@ import BlogFirstTimeDentist from "../components/Pages/BlogFirstTimeDentist.vue"
 import BlogPrpFacelifting from "../components/Pages/BlogPrpFacelifting.vue"
 import BlogCbtc from "../components/Pages/BlogCbtc.vue"
 import BlogBoneCrafts from "../components/Pages/BlogBoneCrafts.vue"
-import BlogAll6OrAll4 from "../components/Pages/BlogAll6OrAll4.vue"
+import BlogAllxAll6OrAll4 from "../components/Pages/BlogAllxAll6OrAll4.vue"
+
+import BlogAllxImplantsDentureCare from "../components/Pages/BlogAllxImplantsDentureCare.vue"
+
 
 
 
@@ -128,7 +131,8 @@ const routes = [
   { path: "/brush-properly",name:"BlogHowBrushProperly",  component:BlogHowBrushProperly},
   { path: "/implants-pain", name:"BlogImplantsPain", component:BlogImplantsPain},
 
-  { path: "/all6-or-all4", name:"BlogAll6OrAll4", component:BlogAll6OrAll4},
+  { path: "/all6-or-all4", name:"BlogAllxAll6OrAll4", component:BlogAllxAll6OrAll4},
+  { path: "/implants-denture-care", name:"BlogAllxImplantsDentureCare", component:BlogAllxImplantsDentureCare},
 
 
 

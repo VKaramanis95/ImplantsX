@@ -22,7 +22,7 @@
                 <div class="info">
                     <span>November 27, 2022</span>
                     <h4 class="title usmall">
-                        <router-link to="/conscious-sedation">{{ $t('allx_sidebar_title1') }}</router-link>
+                        <router-link to="/implants-denture-care">{{ $t('allx_sidebar_title1') }}</router-link>
                     </h4>
                 </div>
             </div>
