@@ -69,7 +69,7 @@
 
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <router-link to="/all-on-6-details" class="nav-link">
+                                                    <router-link to="/all-on-x-details" class="nav-link">
                                                         {{ $t('nav_allx') }}
                                                     </router-link>
                                                 </li>
@@ -104,7 +104,6 @@
                                                         {{ $t('nav_veneers') }}
                                                         <i class='bx bx-caret-right'></i>
                                                     </a>
-                                                    <!-- Dropdown menu for Dental Veneers -->
                                                     <ul class="dropdown-menu">
                                                         <li class="nav-item">
                                                             <router-link to="/porcelain-veneers" class="nav-link">
@@ -118,6 +117,7 @@
                                                         </li>
                                                     </ul>
                                                 </li>
+                                                <!--
                                                 <li class="nav-item">
                                                     <router-link to="/whitening" class="nav-link">
                                                         {{ $t('nav_whitening') }}
@@ -132,7 +132,7 @@
                                                     <router-link to="/invisible-orthodontics" class="nav-link">
                                                         {{ $t('nav_orthodontics') }}
                                                     </router-link>
-                                                </li>
+                                                </li>-->
                                             </ul>
                                         </div>
                                     </li>
@@ -151,7 +151,6 @@
                                                         {{ $t('nav_prosthetics_fixed') }}
                                                         <i class='bx bx-caret-right'></i>
                                                     </a>
-                                                    <!-- Dropdown menu for Dental Veneers -->
                                                     <ul class="dropdown-menu">
                                                         <li class="nav-item">
                                                             <router-link to="/zirconia-crowns" class="nav-link">
@@ -165,12 +164,12 @@
                                                         </li>
                                                     </ul>
                                                 </li>
+                                                <!--
                                                 <li class="nav-item">
                                                     <a href="#" class="nav-link">
                                                         {{ $t('nav_prosthetics_mobile') }}
                                                         <i class='bx bx-caret-right'></i>
                                                     </a>
-                                                    <!-- Dropdown menu for Dental Veneers -->
                                                     <ul class="dropdown-menu">
                                                         <li class="nav-item">
                                                             <router-link to="/denture" class="nav-link">
@@ -185,7 +184,6 @@
                                                         {{ $t('nav_prosthetics_min_rehab') }}
                                                         <i class='bx bx-caret-right'></i>
                                                     </a>
-                                                    <!-- Dropdown menu for Dental Veneers -->
                                                     <ul class="dropdown-menu">
                                                         <li class="nav-item">
                                                             <router-link to="/inlays-onlays" class="nav-link">
@@ -194,7 +192,7 @@
                                                         </li>
                                                         
                                                     </ul>
-                                                </li>
+                                                </li>-->
                                                 
 
                                                 
@@ -202,6 +200,7 @@
                                         </div>
                                     </li>
                                     <!-- Add Prosthetics category -->
+                                     <!--
                                     <li class="nav-item">
                                         <div>
                                             <a href="#" class="nav-link">
@@ -234,13 +233,16 @@
                                             </ul>
                                         </div>
                                     </li>
+                                    -->
                                     <!-- Add periodontology category -->
+                                     <!--
                                     <li class="nav-item">
                                         <router-link to="/periodology" class="nav-link">
                                             {{ $t('nav_periodontology') }}
                                         </router-link>
-                                    </li>
+                                    </li>-->
                                     <!-- Add oral facial category -->
+                                     <!--
                                     <li class="nav-item">
                                         <router-link to="/orofacial-pain" class="nav-link">
                                             {{ $t('nav_orofacial') }}
@@ -251,6 +253,7 @@
                                             {{ $t('nav_orthodontics') }}
                                         </router-link>
                                     </li>
+                                    -->
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -258,12 +261,7 @@
                                     {{ $t('nav_before_after') }}
                                 </router-link>
                             </li>
-<!--
-                            <li class="nav-item">
-                                <router-link to="/pricing" class="nav-link">
-                                    {{ $t('nav_prices') }}
-                                </router-link>
-                            </li>  --> 
+
                             <li class="nav-item">
                                 <router-link to="/contact-us" class="nav-link">
                                     {{ $t('nav_contact') }}

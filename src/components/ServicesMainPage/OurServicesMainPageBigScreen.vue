@@ -56,7 +56,7 @@ export default defineComponent({
             {
               id: 1,
               heading: 'nav_allx',
-              btnLinkOne: '/all-on-6-details',
+              btnLinkOne: '/all-on-x-details',
               image: require('../../assets/images/services/all6/all6.webp'),   
             },
             

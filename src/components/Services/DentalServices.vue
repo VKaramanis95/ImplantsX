@@ -15,12 +15,12 @@
                 <div class="col-lg-4 col-md-6" style="margin-top: 30px;">
                     <div class="single-services">
                         <div class="services-image">
-                            <router-link to="/all-on-6-details">
+                            <router-link to="/all-on-x-details">
                                 <img src="../../assets/images/services/all6/all6-services.webp" alt="image">
                             </router-link>
 
                             <div class="icon">
-                                <router-link to="/all-on-6-details">
+                                <router-link to="/all-on-x-details">
                                     <i class="flaticon-dental-implant"></i>
                                 </router-link>
                             </div>
@@ -28,7 +28,7 @@
 
                         <div class="services-content">
                             <h3>
-                                <router-link to="/all-on-6-details">
+                                <router-link to="/all-on-x-details">
                                     {{ $t('nav_allx') }}
                                 </router-link>
                             </h3>
@@ -186,6 +186,7 @@
                         </div>
                     </div>
                 </div>
+                <!--
                 <div class="col-lg-4 col-md-6"  style="margin-top: 30px;">
                     <div class="single-services">
                         <div class="services-image">
@@ -461,7 +462,7 @@
                             <p>{{ $t('invisible_orthodontics_services_p') }}</p>
                         </div>
                     </div>
-                </div> 
+                </div> -->
                 
                 
             </div>

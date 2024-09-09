@@ -57,7 +57,7 @@
 
                                             <ul class="dropdown-menu" v-show="isDropdownOpen('implants')">
                                                 <li class="nav-item">
-                                                    <router-link to="/all-on-6-details" class="nav-link">
+                                                    <router-link to="/all-on-x-details" class="nav-link">
                                                         {{ $t('nav_allx') }}
                                                     </router-link>
                                                 </li>
@@ -106,6 +106,7 @@
                                                         </li>
                                                     </ul>
                                                 </li>
+                                                <!--
                                                 <li class="nav-item">
                                                     <router-link to="/whitening" class="nav-link">
                                                         {{ $t('nav_whitening') }}
@@ -120,7 +121,7 @@
                                                     <router-link to="/invisible-orthodontics" class="nav-link">
                                                         {{ $t('nav_orthodontics') }}
                                                     </router-link>
-                                                </li>
+                                                </li>-->
                                             </ul>
                                         </div>
                                     </li>
@@ -155,12 +156,12 @@
                                                         </li>
                                                     </ul>
                                                 </li>
+<!--
                                                 <li class="nav-item">
                                                     <a href="#" class="nav-link"  @click.prevent="toggleDropdown('prosthetics_mobile')">
                                                         {{ $t('nav_prosthetics_mobile') }}
                                                         <i class='bx bx-caret-right'></i>
                                                     </a>
-                                                    <!-- Dropdown menu for Dental Veneers -->
                                                     <ul class="dropdown-menu" v-show="isDropdownOpen('prosthetics_mobile')">
                                                         <li class="nav-item">
                                                             <router-link to="/denture" class="nav-link">
@@ -168,7 +169,7 @@
                                                             </router-link>
                                                         </li>
                                                     </ul>
-                                                </li>
+                                                </li>-->
                                                 <li class="nav-item">
                                                     <a href="#" class="nav-link" @click.prevent="toggleDropdown('prosthetics_min_rehab')">
                                                         {{ $t('nav_prosthetics_min_rehab') }}
@@ -188,6 +189,7 @@
                                     </li>
 
                                     <!-- Facial category -->
+                                     <!--
                                     <li class="nav-item">
                                         <div>
                                             <a href="#" class="nav-link" @click.prevent="toggleDropdown('facial')">
@@ -218,16 +220,18 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                    </li>
+                                    </li>-->
 
                                     <!-- Add Periodontology category -->
+                                     <!--
                                     <li class="nav-item">
                                         <router-link to="/periodology" class="nav-link">
                                             {{ $t('nav_periodontology') }}
                                         </router-link>
-                                    </li>
+                                    </li>-->
 
                                     <!-- Add Oral Facial category -->
+                                     <!--
                                     <li class="nav-item">
                                         <router-link to="/orofacial-pain" class="nav-link">
                                             {{ $t('nav_orofacial') }}
@@ -238,7 +242,7 @@
                                         <router-link to="/invisible-orthodontics" class="nav-link">
                                             {{ $t('nav_orthodontics') }}
                                         </router-link>
-                                    </li>
+                                    </li>-->
                                 </ul>
                             </li>
 

@@ -9,8 +9,7 @@ import Etsetsenekou from "../components/Pages/Etsetsenekou.vue"
 import KLabropoulou from "../components/Pages/KLabropoulou.vue"
 
 import ServicesPage  from "../components/Pages/ServicesPage.vue"
-import All6Details from "../components/services-details/All6Details.vue"
-import All4Details from "../components/services-details/All4Details.vue"
+import AllXDetails from "../components/services-details/AllXDetails.vue"
 import FullMouthRehab from "../components/services-details/FullMouthRehab.vue"
 import ZirconiaCr from "../components/services-details/ZirconiaCr.vue"
 import Bridges from "../components/services-details/Bridges.vue"
@@ -54,6 +53,9 @@ import BlogFirstTimeDentist from "../components/Pages/BlogFirstTimeDentist.vue"
 import BlogPrpFacelifting from "../components/Pages/BlogPrpFacelifting.vue"
 import BlogCbtc from "../components/Pages/BlogCbtc.vue"
 import BlogBoneCrafts from "../components/Pages/BlogBoneCrafts.vue"
+import BlogAll6OrAll4 from "../components/Pages/BlogAll6OrAll4.vue"
+
+
 
 
 
@@ -83,8 +85,7 @@ const routes = [
 
   { path: "/services",name:"ServicesPage", component:ServicesPage},
   
-  {path: "/all-on-6-details",name:"All6Details", component:All6Details},
-  {path: "/all-on-4-details",name:"All4Details",component:All4Details},
+  {path: "/all-on-x-details",name:"AllXDetails", component:AllXDetails},
   {path: "/full-mouth-rehabilitation",name:"FullMouthRehab", component:FullMouthRehab},
 
   {path: "/zirconia-crowns",name:"ZirconiaCr",component:ZirconiaCr},
@@ -126,6 +127,8 @@ const routes = [
   { path: "/mouth-smell", name:"BlogMouthSmell", component:BlogMouthSmell},
   { path: "/brush-properly",name:"BlogHowBrushProperly",  component:BlogHowBrushProperly},
   { path: "/implants-pain", name:"BlogImplantsPain", component:BlogImplantsPain},
+
+  { path: "/all6-or-all4", name:"BlogAll6OrAll4", component:BlogAll6OrAll4},
 
 
 
