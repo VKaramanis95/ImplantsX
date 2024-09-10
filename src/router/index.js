@@ -68,6 +68,12 @@ import BlogImplantsQuality from "../components/Pages/BlogImplantsQuality.vue"
 import BlogImplantsEatAnything from "../components/Pages/BlogImplantsEatAnything.vue"
 import BlogImplantsAdditionalProcedure from "../components/Pages/BlogImplantsAdditionalProcedure.vue"
 import BlogImplantsIsPainful from "../components/Pages/BlogImplantsIsPainful.vue"
+import BlogZircVenColor from "../components/Pages/BlogZircVenColor.vue"
+import BlogZircVenBenefits from "../components/Pages/BlogZircVenBenefits.vue"
+import BlogZircVenConsumption from "../components/Pages/BlogZircVenConsumption.vue"
+import BlogZircVenFall from "../components/Pages/BlogZircVenFall.vue"
+import BlogZircVenLongevity from "../components/Pages/BlogZircVenLongevity.vue"
+
 
 
 const routes = [
@@ -109,8 +115,13 @@ const routes = [
   { path: "/alternative-therapies",name:"AlternativeTherapies",component:AlternativeTherapies},
   { path: "/veneers",name:"ZircAndVeneers",component:ZircAndVeneers},
 
+  { path: "/veneers-natural-color",name:"BlogZircVenColor",component:BlogZircVenColor},
+  { path: "/veneers-benefits",name:"BlogZircVenBenefits",component:BlogZircVenBenefits},
+  { path: "/veneers-consumption",name:"BlogZircVenConsumption",component:BlogZircVenConsumption},
+  { path: "/veneers-fall",name:"BlogZircVenFall",component:BlogZircVenFall},
+  { path: "/veneers-longevity",name:"BlogZircVenLongevity",component: BlogZircVenLongevity},
 
-  
+ 
 
   { path: "/gallery",name:"GalleryPage", component:GalleryPage},
 
