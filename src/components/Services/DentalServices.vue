@@ -86,7 +86,32 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6"  style="margin-top: 30px;">
+                    <div class="single-services">
+                        <div class="services-image">
+                            <router-link to="/veneers">
+                                <img src="../../assets/images/services/zircCrowns/zirconia-crowns-allservices.webp"  alt="image">
+                            </router-link>
 
+                            <div class="icon">
+                                <router-link to="/veneers">
+                                    <i class="flaticon-dental-care"></i>
+                                </router-link>
+                            </div>
+                        </div>
+
+                        <div class="services-content">
+                            <h3>
+                                <router-link to="/veneers">
+                                    {{ $t('zircven_page_title') }}
+                                    
+                                </router-link>
+                            </h3>
+                            <p>{{ $t('services_main_zcrowns_p') }}</p>
+                        </div>
+                    </div>
+                </div>
+<!--
                 <div class="col-lg-4 col-md-6"  style="margin-top: 30px;">
                     <div class="single-services">
                         <div class="services-image">
@@ -185,7 +210,7 @@
                             <p>{{ $t('veneers_resin_dentalServices_p') }}</p>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <!--
                 <div class="col-lg-4 col-md-6"  style="margin-top: 30px;">
                     <div class="single-services">
