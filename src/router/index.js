@@ -14,6 +14,11 @@ import FullMouthRehab from "../components/services-details/FullMouthRehab.vue"
 import ZirconiaCr from "../components/services-details/ZirconiaCr.vue"
 import Bridges from "../components/services-details/Bridges.vue"
 
+import ZircAndVeneers from "../components/services-details/ZircAndVeneers.vue"
+
+
+
+
 import Whitening from "../components/services-details/Whitening.vue"
 import HollywoodSmile from "../components/services-details/HollywoodSmile.vue"
 import DentalVeneersResin from "../components/services-details/DentalVeneersResin.vue"
@@ -54,28 +59,20 @@ import BlogPrpFacelifting from "../components/Pages/BlogPrpFacelifting.vue"
 import BlogCbtc from "../components/Pages/BlogCbtc.vue"
 import BlogBoneCrafts from "../components/Pages/BlogBoneCrafts.vue"
 import BlogAllxAll6OrAll4 from "../components/Pages/BlogAllxAll6OrAll4.vue"
-
 import BlogAllxImplantsDentureCare from "../components/Pages/BlogAllxImplantsDentureCare.vue"
-
-
-
-
-
-
-
-
-
-
+import BlogAllxWhySmileMakeOver from "../components/Pages/BlogAllxWhySmileMakeOver.vue"
+import BlogAllxAdditionalAdhesives from "../components/Pages/BlogAllxAdditionalAdhesives.vue"
+import BlogImplantsLoseTeeth from "../components/Pages/BlogImplantsLoseTeeth.vue"
+import BlogImplantsGoldStandard from "../components/Pages/BlogImplantsGoldStandard.vue"
+import BlogImplantsQuality from "../components/Pages/BlogImplantsQuality.vue"
+import BlogImplantsEatAnything from "../components/Pages/BlogImplantsEatAnything.vue"
+import BlogImplantsAdditionalProcedure from "../components/Pages/BlogImplantsAdditionalProcedure.vue"
+import BlogImplantsIsPainful from "../components/Pages/BlogImplantsIsPainful.vue"
 
 
 const routes = [
 
  
-
-
-
-
-
   { path: "/",name:"HomePage", component:HomePage},
   { path: "/our-clinic", name:"OurClinic",  component:OurClinic},
   
@@ -110,6 +107,10 @@ const routes = [
   { path: "/prp-therapy",name:"PrpTherapy", component:PrpTherapy},
   { path: "/botox-etc",name:"BotoxEtc", component:BotoxEtc},
   { path: "/alternative-therapies",name:"AlternativeTherapies",component:AlternativeTherapies},
+  { path: "/veneers",name:"ZircAndVeneers",component:ZircAndVeneers},
+
+
+  
 
   { path: "/gallery",name:"GalleryPage", component:GalleryPage},
 
@@ -132,10 +133,17 @@ const routes = [
   { path: "/implants-pain", name:"BlogImplantsPain", component:BlogImplantsPain},
 
   { path: "/all6-or-all4", name:"BlogAllxAll6OrAll4", component:BlogAllxAll6OrAll4},
-  { path: "/implants-denture-care", name:"BlogAllxImplantsDentureCare", component:BlogAllxImplantsDentureCare},
-
-
-
+  { path: "/implants-denture-care", name:"BlogAllxImplantsDentureCare", component:BlogAllxImplantsDentureCare},  
+  { path: "/why-smile-make-over", name:"BlogAllxWhySmileMakeOver", component:BlogAllxWhySmileMakeOver},
+  { path: "/additional-adhesives", name:"BlogAllxAdditionalAdhesives", component:BlogAllxAdditionalAdhesives},
+  { path: "/why-we-lose-teeth", name:"BlogImplantsLoseTeeth", component:BlogImplantsLoseTeeth},
+  { path: "/implants-gold-standards", name:"BlogImplantsGoldStandard", component:BlogImplantsGoldStandard},
+  { path: "/implants-quality", name:"BlogImplantsQuality", component:BlogImplantsQuality},
+  { path: "/implants-eat-anything", name:"BlogImplantsEatAnything", component:BlogImplantsEatAnything},
+  { path: "/implants-additional-procedure", name:"BlogImplantsAdditionalProcedure", component: BlogImplantsAdditionalProcedure},
+  { path: "/implants-are-painful", name:"BlogImplantsIsPainful", component: BlogImplantsIsPainful},
+ 
+  
 
   { path: "/after-surgery",name:"BlogImplantsGuideAfterSurgery.vue",  component:BlogImplantsGuideAfterSurgery.vue},
   { path: "/daily-care",name:"BlogDailyImplantsCare",  component:BlogDailyImplantsCare},

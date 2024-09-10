@@ -4,69 +4,53 @@
             <div class="row">
                 <div class="col-lg-8 col-md-12">
                     <div class="services-details-image">
-                        <img src="../../assets/images/services/implants/dental-implant-page-bg.webp" alt="image">
+                        <img src="../../assets/images/services/zircCrowns/zircCr.webp" alt="image">
                     </div>
 
                     <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_title') }}</h3></u>
-                        <p>{{ $t('touth_implant_page_p') }}</p>
+                        <u><h3>{{ $t('zircven_page_title') }} </h3></u>
+                        <p>{{ $t('zircven_page_p') }}</p>
                     </div>
 
                     <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_smile_refresh_title') }}</h3></u>
-                        <p>{{ $t('touth_implant_page_smile_refresh_p') }}</p>
+                        <u><h3>{{ $t('zircven_page_title3') }} </h3></u>
+                        <p>{{ $t('zircven_page_p3') }}</p>
                     </div>
+                    
 
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_what_is_implant') }}</h3></u>
-                            <p>{{ $t('touth_implant_page_what_is_implant_p') }}</p>
-                        
-                    </div>
+                    
+ 
                     <div class="services-details-overview">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/implants/single-implant.webp" alt="image">
-
+                                    <img src="../../assets/images/services/zircCrowns/zirconiacrowns.webp" alt="image">
                                 </div>
                             </div>
         
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/implants/single-implant.webp" alt="image">
+                                    <img src="../../assets/images/services/zircCrowns/zirconiacrowns.webp" alt="image">
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                   
                     <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_advantages_title') }}</h3></u>
-                        <p>{{ $t('touth_implant_page_advantages_p') }}</p>
-                        
+                        <u><h3>{{ $t('zircven_page_title1') }} </h3></u>
+                        <p>{{ $t('zircven_page_p1') }}</p>
+                    </div>
+                    <div class="services-details-content">
+                        <u><h3>{{ $t('zircven_page_title2') }} </h3></u>
+                        <p>{{ $t('zircven_page_p2') }}</p>
                     </div>
 
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_placement_title') }}</h3></u>
-                        <p >{{ $t('touth_implant_page_placement_p') }}</p>
-                        
-                        
-                    </div>
-
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_success_rate_title') }}</h3></u>
-                            <p>{{ $t('touth_implant_page_success_rate_p') }}</p>       
-                    </div>
-
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_need_implants_title') }}</h3></u>
-                            <p>{{ $t('touth_implant_page_need_implants_p') }}</p>       
-                    </div>
-
+       
                 </div>
 
                 <div class="sidebar-container col-md-4 col-sm-12">
                     <div class="sidebar-wrapper" ref="sidebar">
-                        <BlogSidebarImplants />
+                        <BlogSideBarZircVeneers />
                     </div>
                 </div>
             </div>
@@ -75,13 +59,12 @@
 </template>
 
 <script>
-import BlogSidebarImplants from '../../components/services-sidebars/BlogSidebarImplants.vue';
-
+import BlogSideBarZircVeneers from '../../components/services-sidebars/BlogSideBarZircVeneers.vue';
 
     export default {
-        name: 'Implants',
+        name: 'ZircAndVeneers',
         components: {
-            BlogSidebarImplants
+            BlogSideBarZircVeneers
         },
         mounted() {
             // Get the sidebar element

@@ -174,6 +174,21 @@
     "hollywood_smile_p":"",
     
   
+
+    "zircven_page_title":"",
+   "zircven_page_p":"",
+   "zircven_page_title1":"",
+   "zircven_page_p1":"",
+   "zircven_page_title2":"",
+   "zircven_page_p2":"",
+
+   "zircven_sidebar_title":"",
+   "zircven_sidebar_title1":"",
+   "zircven_sidebar_title2":"",
+   "zircven_sidebar_title3":"",
+   "zircven_sidebar_title4":"",
+   "zircven_sidebar_title5":"",
+   "zircven_sidebar_title6":"",
     
    "allx_title":"",
    "allx_page_p":"",
@@ -212,6 +227,12 @@
 "blog_allx_denture_care_post_date":"",
    "blog_allx_denture_care_title":"",
    "blog_allx_denture_care_p":"",
+   "blog_allx_why_smilemakeover_post_date":"",
+   "blog_allx_why_smilemakeover_title":"",
+   "blog_allx_why_smilemakeover_p":"",
+   "blog_allx_adhensives_post_date":"",
+   "blog_allx_adhensives_title":"",
+   "blog_allx_adhensives_p":" ",
 
     
 
@@ -350,20 +371,29 @@
     "touth_implant_service_p":"Implantate in Griechenland verzögert verbreiten. Mehr...",
     "touth_implant_page_title":"Zahnimplantate",
     "touth_implant_page_p":"Zahnimplantate als Behandlung  verzögerten sich bei der Ausbreitung in Griechenland. Trotzdem ist diese Technik heutzutage ein mächtiges Werkzeug in der alltäglichen Praxis der Zahnarztpraxen. Ist das nur ein Mode-Trend oder  hat es etwas wirklich wichtiges für  die Gesundheit der Patienten anzubieten?",
+    "touth_implant_page_smile_refresh_title":"",
+    "touth_implant_page_smile_refresh_p":"",
+    "touth_implant_page_all4_system_title":"",
+    "touth_implant_page_all4_system_p":"",
     "touth_implant_page_what_is_implant":"Was genau ist ein Zahnimplantat?",
     "touth_implant_page_what_is_implant_p":"Das Zahnimplantat ist ein metallischer wurzelförmiger „Stift“ aus Titanlegierung, der in den Kiefer gelegt wird, um künstliche Zähne an die Stelle der fehlenden zu tragen. Titan ist ein Material, das vollständig biokompatibel ist, d.h. von dem (Wirts-) lebenden Gewebe akzeptabel ist, von dem auch orthopädische Implantate hergestellt werden.",
     "touth_implant_page_advantages_title":"Warum die Implantatlösung wählen?",
     "touth_implant_page_advantages_p":"Die Wiederherstellung der fehlenden Zähne ist entscheidend für die allgemeine Gesundheit und Funktion des oro-maxillofazialen Systems. Zahnimplantate sehen und funktionieren wie natürliche Zähne. Sie verbessern die Lebensqualität in folgenden Bereichen;",
-    "touth_implant_page_advantages_1":"Gesundheit: Zähne und Knochengewebe bleiben intakt.",
-    "touth_implant_page_advantages_2":"Komfort: Gum und Gaumen werden nicht abgedeckt. Restaurationen unterliegen keiner Zeit-destabilisierung.",
-    "touth_implant_page_advantages_3":"Kauen: Implantate vollständig wiederherstellen diese Fähigkeit, da sie stark an den Kiefer Knochen befestigt sind.",
-    "touth_implant_page_advantages_4":"Fähigkeit zu sprechen: ihre hervorragende Stabilität unterstützt auch die Rede.",
-    "touth_implant_page_advantages_5":"Ästhetik: Es besteht keine Notwendigkeit, Haken und andere technische Merkmale zu verwenden, die die Ästhetik einschränken. Der Patient ist in der Lage, sein Lächeln umzubauen und leitet den Arzt, wie er sich um die endgültige Wiederherstellung kümmern sollte.",
-    "touth_implant_page_placement_title":"Wer platziert Zahnimplantate?",
+   "touth_implant_page_placement_title":"Wer platziert Zahnimplantate?",
     "touth_implant_page_placement_p":"Für die Implantat-Platzierung sollte sich der Patient an Wissenschaftler wenden, die auf Implantologie spezialisiert sind, also Wissenschaftler mit klinischer Ausbildung in der Chirurgie. In Zusammenarbeit mit dem spezialisierten Oralchirurgen stellt der Prosthodontist das Implantat wieder her, platziert so die Krone, die Brücke oder die Prothese über die Implantate und das ist der Schlüssel zum Erfolg.",
-    "touth_implant_page_longevity_title":"Wie lange halten Zahnimplantate?",
-    "touth_implant_page_longevity_p":"Die Mindestlebensdauer von Implantaten beträgt laut wissenschaftlichen Studien durchschnittlich 20-25 Jahre. Bei richtiger Mundpflege und Einhaltung medizinischer Empfehlungen kann die Dauer jedoch deutlich länger sein.",
-    
+   "touth_implant_page_success_rate_title":"",
+    "touth_implant_page_success_rate_p":"",
+    "touth_implant_page_need_implants_title":"",
+    "touth_implant_page_need_implants_p":"",
+
+    "implant_sidebar_title_lose_teeth":"",
+    "implant_sidebar_title_need_implants":"",
+    "implant_sidebar_title_gold_standard":"",
+    "implant_sidebar_title_quality_implant":"",
+    "implant_sidebar_title_eat_anything":"",
+    "implant_sidebar_title_additional_procedure":"",
+    "implant_sidebar_title_is_painful":"",
+
     "invisible_orthodontics_services_title":"Unsichtbare Kieferorthopädie",
     "invisible_orthodontics_services_p":"",
     "invisible_orthodontics_page_title":"Unsichtbare Kieferorthopädie",

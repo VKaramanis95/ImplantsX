@@ -88,9 +88,18 @@
                                             </ul>
                                         </div>
                                     </li>
+                                    <li class="nav-item">
+                                        <div>
+                                            <router-link to="/veneers" class="nav-link">
+                                                        {{ $t('nav_veneers') }}
+                                                    </router-link>
+                                            
+
+                                        </div>
+                                    </li>
 
                                     <!-- Add Cosmetics category -->
-                                    <li class="nav-item">
+                                   <!-- <li class="nav-item">
                                         <div>
                                             <a href="#" class="nav-link">
                                                 {{ $t('nav_cosmetic_dentistry') }}
@@ -117,7 +126,7 @@
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <!--
+                                                
                                                 <li class="nav-item">
                                                     <router-link to="/whitening" class="nav-link">
                                                         {{ $t('nav_whitening') }}
@@ -132,13 +141,13 @@
                                                     <router-link to="/invisible-orthodontics" class="nav-link">
                                                         {{ $t('nav_orthodontics') }}
                                                     </router-link>
-                                                </li>-->
+                                                </li>
                                             </ul>
                                         </div>
-                                    </li>
+                                    </li>-->
 
                                     <!-- Add Prosthetics category -->
-                                    <li class="nav-item">
+                                    <!--<li class="nav-item">
                                         <div>
                                             <a href="#" class="nav-link">
                                                 {{ $t('nav_prosthetic_dentistry') }}
@@ -164,7 +173,7 @@
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <!--
+                                                
                                                 <li class="nav-item">
                                                     <a href="#" class="nav-link">
                                                         {{ $t('nav_prosthetics_mobile') }}
@@ -192,13 +201,13 @@
                                                         </li>
                                                         
                                                     </ul>
-                                                </li>-->
+                                                </li>
                                                 
 
                                                 
                                             </ul>
                                         </div>
-                                    </li>
+                                    </li>-->
                                     <!-- Add Prosthetics category -->
                                      <!--
                                     <li class="nav-item">
