@@ -72,7 +72,7 @@
             </div>
 
             
-
+<!--
             <div class="item">
                 <router-link to="/blog-details" class="thumb">
                     <span class="fullimage cover bg2" role="img"></span>
@@ -85,7 +85,7 @@
                         </router-link>
                     </h4>
                 </div>
-            </div>
+            </div>-->
         </div>
 
 

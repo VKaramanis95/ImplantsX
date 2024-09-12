@@ -186,50 +186,55 @@
 <script>
 import BlogSidebarImplants from '../../components/services-sidebars/BlogSidebarImplants.vue';
 
-    export default {
-        name: 'FullMouthRehab',
-        components: {
-            BlogSidebarImplants
-        },
-        mounted() {
-            // Get the sidebar element
-            const sidebar = this.$refs.sidebar;
+export default {
+    name: 'FullMouthRehab',
+    components: {
+        BlogSidebarImplants
+    },
+    mounted() {
+    // Get the sidebar element
+    const sidebar = this.$refs.sidebar;
 
-            // Get the navigation bar height
-            const navbarHeight = document.querySelector('nav').offsetHeight;
+    // Capture the initial width of the sidebar before fixing it
+    const sidebarInitialWidth = sidebar.offsetWidth;
 
-            // Calculate the top position of the sidebar
-            const sidebarTop = sidebar.getBoundingClientRect().top + window.scrollY - navbarHeight;
+    // Get the navigation bar height
+    const navbarHeight = document.querySelector('nav').offsetHeight;
 
-            // Get the services details area container
-            const servicesDetailsArea = document.querySelector('.services-details-area');
+    // Calculate the top position of the sidebar
+    const sidebarTop = sidebar.getBoundingClientRect().top + window.scrollY - navbarHeight;
 
-            // Get the height of the services details area
-            const servicesDetailsAreaHeight = servicesDetailsArea.offsetHeight;
+    // Get the services details area container
+    const servicesDetailsArea = document.querySelector('.services-details-area');
 
-            // Calculate the bottom position of the services details area
-            const servicesDetailsAreaBottom = servicesDetailsArea.getBoundingClientRect().bottom + window.scrollY - sidebar.offsetHeight - 250; // Adjust 100 to stop earlier
+    // Get the height of the services details area
+    const servicesDetailsAreaHeight = servicesDetailsArea.offsetHeight;
 
-            // Add padding to the top of the sidebar equal to the height of the navigation bar
-            sidebar.style.paddingTop = `${navbarHeight}px`;
+    // Calculate the bottom position of the services details area
+    const servicesDetailsAreaBottom = servicesDetailsArea.getBoundingClientRect().bottom + window.scrollY - sidebar.offsetHeight - 210; // Adjust 210 to stop earlier
 
-            // Add scroll event listener to window
-            window.addEventListener('scroll', () => {
-                // Calculate the scroll distance from top
-                const scrollTop = window.scrollY;
+    // Add padding to the top of the sidebar equal to the height of the navigation bar
+    sidebar.style.paddingTop = `${navbarHeight}px`;
 
-                // Check if the scroll distance is greater than or equal to the top position of the sidebar
-                // and less than the position of the bottom of the services details area
-                if (scrollTop >= sidebarTop && scrollTop <= servicesDetailsAreaBottom) {
-                    // Fix the position of the sidebar
-                    sidebar.style.position = 'fixed';
-                    sidebar.style.top = `${navbarHeight}px`; // Adjust for the height of the navigation bar
-                } else {
-                    // Release the fixed position of the sidebar
-                    sidebar.style.position = 'static';
-                }
-            });
-        },
-    };
-    
+    // Add scroll event listener to window
+    window.addEventListener('scroll', () => {
+        // Calculate the scroll distance from top
+        const scrollTop = window.scrollY;
+
+        // Check if the scroll distance is greater than or equal to the top position of the sidebar
+        // and less than the position of the bottom of the services details area
+        if (scrollTop >= sidebarTop && scrollTop <= servicesDetailsAreaBottom) {
+            // Fix the position of the sidebar
+            sidebar.style.position = 'fixed';
+            sidebar.style.top = `${navbarHeight}px`; // Adjust for the height of the navigation bar
+            sidebar.style.width = `${sidebarInitialWidth}px`; // Keep the sidebar width consistent
+        } else {
+            // Release the fixed position of the sidebar
+            sidebar.style.position = 'static';
+            sidebar.style.width = ''; // Reset the width when not fixed
+        }
+    });
+}
+
+};
 </script>

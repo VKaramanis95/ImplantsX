@@ -148,8 +148,5 @@ export default {
     height: 100%;
 }
 
-.sidebar-wrapper {
-    width: 100%; /* Sidebar takes full width initially */
-    max-width: 100%; /* Prevents overflow */
-}
+
 </style>

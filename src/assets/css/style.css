@@ -4581,10 +4581,6 @@ th {
 
 
 
-.sidebar-wrapper {
-  width: 100%;
-}
-
 
 .row {
     display: flex;
@@ -5073,5 +5069,11 @@ OurServicesMainPageSmallScreen
     width: calc(33.3333% - 2%); /* Calculate width for three items with margin between */
     margin: 0 1%; /* Adjust margin between slides */
   }
+}
+
+
+.sidebar-wrapper {
+  width: 100%; /* Sidebar takes full width initially */
+  max-width: 100%; /* Prevents overflow */
 }
 
