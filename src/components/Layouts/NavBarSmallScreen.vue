@@ -76,11 +76,16 @@
                                             </ul>
                                         </div>
                                     </li>
+                                    <li class="nav-item">
+                                        <router-link to="/veneers" class="nav-link">
+                                            {{ $t('zircven_page_title') }}
+                                        </router-link>
+                                    </li>
 
-                                    <!-- Cosmetic Dentistry category -->
+                                    <!-- Cosmetic Dentistry category 
                                     <li class="nav-item">
                                         <div>
-                                            <!-- Parent Dropdown for Cosmetic Dentistry -->
+                                             Parent Dropdown for Cosmetic Dentistry 
                                             <a href="#" class="nav-link" @click.prevent="toggleDropdown('cosmetic')">
                                                 {{ $t('nav_cosmetic_dentistry') }}
                                                 <i class='bx bx-caret-right'></i>
@@ -88,7 +93,7 @@
 
                                             <ul class="dropdown-menu" v-show="isDropdownOpen('cosmetic')">
                                                 <li class="nav-item">
-                                                    <!-- Dropdown Trigger for Dental Veneers -->
+                                                     Dropdown Trigger for Dental Veneers 
                                                     <a href="#" class="nav-link" @click.prevent="toggleDropdown('veneers')">
                                                         {{ $t('nav_veneers') }}
                                                         <i class='bx bx-caret-right'></i>
@@ -106,7 +111,7 @@
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <!--
+                                                
                                                 <li class="nav-item">
                                                     <router-link to="/whitening" class="nav-link">
                                                         {{ $t('nav_whitening') }}
@@ -121,14 +126,14 @@
                                                     <router-link to="/invisible-orthodontics" class="nav-link">
                                                         {{ $t('nav_orthodontics') }}
                                                     </router-link>
-                                                </li>-->
+                                                </li>
                                             </ul>
                                         </div>
-                                    </li>
+                                    </li>-->
 
 
 
-                                    <!-- Prosthetic Dentistry category -->
+                                    <!-- Prosthetic Dentistry category 
                                     <li class="nav-item">
                                         <div>
                                             <a href="#" class="nav-link" @click.prevent="toggleDropdown('prosthetic')">
@@ -142,7 +147,7 @@
                                                         {{ $t('nav_prosthetics_fixed') }}
                                                         <i class='bx bx-caret-right'></i>
                                                     </a>
-                                                    <!-- Dropdown menu for Dental Veneers -->
+                                                     Dropdown menu for Dental Veneers 
                                                     <ul class="dropdown-menu" v-show="isDropdownOpen('prosthetics_fixed')">
                                                         <li class="nav-item">
                                                             <router-link to="/zirconia-crowns" class="nav-link">
@@ -156,7 +161,7 @@
                                                         </li>
                                                     </ul>
                                                 </li>
-<!--
+
                                                 <li class="nav-item">
                                                     <a href="#" class="nav-link"  @click.prevent="toggleDropdown('prosthetics_mobile')">
                                                         {{ $t('nav_prosthetics_mobile') }}
@@ -169,13 +174,13 @@
                                                             </router-link>
                                                         </li>
                                                     </ul>
-                                                </li>-->
+                                                </li>
                                                 <li class="nav-item">
                                                     <a href="#" class="nav-link" @click.prevent="toggleDropdown('prosthetics_min_rehab')">
                                                         {{ $t('nav_prosthetics_min_rehab') }}
                                                         <i class='bx bx-caret-right'></i>
                                                     </a>
-                                                    <!-- Dropdown menu for Dental Veneers -->
+                                                    Dropdown menu for Dental Veneers 
                                                     <ul class="dropdown-menu" v-show="isDropdownOpen('prosthetics_min_rehab')">
                                                         <li class="nav-item">
                                                             <router-link to="/inlays-onlays" class="nav-link">
@@ -186,7 +191,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                    </li>
+                                    </li>-->
 
                                     <!-- Facial category -->
                                      <!--
