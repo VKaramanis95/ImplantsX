@@ -74,87 +74,15 @@ export default defineComponent({
             },
             {
                 id: 4,
-                heading: 'nav_zcrowns',
-                btnLinkOne: '/zirconia-crowns',
-                image: require('../../assets/images/services/zircCrowns/zirconia-crowns-service.webp'), },
-            {
-                id: 5,
-                heading: 'nav_zbridges',
-                btnLinkOne: '/zirconia-bridges',
-                image: require('../../assets/images/services/bridges/zirc_bridge_service.webp'),
-            },
-            {
-                id: 6,
-                heading: 'nav_veneers',
-                btnLinkOne: '/dental-veneers',
-                image: require('../../assets/images/services/resin-veneers/veneers_resin_all_services.webp'), 
-            },
-            {
-                id: 7,
-                heading: 'nav_veneers',
-                btnLinkOne: '/dental-veneers',
-                image: require('../../assets/images/services/porcelain-veneers/veneers_porcelain_all_services.webp'), 
-            },
-            {
-                id: 8,
-                heading: 'nav_hsmile',
-                btnLinkOne: '/hollywood-smile',
-                image: require('../../assets/images/services/hollywoodSmile/hollywood-smile-service.webp'),
-            },
-            {
-                id: 9,
-                heading: 'nav_whitening',
-                btnLinkOne: '/whitening',
-                image: require('../../assets/images/services/whitening/whitening-service.webp'),
-            },
-            {
-                id: 10,
-                heading: 'nav_denture',
-                btnLinkOne: '/denture',
-                image: require('../../assets/images/services/denture/denture_all_services.webp'),
-            },
-            {
-                id: 11,
-                heading: 'nav_prosthetics_lays',
-                btnLinkOne: '/inlays-onlays',
-                image: require('../../assets/images/services/inonlays/inonlay_service_page.webp'),
-            },
-            {
-                id: 12,
-                heading: 'nav_periodontology',
-                btnLinkOne: '/periodology',
-                image: require('../../assets/images/services/periodology/periodology_services.webp'),
-            },
-            {
-                id: 13,
-                heading: 'nav_orofacial',
-                btnLinkOne: '/orofacial-pain',
-                image: require('../../assets/images/services/orofacial-pain/orofacial_allservices_page.webp'),
-            },
-            {
-                id: 14,
-                heading: 'nav_facial_botox_face_improvement',
-                btnLinkOne: '/face-improvement',
-                image: require('../../assets/images/services/facial-aesthetics/face-improvement/face_allservices_page.webp'),
-            },
-            {
-                id: 15,
-                heading: 'nav_facial_prp',
-                btnLinkOne: '/prp-therapy',
-                image: require('../../assets/images/services/facial-aesthetics/prp-therapy/prp-service.webp'),
-            },
-            {
-                id: 16,
-                heading: 'nav_orthodontics',
-                btnLinkOne: '/invisible-orthodontics',
-                image: require('../../assets/images/services/invisible-orthodontics/invisibleOrthodontics-services_page.webp'),
-            },
-            {
-                id: 17,
-                heading: 'nav_facial_altetnative',
-                btnLinkOne: '/alternative-therapies',
-                image: require('../../assets/images/services/facial-aesthetics/alternative-ways/aisthitikos-velonismos-services.webp'),
-            },
+                heading: 'zircven_page_title',
+                btnLinkOne: '/veneers',
+                image: require('../../assets/images/services/zircCrowns/zirconia-crowns-service.webp'), 
+              },
+              
+            
+           
+           
+           
       // Other carousel items...
     ],
   }),
@@ -177,5 +105,45 @@ export default defineComponent({
   },
 });
 </script>
+
+<style>
+
+
+/* Ensure that all images in the carousel have the same size */
+.single-gallery-service img {
+  width: 100%;
+  max-width: 468px;
+  height: 312px; /* You can adjust this if you want different dimensions */
+  object-fit: cover; /* This ensures the image maintains aspect ratio and covers the container */
+}
+
+/* Force all carousel items to maintain the same size */
+.single-gallery-service {
+  width: 468px; /* This should match the image width */
+  height: 312px; /* Adjust to match content, ensuring consistency */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensure the content stays aligned */
+}
+
+/* Ensure the content inside each carousel item is centered */
+.single-gallery-service .content {
+  text-align: center;
+}
+
+/* Center the slide content */
+.main-slides-content-services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-group {
+  display: flex;
+  justify-content: center; /* Align items in the group */
+}
+
+
+</style>
 
 

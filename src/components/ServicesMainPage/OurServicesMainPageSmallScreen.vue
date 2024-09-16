@@ -62,7 +62,7 @@ export default defineComponent({
               btnLinkOne: '/all-on-x-details',
               image: require('../../assets/images/services/all6/all6.webp'),   
             },
-           
+            
             {
                 id: 2,
                 heading: 'nav_implants',
@@ -77,39 +77,11 @@ export default defineComponent({
             },
             {
                 id: 4,
-                heading: 'nav_zcrowns',
-                btnLinkOne: '/zirconia-crowns',
-                image: require('../../assets/images/services/zircCrowns/zirconia-crowns-service.webp'), },
-            {
-                id: 5,
-                heading: 'nav_zbridges',
-                btnLinkOne: '/zirconia-bridges',
-                image: require('../../assets/images/services/bridges/zirc_bridge_service.webp'),
-            },
-            {
-                id: 6,
-                heading: 'nav_veneers',
-                btnLinkOne: '/dental-veneers',
-                image: require('../../assets/images/services/resin-veneers/veneers_resin_all_services.webp'), 
-            },
-            {
-                id: 7,
-                heading: 'nav_veneers',
-                btnLinkOne: '/dental-veneers',
-                image: require('../../assets/images/services/porcelain-veneers/veneers_porcelain_all_services.webp'), 
-            },
-            {
-                id: 8,
-                heading: 'nav_hsmile',
-                btnLinkOne: '/hollywood-smile',
-                image: require('../../assets/images/services/hollywoodSmile/hollywood-smile-service.webp'),
-            },
-            {
-                id: 9,
-                heading: 'nav_whitening',
-                btnLinkOne: '/whitening',
-                image: require('../../assets/images/services/whitening/whitening-service.webp'),
-            },
+                heading: 'zircven_page_title',
+                btnLinkOne: '/veneers',
+                image: require('../../assets/images/services/zircCrowns/zirconia-crowns-service.webp'), 
+              },
+            
             
       // Other carousel items...
     ],
