@@ -48,9 +48,9 @@ export default {
     data() {
         return {
             photos: [
-                { url: require('@/assets/images/services/all6/all61.webp'), category:this.$t('gallery_all6') },
-                { url: require('@/assets/images/services/all6/all63.webp'), category: this.$t('gallery_all6') },
-                { url: require('@/assets/images/services/all4/all4r.webp'), category: this.$t('gallery_all4') },
+                { url: require('@/assets/images/services/all6/all61.webp'), category:this.$t('gallery_allx') },
+                { url: require('@/assets/images/services/all6/all63.webp'), category: this.$t('gallery_allx') },
+                { url: require('@/assets/images/services/all4/all4r.webp'), category: this.$t('gallery_allx') },
                 { url: require('@/assets/images/services/implants/single-implant.webp'), category: this.$t('gallery_implants') },
                 { url: require('@/assets/images/services/zircCrowns/zirconiacrowns.webp'),  category: this.$t('gallery_zcrowns')},
                 { url: require('@/assets/images/services/zircCrowns/zirconiacrowns1.webp'), category: this.$t('gallery_zcrowns')},
