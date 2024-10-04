@@ -76,14 +76,11 @@
             </h2>
             <!-- Social Links -->
             <ul class="social">
-              
-                            
-                            
-                            
-              <li><a href="https://www.facebook.com/" alt="Facebook Icon" target="_blank"><i class='bx bxl-facebook'></i></a></li>
-              <li><a href="https://twitter.com/?lang=en" target="_blank" alt="Twitter Icon"><i class='bx bxl-twitter'></i></a></li>
-              <li><a href="https://www.linkedin.com/"  alt="Twitter Icon" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
-              <li><a href="https://www.instagram.com/" alt="Twitter Icon" target="_blank"><i class='bx bxl-instagram'></i></a></li>
+              <li><a href="https://twitter.com/" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+              <li><a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a></li>
+              <li><a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a></li>
+              <li><a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a></li>
             </ul>
           </div>
         </div>

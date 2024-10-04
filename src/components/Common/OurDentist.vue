@@ -25,10 +25,10 @@
                           <span>{{ $t('all_dentists_tsetsenekou_spec') }}</span>
 
                           <div class="share-link">
-                            <a href="https://www.facebook.com/" alt="Facebook Icon" target="_blank"><i class='bx bxl-facebook'></i></a>
-                            <a href="https://twitter.com/?lang=en" target="_blank" alt="Twitter Icon"><i class='bx bxl-twitter'></i></a>
-                            <a href="https://www.linkedin.com/"  alt="Twitter Icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://www.instagram.com/" alt="Twitter Icon" target="_blank"><i class='bx bxl-instagram'></i></a>
+                              <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                              <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
+                              <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                              <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
                           </div>
                       </div>
                   </div>
@@ -49,10 +49,10 @@
                           <span>{{ $t('all_dentists_labropoulou_spec') }}</span>
 
                           <div class="share-link">
-                            <a href="https://www.facebook.com/" alt="Facebook Icon" target="_blank"><i class='bx bxl-facebook'></i></a>
-                            <a href="https://twitter.com/?lang=en" target="_blank" alt="Twitter Icon"><i class='bx bxl-twitter'></i></a>
-                            <a href="https://www.linkedin.com/"  alt="Twitter Icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://www.instagram.com/" alt="Twitter Icon" target="_blank"><i class='bx bxl-instagram'></i></a>
+                              <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                              <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
+                              <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                              <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
                           </div>
                       </div>
                   </div>
@@ -73,10 +73,10 @@
                         <span>{{ $t('all_dentists_dimakis_spec') }}</span>
 
                         <div class="share-link">
-                            <a href="https://www.facebook.com/" alt="Facebook Icon" target="_blank"><i class='bx bxl-facebook'></i></a>
-                            <a href="https://twitter.com/?lang=en" target="_blank" alt="Twitter Icon"><i class='bx bxl-twitter'></i></a>
-                            <a href="https://www.linkedin.com/"  alt="Twitter Icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://www.instagram.com/" alt="Twitter Icon" target="_blank"><i class='bx bxl-instagram'></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
                         </div>
                     </div>
                 </div>
