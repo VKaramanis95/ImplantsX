@@ -18,10 +18,11 @@
                         
 
                         <div class="share-link">
-                            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>
-                            <a href="https://twitter.com/?lang=en" target="_blank"><i class='bx bxl-twitter'></i></a>
-                            <a href="https://www.linkedin.com/in/efstathia-tsetsenekou/" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                            
+                            <a href="https://www.facebook.com/" alt="Facebook Icon" target="_blank"><i class='bx bxl-facebook'></i></a>
+                            <a href="https://twitter.com/?lang=en" target="_blank" alt="Twitter Icon"><i class='bx bxl-twitter'></i></a>
+                            <a href="https://www.linkedin.com/in/efstathia-tsetsenekou/"  alt="Twitter Icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                            <a href="https://www.instagram.com/" alt="Twitter Icon" target="_blank"><i class='bx bxl-instagram'></i></a>
                         </div>
 
                         <div class="content-overview">
