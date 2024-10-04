@@ -1,8 +1,8 @@
 <template>
     <div class="container" ref="container">
         <div class="row">
-            <div class="clinic-text">
-                <h2>{{ $t('our_clinic_equipment_h2') }}</h2>
+            <div class="clinic-text" style="padding-top:20px">
+                <h2>{{ $t('our_clinic_equipment_h2') }} </h2>
                 <p>
                     {{ $t('our_clinic_equipment_p') }}
                     <a href="/tsetsenekou">{{ $t('our_clinic_equipment_p_owner') }}</a>
