@@ -278,25 +278,25 @@
                             <div class="language-container">
                                 <div class="nav-link">
                                     <div class="language_picker mt-2">
-                                        <img class="mr-2" src="../../assets/nav-flags/united-kingdom.png" width='24' height='16' @click="changeLanguage('en')"/>
+                                        <img class="mr-2" src="../../assets/nav-flags/united-kingdom.png" width='24' height='16' alt="Language selection icon" @click="changeLanguage('en')"/>
                                     </div>
                                 </div>
 
                                 <div class="nav-link">
                                     <div class="language_picker mt-2">
-                                        <img class="mr-2" src="../../assets/nav-flags/france.png" width='24' height='16' @click="changeLanguage('fr')"/>
+                                        <img class="mr-2" src="../../assets/nav-flags/france.png" width='24' height='16' alt="Language selection icon" @click="changeLanguage('fr')"/>
                                     </div>
                                 </div>
 
                                 <div class="nav-link">
                                     <div class="language_picker mt-2">
-                                        <img class="mr-2" src="../../assets/nav-flags/germany.png" width='24' height='16' @click="changeLanguage('de')"/>
+                                        <img class="mr-2" src="../../assets/nav-flags/germany.png" width='24' height='16' alt="Language selection icon" @click="changeLanguage('de')"/>
                                     </div>
                                 </div>
 
                                 <div class="nav-link">
                                     <div class="language_picker mt-2">
-                                        <img class="mr-2" src="../../assets/nav-flags/greece.png" width='24' height='16' @click="changeLanguage('gr')"/>
+                                        <img class="mr-2" src="../../assets/nav-flags/greece.png" width='24' height='16' alt="Language selection icon" @click="changeLanguage('gr')"/>
                                     </div>
                                 </div>
                             </div>
