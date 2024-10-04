@@ -11,8 +11,8 @@
                     <slide v-for="(slide, index) in infiniteCarouselItems" :key="index">
                         <div class="single-repair-partner">
                             <a href="#">
-                                <img :src="slide.image" alt="image">
-                                <img :src="slide.imageHover" alt="image">
+                                <img :src="slide.image" alt="image" width="160" height="58">
+                                <img :src="slide.imageHover" alt="image" width="160" height="58">
                             </a>
                         </div>
                     </slide>
