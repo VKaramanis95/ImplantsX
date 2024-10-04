@@ -125,6 +125,18 @@ export default {
                         { platform: 'instagram', link: 'https://www.instagram.com/', icon: 'bx bxl-instagram' },
                     ],
                 },
+                {
+                    name: this.$t('our_team_dimakis'),
+                    profileLink: '/dimakis',
+                    image: require('../../assets/images/OurTeam/dimakis/dimakis_allteam.webp'),
+                    specialization: this.$t('all_dentists_labropoulou_spec'),
+                    socialLinks: [
+                        { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
+                        { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },
+                        { platform: 'linkedin', link: 'https://www.linkedin.com/in/', icon: 'bx bxl-linkedin' },
+                        { platform: 'instagram', link: 'https://www.instagram.com/', icon: 'bx bxl-instagram' },
+                    ],
+                },
             ],
             dentalTechnicians: [
                 {
@@ -206,3 +218,17 @@ export default {
     },
 };
 </script>
+
+<style>
+.single-doctor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures consistent spacing */
+    min-height: 200px; /* Minimum height to ensure uniformity */
+    padding: 20px; /* Optional: padding for aesthetics */
+}
+
+.doctor-content {
+    flex-grow: 1; /* Takes up remaining space */
+}
+</style>

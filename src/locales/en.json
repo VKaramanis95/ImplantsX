@@ -97,6 +97,7 @@
 
     "our_team_tsetsenekou":"Dr.Tsetsenekou Efstathia",
     "our_team_labropoulou":"Dr.Labropoulou Katerina",
+    "our_team_dimakis":"Dr.Dimakis Georgios",
 
     "general_birthday_title":"Birthday:",
     "general_specialized_title":"Specialization in:",
@@ -111,6 +112,13 @@
     "tsetstenekou_member":"the Hellenic Society for Biomaterials & European Association for Osseointegration.",
     "tsetsenekou_summary":"Efstathia Tsetsenekou was born in Athens in 1976. She was accepted at the University of Athens in 1995 in the Faculty of Dentistry. After graduating, she worked as a general dentist in a private clinic, while continuing the second cycle of her studies on the Oral and Maxillofacial Surgery Department of the Dental Faculty, where she obtained a Master’s Degree in Oral Pathobiology with clinical specialization in Oral Surgery. She completed her doctoral thesis in the field of Osseointegrated implants with excellence and continued with post-doctoral research in the field of oral grafts.  She had been a research associate in the Department of Oral Surgery in the Faculty Dentistry for ten years (2004-2014) and had a paid position as a postdoctoral researcher in the Department of Biomaterials from 2013 to 2015. Participation in national and international conferences is active with presentations and issue of medical papers, while seamless is the writing and publication of scientific articles. She is a member of the Greek Society of Biomaterials and of the European Academy of Osseointegration.",
     
+    "all_dentists_dimakis_spec": "Dentist",
+    "dimakis_birthday":"19/05/1970",
+    "dimakis_specialized":"Periodontist & Implantologist",
+    "dimakis_education":"DDS (University of Athens), MSc (Gothenburg, University of Sweden), Postgraduate Diploma in Periodontology and Implantology",
+    "dimakis_member":"the  General Dental Council (UK) & (GR)",
+    "dimakis_summary":"George received extensive training in advanced gum care (periodontal therapy) and provision of dental implants. Having placed over 4,000 implants during the last 20 years, he specialises in complex implant treatment including All-on-4®, teeth in a day and sinus lift surgery. George trained with Professor Branemark, the founder of dental implants in Sweden and is a visiting faculty member of the University of Gothenburg. In his personal times George enjoys cooking and windsurfing and is extremely proud father of 2 teenagers.",
+
     "all_dentists_labropoulou_spec": "Doctor",
     "labropoulou_birthday":"28/05/1971",
     "labropoulou_specialized":"Anesthesiology.",

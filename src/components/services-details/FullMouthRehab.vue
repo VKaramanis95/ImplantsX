@@ -147,13 +147,13 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/all4/all4r.webp" alt="image">
+                                    <img src="../../assets/images/services/full-mouth-rehab/full_mouth.webp" alt="image">
                                 </div>
                             </div>
         
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/all6/all62.webp" alt="image">
+                                    <img src="../../assets/images/services/full-mouth-rehab/full_mouth1.jpeg" alt="image">
                                 </div>
                             </div>
                         </div>

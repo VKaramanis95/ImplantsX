@@ -59,12 +59,11 @@ export default {
                 { url: require('@/assets/images/services/hollywoodSmile/hollywood-smile.webp'), category: this.$t('gallery_hsmile')},
                 { url: require('@/assets/images/services/hollywoodSmile/hollywood-smile1.webp'), category: this.$t('gallery_hsmile')},
                 
-                { url: require('@/assets/images/services/whitening/whitening.webp'), category: this.$t('gallery_whitening') },
-                { url: require('@/assets/images/services/whitening/whitening1.webp'), category: this.$t('gallery_whitening') },
-
+                { url: require('@/assets/images/services/full-mouth-rehab/full_mouth.webp'), category: this.$t('gallery_rehab') },
+                
+                { url: require('@/assets/images/services/full-mouth-rehab/full_mouth1.jpeg'), category: this.$t('gallery_rehab') },
                
                 { url: require('@/assets/images/services/resin-veneers/client1.webp'), category: this.$t('gallery_veneers') },
-                { url: require('@/assets/images/services/whitening/whitening.webp'), category: this.$t('gallery_rehab') },
                 { url: require('@/assets/images/services/inonlays/milena.webp'), category: this.$t('nav_prosthetics_lays') },
 
                 { url: require('@/assets/images/services/denture/denture_bourkoula.webp'), category: this.$t('nav_denture') },

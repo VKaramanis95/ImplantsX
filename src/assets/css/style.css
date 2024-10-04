@@ -2150,7 +2150,7 @@ Doctor Area CSS
 .single-doctor img {
   border-radius: 10px 10px 0 0;
   width: 402px;
-  height: 402px;
+  height: 508px;
 }
 
 .single-doctor .doctor-content {
@@ -3839,7 +3839,7 @@ Dentist Details Area CSS
 .dentist-details-image img {
   border-radius: 10px;
   width: 402px;
-  height: 402px;
+  height: 508px;
 }
 
 .dentist-details-content h3 {
