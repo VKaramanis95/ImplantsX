@@ -129,7 +129,7 @@ export default {
                     name: this.$t('our_team_dimakis'),
                     profileLink: '/dimakis',
                     image: require('../../assets/images/OurTeam/dimakis/dimakis_allteam.webp'),
-                    specialization: this.$t('all_dentists_labropoulou_spec'),
+                    specialization: this.$t('all_dentists_dimakis_spec'),
                     socialLinks: [
                         { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
                         { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },
