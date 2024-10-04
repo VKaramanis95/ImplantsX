@@ -1,53 +1,60 @@
 <template>
-    <div>
-      <!-- Render different layouts based on screen size -->
-      <div v-if="isSmallScreen"> <!-- Assuming you have computed property isSmallScreen -->
-        <!-- Small screen layout -->
-        <PricingSmallScreenLayout />
-      </div>
-      <div v-else>
-        <!-- Large screen layout -->
-        <PricingLargeScreenLayout />
-      </div>
-    </div>
-  </template>
-  
-  <script>
-  import PricingSmallScreenLayout from './PricingSmallScreenLayout.vue';
-  import PricingLargeScreenLayout from './PricingLargeScreenLayout.vue';
-  
-  export default {
-    components: {
-      PricingSmallScreenLayout,
-      PricingLargeScreenLayout
+  <div>
+    <!-- Render the current layout component dynamically -->
+    <component :is="currentLayout" />
+  </div>
+</template>
+
+<script>
+import { markRaw } from 'vue'; // Import markRaw
+
+export default {
+  data() {
+    return {
+      currentLayout: null, // Will hold the current layout component
+    };
+  },
+  computed: {
+    isSmallScreen() {
+      // Check if screen width is less than 1280px for small screen
+      return window.innerWidth <= 1280;
     },
-    computed: {
-      isSmallScreen() {
-        // Example: Check if screen width is less than 768px for small screen
-        return window.innerWidth <= 1280;
-      }
-    },
-    mounted() {
+  },
+  async mounted() {
+    // Load the appropriate component based on screen size
+    await this.loadLayout();
+    
+    // Optionally, set up a resize event listener to handle screen resizing
+    window.addEventListener('resize', this.loadLayout);
+  },
+  beforeDestroy() {
+    // Clean up the resize event listener
+    window.removeEventListener('resize', this.loadLayout);
+  },
+  methods: {
+    async loadLayout() {
       if (this.isSmallScreen) {
+        const { default: PricingSmallScreenLayout } = await import('./PricingSmallScreenLayout.vue');
+        this.currentLayout = markRaw(PricingSmallScreenLayout); // Mark as raw to prevent reactivity
         this.loadSmallScreenScripts();
       } else {
+        const { default: PricingLargeScreenLayout } = await import('./PricingLargeScreenLayout.vue');
+        this.currentLayout = markRaw(PricingLargeScreenLayout); // Mark as raw to prevent reactivity
         this.loadLargeScreenScripts();
       }
     },
-    methods: {
-      loadSmallScreenScripts() {
-        const script = document.createElement('script');
-       
-        script.async = true;
-        document.head.appendChild(script);
-      },
-      loadLargeScreenScripts() {
-        const script = document.createElement('script');
-        
-        script.async = true;
-        document.head.appendChild(script);
-      }
-    }
-  }
-  </script>
-  
+    loadSmallScreenScripts() {
+      const script = document.createElement('script');
+      script.src = 'path/to/small-screen-script.js'; // Specify the script URL
+      script.async = true;
+      document.head.appendChild(script);
+    },
+    loadLargeScreenScripts() {
+      const script = document.createElement('script');
+      script.src = 'path/to/large-screen-script.js'; // Specify the script URL
+      script.async = true;
+      document.head.appendChild(script);
+    },
+  },
+};
+</script>
