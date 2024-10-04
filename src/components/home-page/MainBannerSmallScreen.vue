@@ -84,5 +84,26 @@ export default defineComponent ({
             },
         ],
     }),
+    mounted() {
+        this.preloadImages();
+    },
+    methods: {
+    preloadImages() {
+        // Define image paths based on the slide class
+        const imageMap = {
+            'item-bg4': require('../../assets/images/main-slides/4.webp'), // Use require to resolve path correctly
+            'item-bg5': require('../../assets/images/main-slides/slide2.webp'),
+            'item-bg6': require('../../assets/images/main-slides/slides-bg6.webp'),
+        };
+
+        this.carouselItems.forEach(slide => {
+            const imagePath = imageMap[slide.class.split(' ').pop()]; // Get the last class name
+            if (imagePath) {
+                const img = new Image(); // Create a new Image instance
+                img.src = imagePath; // Set the source to trigger loading
+            }
+        });
+    }
+}
 })
 </script>

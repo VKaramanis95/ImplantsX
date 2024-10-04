@@ -42,12 +42,14 @@
     </div>
 </template>
 
+
 <script>
 import { defineComponent } from 'vue';
-import { Carousel, Slide, Navigation } from 'vue3-carousel';
+import { Carousel, Slide, Navigation  } from 'vue3-carousel';
+
 import 'vue3-carousel/dist/carousel.css';
 
-export default defineComponent({
+export default defineComponent ({
     name: 'MainBanner',
     components: {
         Carousel,
@@ -64,6 +66,7 @@ export default defineComponent({
                 description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 btnTextOne: 'Contact Us',
                 btnLinkOne: '/contact-us',
+                
             },
             {
                 id: 2,
@@ -85,32 +88,8 @@ export default defineComponent({
             },
         ],
     }),
-    mounted() {
-    this.preloadImages();
-},
-
-methods: {
-    preloadImages() {
-        // Define image paths based on the slide class
-        const imageMap = {
-            'item-bg4': require('../../assets/images/main-slides/4.webp'), // Use require to resolve path correctly
-            'item-bg5': require('../../assets/images/main-slides/slide2.webp'),
-            'item-bg6': require('../../assets/images/main-slides/slides-bg6.webp'),
-        };
-
-        this.carouselItems.forEach(slide => {
-            const imagePath = imageMap[slide.class.split(' ').pop()]; // Get the last class name
-            if (imagePath) {
-                const img = new Image(); // Create a new Image instance
-                img.src = imagePath; // Set the source to trigger loading
-            }
-        });
-    }
-}
-
-});
+})
 </script>
-
 <style>
 .align-right {
     display: flex;
