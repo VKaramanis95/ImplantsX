@@ -98,6 +98,8 @@
     "our_team_tsetsenekou":"Dr.Tsetsenekou Efstathia",
     "our_team_labropoulou":"Dr.Labropoulou Katerina",
     "our_team_dimakis":"Dr.Dimakis Georgios",
+    "our_team_vosiki":"Ms.Vosiki Giota",
+    "our_team_iliopoulou":"Ms.Iliopoulou Natasa",
 
     "general_birthday_title":"Birthday:",
     "general_specialized_title":"Specialization in:",
@@ -126,6 +128,20 @@
     "labropoulou_member":"the Hellenic Society of Algology & Hellenic Society of Anaesthesiology",
     "labropoulou_summary":"Katerina Lampropoulou was born in Kalamata. She is a graduate of the Athens Medical School and completed her anesthesiology practice at the Hippocratic Hospital of Athens. She worked as a curator for six years at the General Hospital of Kalamata and currently works as a freelancer in the mixed surgical clinic Messinian LITT Treatment Center. She is a PhD student at the Medical School of the University of Athens, specializing in chronic pain. Katerina has been a lecturer in Algorithm Continuing Education since 2010 and has numerous publications and papers in both national and international journals and conferences. She has contributed to the guidelines of the Panhellenic Anesthesiological Society. Additionally, she is a University Scholar at the Nursing University of Sparta, where she is responsible for the Nursing Anesthesiology course. She serves as the president of the Medical Society of Messinia and is a member of the Hellenic Association of Algology and the Panhellenic Anesthesiological Society.",
 
+
+    "all_staff_iliopoulou_spec": "Office Staff",
+    "iliopoulou_birthday":"",
+    "iliopoulou_specialized":"",
+    "iliopoulou_education":"",
+    "iliopoulou_member":"",
+    "iliopoulou_summary":"",
+
+    "all_staff_vosiki_spec": "Office Staff",
+    "vosiki_birthday":"",
+    "vosiki_specialized":"",
+    "vosiki_education":"",
+    "vosiki_member":"",
+    "vosiki_summary":"",
 
     "aboutUsHomePage_span":"About our Clinic!",
     "aboutUsHomePage_h2":"Welcome to Smile Make Over!",

@@ -166,10 +166,10 @@ export default {
             ],
             officeStaff: [
                 {
-                    name: this.$t('staff_name1'),
-                    profileLink: '/staff1',
-                    image: require('../../assets/images/OurTeam/labropoulou/labropoulou_allteam.webp'),
-                    specialization: this.$t('staff_spec1'),
+                    name: this.$t('our_team_iliopoulou'),
+                    profileLink: '/iliopoulou',
+                    image: require('../../assets/images/OurTeam/iliopoulou/iliopoulou_allteam.webp'),
+                    specialization: this.$t('all_staff_iliopoulou_spec'),
                     socialLinks: [
                         { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
                         { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },
@@ -178,10 +178,10 @@ export default {
                     ],
                 },
                 {
-                    name: this.$t('staff_name2'),
-                    profileLink: '/staff2',
-                    image: require('../../assets/images/OurTeam/labropoulou/labropoulou_allteam.webp'),
-                    specialization: this.$t('staff_spec2'),
+                    name: this.$t('our_team_vosiki'),
+                    profileLink: '/vosiki',
+                    image: require('../../assets/images/OurTeam/voziki/voziki_team.webp'),
+                    specialization: this.$t('all_staff_vosiki_spec'),
                     socialLinks: [
                         { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
                         { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },

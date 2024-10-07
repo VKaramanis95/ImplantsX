@@ -8,6 +8,9 @@ import DentistPage from "../components/Pages/DentistPage.vue"
 import Etsetsenekou from "../components/Pages/Etsetsenekou.vue"
 import KLabropoulou from "../components/Pages/KLabropoulou.vue"
 import GDimakis from "../components/Pages/GDimakis.vue"
+import Gvosiki from "../components/Pages/Gvosiki.vue"
+import Niliopoulou from "../components/Pages/Niliopoulou.vue"
+
 
 import ServicesPage  from "../components/Pages/ServicesPage.vue"
 import AllXDetails from "../components/services-details/AllXDetails.vue"
@@ -88,8 +91,9 @@ const routes = [
   { path: "/our-team", name:"DentistPage",  component:DentistPage},
   { path: "/tsetsenekou", name:"Etsetsenekou",  component:Etsetsenekou},
   { path: "/labropoulou", name:"KLabropoulou",  component:KLabropoulou},
-  
   { path: "/dimakis", name:"GDimakis",  component:GDimakis},
+  { path: "/iliopoulou", name:"Niliopoulou",  component:Niliopoulou},
+  { path: "/vosiki", name:"Gvosiki",  component:Gvosiki},
   
 
   { path: "/services",name:"ServicesPage", component:ServicesPage},

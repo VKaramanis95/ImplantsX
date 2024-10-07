@@ -93,6 +93,8 @@
     "our_team_tsetsenekou":"Dr.Tsetsenekou Efstathia",
     "our_team_labropoulou":"Dr.Labropoulou Katerina",
     "our_team_dimakis":"Dr.Dimakis George",
+    "our_team_vosiki":"",
+    "our_team_iliopoulou":"",
 
     "general_birthday_title":"",
     "general_specialized_title":":",
@@ -111,6 +113,20 @@
     "labropoulou_specialized":"",
     "labropoulou_education":"",
     "labropoulou_summary":"",
+
+    "all_staff_iliopoulou_spec": "",
+    "iliopoulou_birthday":"",
+    "iliopoulou_specialized":"",
+    "iliopoulou_education":"",
+    "iliopoulou_member":"",
+    "iliopoulou_summary":"",
+
+    "all_staff_vosiki_spec": "",
+    "vosiki_birthday":"",
+    "vosiki_specialized":"",
+    "vosiki_education":"",
+    "vosiki_member":"",
+    "vosiki_summary":"",
 
     "aboutUsHomePage_span":"Über unsere Klinik!",
     "aboutUsHomePage_h2":"Willkommen bei Smile Make Over!",
