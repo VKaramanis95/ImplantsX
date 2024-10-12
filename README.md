@@ -1,4 +1,3 @@
-# zrin
 
 ## Project setup
 ```
