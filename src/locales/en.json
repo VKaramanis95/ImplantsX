@@ -91,6 +91,9 @@
 
     "our_dentists_home_page_span":"Our Dentists",
     "our_dentists_home_page_h2":"Our Specialized and Experienced Dentists",
+    
+    "our_team_page_welcome":"Welcome to Our Team!",
+    "our_team_page_welcome_p":"Our team of doctors and ceramists combine an artist’s eye with a scientist’s precision. The exceptional care the whole team of doctors and assistants provide make every patient’s smile journey truly unique!",
 
     "our_team_span":"Our Dentists",
     "our_team_h2":"Our Specialized and Experienced Dentists",
@@ -107,40 +110,34 @@
     "general_member_title":"Member of:",
 
     
-    "all_dentists_tsetsenekou_spec": "Dentist",
     "tsetstenekou_birthday":"12/02/1976",
-    "tsetstenekou_specialized":"Maxillofacial Surgery & Facial Aesthetics.",
+    "tsetstenekou_specialized":"Oral Surgeon",
     "tsetstenekou_education":"DDS, MSc, PhD, Postdoc from University of Athens.",
-    "tsetstenekou_member":"the Hellenic Society for Biomaterials & European Association for Osseointegration.",
-    "tsetsenekou_summary":"Efstathia Tsetsenekou was born in Athens in 1976. She was accepted at the University of Athens in 1995 in the Faculty of Dentistry. After graduating, she worked as a general dentist in a private clinic, while continuing the second cycle of her studies on the Oral and Maxillofacial Surgery Department of the Dental Faculty, where she obtained a Master’s Degree in Oral Pathobiology with clinical specialization in Oral Surgery. She completed her doctoral thesis in the field of Osseointegrated implants with excellence and continued with post-doctoral research in the field of oral grafts.  She had been a research associate in the Department of Oral Surgery in the Faculty Dentistry for ten years (2004-2014) and had a paid position as a postdoctoral researcher in the Department of Biomaterials from 2013 to 2015. Participation in national and international conferences is active with presentations and issue of medical papers, while seamless is the writing and publication of scientific articles. She is a member of the Greek Society of Biomaterials and of the European Academy of Osseointegration.",
-    
-    "all_dentists_dimakis_spec": "Dentist",
+    "tsetstenekou_member":"Hellenic Society for Biomaterials & European Association for Osseointegration, General Dental Council (Gr)",
+    "tsetsenekou_summary":"Efstathia Tsetsenekou was born in Athens in 1976. She was accepted at the University of Athens in 1995 in the Faculty of Dentistry. After graduating, she worked as a general dentist in a private clinic, while continuing the second cycle of her studies on the Oral and Maxillofacial Surgery Department of the Dental Faculty, where she obtained a Master’s Degree in Oral Pathobiology with clinical specialization in Oral Surgery. She completed her doctoral thesis in the field of Osseointegrated implants with excellence and continued with post-doctoral research in the field of oral grafts.  She had been a research associate in the Department of Oral Surgery in the Faculty Dentistry for ten years (2004-2014) and had a paid position as a postdoctoral researcher in the Department of Biomaterials from 2013 to 2015. Participation in national and international conferences is active with presentations and issue of medical papers, while seamless is the writing and publication of scientific articles. She is a member of the Greek Society of Biomaterials and of the European Academy of Osseointegration. Her personal interests are: Greek dances, martial arts, opera and tennis!",
+
     "dimakis_birthday":"19/05/1970",
     "dimakis_specialized":"Periodontist & Implantologist",
     "dimakis_education":"DDS (University of Athens), MSc (Gothenburg, University of Sweden), Postgraduate Diploma in Periodontology and Implantology",
     "dimakis_member":"the  General Dental Council (UK) & (GR)",
     "dimakis_summary":"George received extensive training in advanced gum care (periodontal therapy) and provision of dental implants. Having placed over 4,000 implants during the last 20 years, he specialises in complex implant treatment including All-on-4®, teeth in a day and sinus lift surgery. George trained with Professor Branemark, the founder of dental implants in Sweden and is a visiting faculty member of the University of Gothenburg. In his personal times George enjoys cooking and windsurfing and is extremely proud father of 2 teenagers.",
 
-    "all_dentists_labropoulou_spec": "Doctor",
     "labropoulou_birthday":"28/05/1971",
     "labropoulou_specialized":"Anesthesiology.",
-    "labropoulou_education":"Professor of Medical School of University of Athens.",
+    "labropoulou_education":"MD(University of Athens), MSc in Anesthesiology",
     "labropoulou_member":"the Hellenic Society of Algology & Hellenic Society of Anaesthesiology",
-    "labropoulou_summary":"Katerina Lampropoulou was born in Kalamata. She is a graduate of the Athens Medical School and completed her anesthesiology practice at the Hippocratic Hospital of Athens. She worked as a curator for six years at the General Hospital of Kalamata and currently works as a freelancer in the mixed surgical clinic Messinian LITT Treatment Center. She is a PhD student at the Medical School of the University of Athens, specializing in chronic pain. Katerina has been a lecturer in Algorithm Continuing Education since 2010 and has numerous publications and papers in both national and international journals and conferences. She has contributed to the guidelines of the Panhellenic Anesthesiological Society. Additionally, she is a University Scholar at the Nursing University of Sparta, where she is responsible for the Nursing Anesthesiology course. She serves as the president of the Medical Society of Messinia and is a member of the Hellenic Association of Algology and the Panhellenic Anesthesiological Society.",
+    "labropoulou_summary":"Katerina Lampropoulou was born in Kalamata. She is a graduate of the Athens Medical School and completed her anesthesiology practice at the Hippocratic Hospital of Athens. She worked as a curator for six years at the General Hospital of Kalamata and currently works as a freelancer in the mixed surgical clinic Messinian LITT Treatment Center. She is a PhD student at the Medical School of the University of Athens, specializing in chronic pain. Katerina has been a lecturer in Algorithm Continuing Education since 2010 and has numerous publications and papers in both national and international journals and conferences. She has contributed to the guidelines of the Panhellenic Anesthesiological Society. Additionally, she is a University Scholar at the Nursing University of Sparta, where she is responsible for the Nursing Anesthesiology course. She serves as the president of the Medical Society of Messinia and is a member of the Hellenic Association of Algology and the Panhellenic Anesthesiological Society. At her personal time she enjoys practising yoga and graphic design!",
 
-
-    "all_staff_iliopoulou_spec": "Office Staff",
-    "iliopoulou_birthday":"",
-    "iliopoulou_specialized":"",
-    "iliopoulou_education":"",
-    "iliopoulou_member":"",
-    "iliopoulou_summary":"",
+    "all_staff_iliopoulou_spec": "Nurse-Dental Assistant",
+    "iliopoulou_birthday":"23/08/1987",
+    "iliopoulou_specialized":"Nursery",
+    "iliopoulou_education":"Assistant Microbiology & Nursery",
+    "iliopoulou_summary":"Mrs Iliopoulou was born in 1987. She graduated as a nurse and assistant microbiologist in 2005. She has been working as a nurse since then. Natasa assists all our surgery procedures in our clinic.",
 
     "all_staff_vosiki_spec": "Office Staff",
-    "vosiki_birthday":"xx/xx/1978",
-    "vosiki_specialized":"",
-    "vosiki_education":"",
-    "vosiki_member":"",
+    "vosiki_birthday":"18/04/1978",
+    "vosiki_specialized":"Treatment Coordinator",
+    "vosiki_education":"Assistant Accountant",
     "vosiki_summary":"Panagiota Voziki was born in Athens in 1978. After graduating from high school, she acquainted on expertise in general accounting. Her first professional experience was in the HR department of the company AVAX S.A. constructions. During her employment as an executive secretary in a technical office of public constructions she developed her skills in the field of personal relationships. In our clinic, her current responsibilities concern the assurance of patient’s privacy, the accuracy of their appointments and the organization of medical office.",
 
     "aboutUsHomePage_span":"About our Clinic!",

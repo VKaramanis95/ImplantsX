@@ -87,6 +87,9 @@
     "our_dentists_home_page_span":"",
     "our_dentists_home_page_h2":"",
 
+   "our_team_page_welcome":"",
+    "our_team_page_welcome_p":"",
+
     "our_team_span":"Unsere Zahnärzte",
     "our_team_h2":"Unsere spezialisierten und erfahrenen Zahnärzte",
    
@@ -101,14 +104,17 @@
     "general_education_title":":",
     "general_member_title":":",
 
+    "dimakis_birthday":"",
+    "dimakis_specialized":"",
+    "dimakis_education":"",
+    "dimakis_member":"",
+    "dimakis_summary":"",
 
-    "all_dentists_tsetsenekou_spec": "Mundchirurg",
     "tsetstenekou_birthday":"",
     "tsetstenekou_specialized":"",
     "tsetstenekou_education":"",
     "tsetsenekou_summary":"",
 
-    "all_dentists_labropoulou_spec": "Anästhesie",
     "labropoulou_birthday":"",
     "labropoulou_specialized":"",
     "labropoulou_education":"",

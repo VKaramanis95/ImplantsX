@@ -2,7 +2,7 @@
   <div class="container" ref="container">
     <div class="row">
       <div class="col-lg-6 services-details">
-        <div class="clinic-text" style="padding-top:20px">
+        <div class="clinic-text" style="padding-top:50px;">
           <h2>{{ $t('our_clinic_equipment_h2') }}</h2>
         </div>
         <div class="services-details-desc">
@@ -67,7 +67,6 @@ export default {
           image: require("../../assets/images/OurClinic/equipment/panoramic-machine.webp"),
           h3: "our_clinic_equipment_product5_h3",
           p: "our_clinic_equipment_product5_p",
-          
         }
       ]
     };

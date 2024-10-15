@@ -32,8 +32,6 @@
 
                             <p class="glide-in"><b>{{ $t('general_education_title') }}</b> {{ $t('vosiki_education') }}</p>
                             
-                            <p class="glide-in"><b>{{ $t('general_member_title') }}</b> {{ $t('vosiki_member') }}</p>
-                        
                         </div></div>
                     </div>
                 </div>

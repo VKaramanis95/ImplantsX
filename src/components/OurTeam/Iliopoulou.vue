@@ -31,9 +31,6 @@
                             <p class="glide-in"><b>{{ $t('general_specialized_title') }}</b> {{ $t('iliopoulou_specialized') }}</p>
 
                             <p class="glide-in"><b>{{ $t('general_education_title') }}</b> {{ $t('iliopoulou_education') }}</p>
-                            
-                            <p class="glide-in"><b>{{ $t('general_member_title') }}</b> {{ $t('iliopoulou_member') }}</p>
-                        
                         </div></div>
                     </div>
                 </div>
@@ -47,7 +44,7 @@
 
 <script>
 export default {
-    name: 'iliopoulou',
+    name: 'Iliopoulou',
     mounted() {
         window.addEventListener('scroll', this.handleScroll);
         this.handleScroll(); // Call handleScroll once on mount to initialize elements in viewport

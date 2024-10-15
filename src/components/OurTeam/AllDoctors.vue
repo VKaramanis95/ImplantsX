@@ -1,11 +1,17 @@
 <template>
     <div class="doctor-area ptb-100">
         <div class="container">
+            <div class="team-text">
+                <h2>{{ $t('our_team_page_welcome') }} </h2>
+                <p  style="padding-top:10px;">
+                    {{ $t('our_team_page_welcome_p') }}
+                </p>
+            </div>
+      
             <!-- Dentists Section -->
             <div class="section-title">
                 <h2><u>{{ $t('all_dentists') }}</u></h2>
             </div>
-
             <div class="row" v-for="(doctorRow, rowIndex) in chunkedDoctors" :key="`dentist-${rowIndex}`" :class="{'d-flex justify-content-center': isLastRow(rowIndex, chunkedDoctors)}">
                 <div class="col-lg-4 col-md-6" v-for="doctor in doctorRow" :key="doctor.name">
                     <div class="single-doctor">
@@ -105,7 +111,7 @@ export default {
                     name: this.$t('our_team_tsetsenekou'),
                     profileLink: '/tsetsenekou',
                     image: require('../../assets/images/OurTeam/tsetsenekou/tsetsenekou_allteam.webp'),
-                    specialization: this.$t('all_dentists_tsetsenekou_spec'),
+                    specialization: this.$t(''),
                     socialLinks: [
                         { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
                         { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },
@@ -117,7 +123,7 @@ export default {
                     name: this.$t('our_team_labropoulou'),
                     profileLink: '/labropoulou',
                     image: require('../../assets/images/OurTeam/labropoulou/labropoulou_allteam.webp'),
-                    specialization: this.$t('all_dentists_labropoulou_spec'),
+                    specialization: this.$t(''),
                     socialLinks: [
                         { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
                         { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },
@@ -129,7 +135,7 @@ export default {
                     name: this.$t('our_team_dimakis'),
                     profileLink: '/dimakis',
                     image: require('../../assets/images/OurTeam/dimakis/dimakis_allteam.webp'),
-                    specialization: this.$t('all_dentists_dimakis_spec'),
+                    specialization: this.$t(''),
                     socialLinks: [
                         { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
                         { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },
@@ -143,7 +149,7 @@ export default {
                     name: this.$t('tech_name1'),
                     profileLink: '/tech1',
                     image: require('../../assets/images/OurTeam/labropoulou/labropoulou_allteam.webp'),
-                    specialization: this.$t('tech_spec1'),
+                    specialization: this.$t(''),
                     socialLinks: [
                         { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
                         { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },
@@ -155,7 +161,7 @@ export default {
                     name: this.$t('tech_name2'),
                     profileLink: '/tech2',
                     image: require('../../assets/images/OurTeam/labropoulou/labropoulou_allteam.webp'),
-                    specialization: this.$t('tech_spec2'),
+                    specialization: this.$t(''),
                     socialLinks: [
                         { platform: 'facebook', link: 'https://www.facebook.com/', icon: 'bx bxl-facebook' },
                         { platform: 'twitter', link: 'https://twitter.com/?lang=en', icon: 'bx bxl-twitter' },

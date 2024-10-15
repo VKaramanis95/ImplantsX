@@ -1,7 +1,7 @@
 <template>
     <div class="container" ref="container">
         <div class="row">
-            <div class="clinic-text" style="padding-top:20px">
+            <div class="clinic-text" style="padding:100px 5px;">
                 <h2>{{ $t('our_clinic_equipment_h2') }} </h2>
                 <p>
                     {{ $t('our_clinic_equipment_p') }}

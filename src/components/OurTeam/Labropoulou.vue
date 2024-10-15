@@ -15,7 +15,6 @@
                                 {{ $t('our_team_labropoulou') }}
                             </router-link>
                         </h3>
-                        <span>{{ $t('all_dentists_labropoulou_spec') }}</span>
 
                         <div class="share-link">
                             <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook'></i></a>

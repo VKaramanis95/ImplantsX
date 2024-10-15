@@ -5077,3 +5077,42 @@ OurServicesMainPageSmallScreen
   max-width: 100%; /* Prevents overflow */
 }
 
+
+/*================================================
+Our Team
+=================================================*/
+.team-text p{
+  text-align: center;
+}
+
+.team-text h2{
+  
+  text-align: center;
+  position: relative;
+}
+.team-text h2::before,
+.team-text h2::after {
+content: '';
+position: absolute;
+height: 1px;
+background-color: #000; /* Adjust color as needed */
+width: calc(100% + 20px); /* Width extends beyond h2 by 20px on each side */
+left: -10px; /* Adjust to center the lines */
+}
+
+.team-text h2::before {
+  top: -10px; /* Add 5px padding from the top of h2 */
+  }
+  
+  .team-text h2::after {
+  bottom: -10px; /* Add 5px padding from the bottom of h2 */
+  }
+
+
+  @media (min-width: 1024px) {
+      .team-text p {
+          font-size: 20pt; /* Font size for big screens */
+      }
+  }
+
+  
