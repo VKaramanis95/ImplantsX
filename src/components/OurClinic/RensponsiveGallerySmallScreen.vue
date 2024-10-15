@@ -74,44 +74,43 @@
         },
         {
           id: 6,
-          image: require('@/assets/images/OurClinic/gallery/11.webp'),
-        },
-        {
-          id: 7,
-          image:  require('@/assets/images/OurClinic/gallery/12.webp'),
-        },
-        {
-          id: 8,
           image: require('@/assets/images/OurClinic/gallery/1.webp'),
         },
         {
-          id: 9,
+          id: 7,
           image: require('@/assets/images/OurClinic/gallery/4.webp'),
         },
         {
-          id: 10,
+          id: 8,
           image: require('@/assets/images/OurClinic/gallery/5.webp'),
         },
         {
-          id: 11,
+          id: 9,
           image: require('@/assets/images/OurClinic/gallery/7.webp'),
         },
         {
-          id: 12,
+          id: 10,
           image: require('@/assets/images/OurClinic/gallery/8.webp'),
         },
+        
         {
-          id: 13,
-          image: require('@/assets/images/OurClinic/gallery/13.webp'),
-        },
-        {
-          id: 14,
+          id: 11,
           image: require('@/assets/images/OurClinic/gallery/15.webp'),
         },
         {
-          id: 15,
+          id: 12,
           image: require('@/assets/images/OurClinic/gallery/22.webp'),
         },
+        {
+          id: 13,
+          image: require('@/assets/images/OurClinic/gallery/2.webp'),
+        },
+        
+        {
+          id: 14,
+          image: require('@/assets/images/OurClinic/gallery/3.webp'),
+        },
+       
         
         
         

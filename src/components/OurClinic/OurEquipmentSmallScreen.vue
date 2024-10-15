@@ -8,8 +8,6 @@
         <div class="services-details-desc">
           <p>
             {{ $t('our_clinic_equipment_p') }}
-            <a href="/tsetsenekou">{{ $t('our_clinic_equipment_p_owner') }}</a>
-            {{ $t('our_clinic_equipment_p1') }}
           </p>
         </div>
       </div>
@@ -25,12 +23,8 @@
             <div class="col-lg-6 services-details">
               <div class="services-details-desc">
                 <h3>{{ $t(product.h3) }}</h3>
-                <p class="glide-in">
+                <p>
                   <span v-html="$t(product.p)"></span>
-                  <ul v-if="product.list">
-                    <li v-for="(item, idx) in product.list" :key="idx">{{ $t(item) }}</li>
-                  </ul>
-                  <p v-if="product.additional">{{ $t(product.additional) }}</p>
                 </p>
               </div>
             </div>
@@ -73,14 +67,7 @@ export default {
           image: require("../../assets/images/OurClinic/equipment/panoramic-machine.webp"),
           h3: "our_clinic_equipment_product5_h3",
           p: "our_clinic_equipment_product5_p",
-          list: [
-            "our_clinic_equipment_product5_li_1",
-            "our_clinic_equipment_product5_li_2",
-            "our_clinic_equipment_product5_li_3",
-            "our_clinic_equipment_product5_li_4",
-            "our_clinic_equipment_product5_li_5"
-          ],
-          additional: "our_clinic_equipment_product5_b"
+          
         }
       ]
     };

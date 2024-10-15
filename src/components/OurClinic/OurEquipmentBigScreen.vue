@@ -5,8 +5,6 @@
                 <h2>{{ $t('our_clinic_equipment_h2') }} </h2>
                 <p>
                     {{ $t('our_clinic_equipment_p') }}
-                    <a href="/tsetsenekou">{{ $t('our_clinic_equipment_p_owner') }}</a>
-                    {{ $t('our_clinic_equipment_p1') }}
                 </p>
             </div>
 
@@ -85,21 +83,12 @@ export default {
                     image: require('../../assets/images/OurClinic/equipment/panoramic-machine.webp'),
                     alt: 'Panoramic Machine',
                     title: 'our_clinic_equipment_product5_h3',
-                    description: 'our_clinic_equipment_product5_p',
-                    beforeListDescription: 'our_clinic_equipment_product5_a',
-                    list: [
-                        'our_clinic_equipment_product5_li_1',
-                        'our_clinic_equipment_product5_li_2',
-                        'our_clinic_equipment_product5_li_3',
-                        'our_clinic_equipment_product5_li_4',
-                        'our_clinic_equipment_product5_li_5'
-                    ],
-                    afterListDescription: 'our_clinic_equipment_product5_b'
+                    description: 'our_clinic_equipment_product5_p'
                 }
             ]
         };
     },
-    
+
     mounted() {
         window.addEventListener('scroll', this.handleScroll);
         this.handleScroll(); // Call handleScroll once on mount to initialize elements in viewport

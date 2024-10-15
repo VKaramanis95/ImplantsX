@@ -33,18 +33,13 @@
                                     <ul>
                                         <li>{{ $t('aboutUsHomePage_ul_li_1') }}</li>
                                         
-                                        <li>{{ $t('aboutUsHomePage_ul_li_6') }}</li>
-                                        <li>{{ $t('aboutUsHomePage_ul_li_3') }}</li>
                                         <li>{{ $t('aboutUsHomePage_ul_li_4') }}</li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <ul>
-                                        <li>{{ $t('aboutUsHomePage_ul_li_5') }}</li>
                                         <li>{{ $t('aboutUsHomePage_ul_li_2') }}</li>
-                                        <li>{{ $t('aboutUsHomePage_ul_li_7') }}</li>
-                                        <li>{{ $t('aboutUsHomePage_ul_li_8') }}</li>
-                                        <li>{{ $t('aboutUsHomePage_ul_li_9') }}</li>
+                                        <li>{{ $t('aboutUsHomePage_ul_li_3') }}</li>
                                     </ul>
                                 </div>
                             </div>

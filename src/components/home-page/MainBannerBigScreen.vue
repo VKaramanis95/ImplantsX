@@ -19,7 +19,6 @@
                                 {{slide.subtitle}}
                             </span>
                             <h1>{{slide.heading}}</h1>
-                            <p>{{slide.description}}</p>
                             
                             <div class="slides-btn">
                                 <router-link 
@@ -63,7 +62,6 @@ export default defineComponent ({
                 class: 'main-slides-item item-bg4',
                 subtitle: 'Keeping Teeth Clean',
                 heading: 'The World Best Dental Specialist Treatment',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 btnTextOne: 'Contact Us',
                 btnLinkOne: '/contact-us',
                 
@@ -73,8 +71,7 @@ export default defineComponent ({
                 class: 'main-slides-item item-bg5',
                 subtitle: 'Keeping Teeth Clean',
                 heading: 'The World Best Dental Specialist Treatment',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-                btnTextOne: 'Contact Us',
+               btnTextOne: 'Contact Us',
                 btnLinkOne: '/contact-us',
             },
             {
@@ -82,7 +79,6 @@ export default defineComponent ({
                 class: 'main-slides-item item-bg6',
                 subtitle: 'Keeping Teeth Clean',
                 heading: 'The World Best Dental Specialist Treatment',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
                 btnTextOne: 'Contact Us',
                 btnLinkOne: '/contact-us',
             },

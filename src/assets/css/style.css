@@ -1135,7 +1135,7 @@ Main Service Slides Area CSS
 Main Slides Area CSS
 =================================================*/
 .main-slides-item {
-  background-image: url(../../assets/images/main-slides/slides-bg1.webp);
+  background-image: url(../../assets/images/main-slides/4.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1150,7 +1150,7 @@ Main Slides Area CSS
 
 
 .main-slides-item.item-bg2 {
-  background-image: url(../../assets/images/main-slides/slides-bg2.webp);
+  background-image: url(../../assets/images/main-slides/slides-bg6.webp);
 }
 
 .main-slides-item.item-bg3 {
