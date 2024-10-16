@@ -11,20 +11,7 @@
 
                         <div class="article-content">
                             <div class="row">
-                                <div class="entry-meta">
-                                    <ul>
-                                        <li>
-                                            <span>{{ $t('blog_page_pediatric_post_on') }}</span> 
-                                            {{ $t('blog_page_pediatric_post_date') }}
-                                        </li>
-                                        <li>
-                                            <span> {{ $t('blog_page_pediatric_post_from') }} </span> 
-                                            <router-link to="/blog-details">
-                                                {{ $t('blog_page_pediatric_post_by') }}
-                                            </router-link>
-                                        </li>
-                                    </ul>
-                                </div>
+                                
 
                                 <h2><u>{{ $t('blog_page_preventive_dentistry_title') }}</u></h2>
                                 <p><b>{{ $t('blog_page_preventive_dentistry_h4') }}</b></p>

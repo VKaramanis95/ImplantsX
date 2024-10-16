@@ -62,7 +62,7 @@ export default {
                     description: 'our_clinic_equipment_product1_p'
                 },
                 {
-                    image: require('../../assets/images/OurClinic/equipment/itero-scanner.webp'),
+                    image: require('../../assets/images/OurClinic/equipment/3Sscanner.webp'),
                     alt: 'iTero Scanner',
                     title: 'our_clinic_equipment_product2_h3',
                     description: 'our_clinic_equipment_product2_p'

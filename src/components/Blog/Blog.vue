@@ -20,16 +20,7 @@
                                 <b>{{ $t('blog_allpage_more') }}</b>
                             </router-link>
 
-                            <ul class="entry-meta">
-                                <li>
-                                    <i class='bx bxs-user'></i>
-                                    <span>{{ $t('blog_page_pediatric_post_from') }}
-                                        <router-link :to="post.author.link">
-                                            {{ $t(post.author.nameKey) }}
-                                        </router-link>
-                                    </span>
-                                </li>
-                            </ul>
+                           
                         </div>
                     </div>
                 </div>

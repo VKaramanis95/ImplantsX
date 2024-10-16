@@ -229,10 +229,7 @@
    "allx_sidebar_title3":"Will the dental implants require additional adhesives?",
    "allx_sidebar_title4":"",
 
-   "blog_post_on":"Post On:",
-   "blog_post_by":"Post By",
-   "blog_post_from":"From:",
-   "blog_post_from_tsetsenekou":"Tsetsenekou ",
+  
 
    "blog_allx_all4orall6_post_date":"September XXX",
    "blog_allx_all4orall6_title":"What is the difference between All-On-4 and All-On-6? ",
@@ -617,10 +614,8 @@
    
     
     
-    "blog_page_pediatric_post_on":"Posted On: ",
-    "blog_page_pediatric_post_from":"Posted By: ",
-    "blog_page_pediatric_post_date":"",
-    "blog_page_pediatric_post_by":"Posted By: ",
+    
+ 
     "blog_page_pediatric_title":"Pediatric Dentistry",
     "blog_page_pediatric_p":"",
     "blog_page_pediatric_limit_title":"",
@@ -689,7 +684,8 @@
     "blog_mouth_smell_p":"Bad smell of our mouth in the morning results mainly due to decreased production of saliva (dry mouth), which normally occurs during sleep.  Saliva is necessary for the removal of food residues from the oral cavity. Dry mouth combined with blood resting still while sleeping (because of the supine position), leads to the spread of bacteria found in the oral cavity. That produces compounds which are responsible for the bad odor of the breath.",
     "blog_mouth_smell_p1":"Dry mouth may nevertheless be the symptom of another disease such as:",
     "blog_mouth_smell_li":"renal deficiency ",
-    "blog_mouth_smell_li1":"autoimmune disease (e.g. Sjӧgren syndrome) and c) medication (e.g., allergy).",
+    "blog_mouth_smell_li1":"autoimmune disease (e.g. Sjӧgren syndrome)",
+    "blog_mouth_smell_li2":"medication (e.g., allergy)",
     "blog_mouth_smell_p2":"Snoring and mouth breathing results in more dryness of the oral cavity and consequently leads to the bad smell of the mouth in the morning. The odor may also be associated with dental problems, especially periodontal disease (gingivitis, periodontitis) due to bacteria’s accumulation. Other diseases that may be related to bad smell are allergies (when occurring frequently), diabetes, liver problems and gastroesophageal reflux.",
 
     "blog_allpage_mouth_brush_title":"How can I properly brush my teeth?",
@@ -703,9 +699,9 @@
     "blog_main_implants_pain_title":"I've heard that implant’s placement hurt, is it true?",
     "blog_main_implants_pain_p":"The surgical procedure is simple and easy, especially compared with a tooth extraction and completely painless, under local anesthesia. The post-operative healing period depends mainly on the size of the operation. Simple analgesics the same day and the next 2-3 days typically cover the patient. Differentiation can occur in the diet of the patient in the first days to avoid post-operative complications, in case of the placement of multiple implants. Whatever the extent of the surgery, in the hands of a trained dentist, a high quality result can be obtained without pain and complications, with the compliance of the patient in the post-operative instructions of course.",
 
-    "blog_allpage_implants_rejection_possibility_title":"It is true that my body may not accept dental implants?",
+    "blog_allpage_implants_rejection_possibility_title":"Is it true that my body may not accept dental implants?",
     "blog_allpage_implants_rejection_possibility_p":"The probability of failure of...",
-    "blog_main_implants_rejection_possibility_title":"It is true that my body may not accept dental implants?",
+    "blog_main_implants_rejection_possibility_title":"Is it true that my body may not accept dental implants?",
     "blog_main_implants_rejection_possibility_p":"The probability of failure of implantation according to published studies is minimal in the hands of an experienced doctor, who is capable of:",
     "blog_main_implants_rejection_possibility_li1":"processing the information derived from the detailed medical and dental history of the patient in order to predict possible complications",
     "blog_main_implants_rejection_possibility_li2":"executing the surgery in a predictable way.",

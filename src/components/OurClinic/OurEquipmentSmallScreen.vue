@@ -49,7 +49,7 @@ export default {
           p: "our_clinic_equipment_product1_p"
         },
         {
-          image: require("../../assets/images/OurClinic/equipment/itero-scanner.webp"),
+          image: require("../../assets/images/OurClinic/equipment/3Sscanner.webp"),
           h3: "our_clinic_equipment_product2_h3",
           p: "our_clinic_equipment_product2_p"
         },

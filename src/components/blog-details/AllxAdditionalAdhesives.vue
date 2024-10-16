@@ -11,20 +11,7 @@
 
                         <div class="article-content">
                             <div class="row">
-                                <div class="entry-meta">
-                                    <ul>
-                                        <li>
-                                            <span>{{ $t('blog_post_on') }}</span> 
-                                            {{ $t('blog_allx_adhensives_post_date') }}
-                                        </li>
-                                        <li>
-                                            <span> {{ $t('blog_post_from') }} </span> 
-                                            <router-link to="/tsetsenekou">
-                                                {{ $t('blog_post_from_tsetsenekou') }}
-                                            </router-link>
-                                        </li>
-                                    </ul>
-                                </div>
+                               
 
                                 <h2><u>{{ $t('blog_allx_adhensives_title') }}</u></h2>
                                 <p>{{ $t('blog_allx_adhensives_p') }}</p>
