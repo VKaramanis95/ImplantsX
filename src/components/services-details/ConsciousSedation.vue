@@ -25,14 +25,7 @@
                         <u><h3>{{ $t('conscious_sedation_guide_title') }}</h3></u>
                         <h4>{{ $t('conscious_sedation_guide_p') }}</h4>
                         <ul>
-                            <li>
-                                <b>{{ $t('conscious_sedation_guide_li_1') }}</b>
-                                <p>{{ $t('conscious_sedation_guide_p_1') }}</p>
-                            </li>
-                            <li>
-                                <b>{{ $t('conscious_sedation_guide_li_2') }}</b>
-                                <p>{{ $t('conscious_sedation_guide_p_2') }}</p>
-                            </li>
+                            
                             <li>
                                 <b> {{ $t('conscious_sedation_guide_li_3') }}</b>
                                 <p>{{ $t('conscious_sedation_guide_p_3') }}</p>
@@ -43,16 +36,16 @@
                         <h3>{{ $t('conscious_sedation_guide_after_title') }}</h3>
                         <ul>
                             <li>
-                                <b>{{ $t('conscious_sedation_guide_after_p1') }}</b>
+                                {{ $t('conscious_sedation_guide_after_p1') }}
                             </li>
                             <li>
-                                <b>{{ $t('conscious_sedation_guide_after_p2') }}</b>
+                                {{ $t('conscious_sedation_guide_after_p2') }}
                             </li>
                             <li>
-                                <b> {{ $t('conscious_sedation_guide_after_p3') }}</b>
+                                {{ $t('conscious_sedation_guide_after_p3') }}
                             </li>
                             <li>
-                                <b> {{ $t('conscious_sedation_guide_after_p4') }}</b>
+                                {{ $t('conscious_sedation_guide_after_p4') }}
                             </li>
                         </ul>
                         <p>{{ $t('conscious_sedation_guide_after_p') }}</p>

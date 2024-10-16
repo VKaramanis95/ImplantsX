@@ -1,13 +1,13 @@
 <template>
     <div class="services-area ptb-100">
         <div class="container">
-            <div class="section-title">
-                <span class="sub-title">
-                    <i class="flaticon-hashtag-symbol"></i>
-                    Our Best Dental Services
-                </span>
-                <h2>Enjoy Specialized Care Through Precision, Artistry, and Experience</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            <div class="team-text">
+                <h2>Welcome to our Services</h2>
+                <p  style="padding-top:10px;">
+                    At Smile Make Over Clinic, we provide a full range of dental services, from preventive care to cosmetic and restorative treatments. Our expert team uses the latest techniques and technologies to ensure your smile is both healthy and beautiful, with your comfort and satisfaction as our top priorities.
+
+
+                </p>
             </div>
 
             <div class="row">
@@ -108,6 +108,30 @@
                                 </router-link>
                             </h3>
                             <p>{{ $t('services_main_zcrowns_p') }}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6"  style="margin-top: 30px;">
+                    <div class="single-services">
+                        <div class="services-image">
+                            <router-link to="/hollywood-smile">
+                                <img src="../../assets/images/services/hollywoodSmile/hollywood-smile-allservices.webp" alt="image">
+                            </router-link>
+
+                            <div class="icon">
+                                <router-link to="/hollywood-smile">
+                                    <i class="flaticon-dental-care"></i>
+                                </router-link>
+                            </div>
+                        </div>
+
+                        <div class="services-content">
+                            <h3>
+                                <router-link to="/hollywood-smile">
+                                    {{ $t('nav_hsmile') }}
+                                </router-link>
+                            </h3>
+                            <p>{{ $t('services_main_hsmile_p') }}</p>
                         </div>
                     </div>
                 </div>

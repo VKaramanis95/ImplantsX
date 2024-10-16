@@ -57,6 +57,22 @@
                         
                     </div>
 
+                    <div class="services-details-overview">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <div class="single-gallery">
+                                    <img src="../../assets/images/services/full-mouth-rehab/full_mouth1.webp" alt="image">
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-6 col-md-6">
+                                <div class="single-gallery">
+                                    <img src="../../assets/images/services/full-mouth-rehab/full_mouth1.webp" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="services-details-content">
                         <u><h3>{{ $t('full_mouth_rehab_page_stages_title') }}</h3></u>
                         <ol>
@@ -71,7 +87,6 @@
                                     <b>{{ $t('full_mouth_rehab_page_stages_treatment_bold') }}</b> 
                                     <ul>
                                         <li>{{ $t('full_mouth_rehab_page_stages_treatment') }}</li>
-                                        <li>{{ $t('full_mouth_rehab_page_stages_treatment1') }}</li>
                                     </ul>
                                 </li>
 
@@ -79,7 +94,6 @@
                                     <b>{{ $t('full_mouth_rehab_page_stages_disease_bold') }}</b> 
                                     <ul>
                                         <li>{{ $t('full_mouth_rehab_page_stages_disease') }}</li>
-                                        <li>{{ $t('full_mouth_rehab_page_stages_disease1') }}</li>
                                     </ul>
                                 </li>
                                 <li>
@@ -96,24 +110,18 @@
                                         <li>{{ $t('full_mouth_rehab_page_stages_orthodontic') }}</li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <b>{{ $t('full_mouth_rehab_page_stages_periodontal_bold') }}</b> 
-                                    <ul>
-                                        <li>{{ $t('full_mouth_rehab_page_stages_periodontal') }}</li>
-                                    </ul>
-                                </li>
+                               
 
                                 <li>
                                     <b>{{ $t('full_mouth_rehab_page_stages_temporomandibular_bold') }}</b>
                                     <ul>
                                         <li>{{ $t('full_mouth_rehab_page_stages_temporomandibular') }}</li>
-                                        <li>{{ $t('full_mouth_rehab_page_stages_temporomandibular1') }}</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <b>{{ $t('full_mouth_rehab_page_stages_cosmetic_bold') }}</b>
                                     <ul>
-                                        <li><b>{{ $t('full_mouth_rehab_page_stages_cosmetic') }}</b></li>
+                                        <li>{{ $t('full_mouth_rehab_page_stages_cosmetic') }}</li>
                                     </ul>
                                 </li>
                                 <li>
@@ -139,36 +147,6 @@
                             </ol> 
                     </div>
 
-                  
-
-                    
-
-                    <div class="services-details-overview">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <div class="single-gallery">
-                                    <img src="../../assets/images/services/full-mouth-rehab/full_mouth1.webp" alt="image">
-                                </div>
-                            </div>
-        
-                            <div class="col-lg-6 col-md-6">
-                                <div class="single-gallery">
-                                    <img src="../../assets/images/services/full-mouth-rehab/full_mouth1.webp" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('full_mouth_rehab_page_longevity_title') }}</h3></u>
-                        <ul>
-                            <p>{{ $t('full_mouth_rehab_page_longevity_p1') }}</p>
-                            <p>{{ $t('full_mouth_rehab_page_longevity_p2') }}</p>
-                            <p>{{ $t('full_mouth_rehab_page_longevity_p3') }}</p>
-                        </ul>
-                    </div>
-
-                   
 
                     
                 </div>

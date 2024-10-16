@@ -12,10 +12,7 @@
                         <p>{{ $t('zircven_page_p') }}</p>
                     </div>
 
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('zircven_page_title3') }} </h3></u>
-                        <p>{{ $t('zircven_page_p3') }}</p>
-                    </div>
+                   
                     
 
                     
@@ -40,10 +37,7 @@
                         <u><h3>{{ $t('zircven_page_title1') }} </h3></u>
                         <p>{{ $t('zircven_page_p1') }}</p>
                     </div>
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('zircven_page_title2') }} </h3></u>
-                        <p>{{ $t('zircven_page_p2') }}</p>
-                    </div>
+                    
 
        
                 </div>

@@ -65,20 +65,28 @@
                                                
                                                 <li class="nav-item">
                                                     <router-link to="/implants" class="nav-link">
-                                                        {{ $t('nav_services_implants') }}
+                                                        {{ $t('touth_implant') }}
                                                     </router-link>
                                                 </li>
-                                                <li class="nav-item">
-                                                    <router-link to="/full-mouth-rehabilitation" class="nav-link">
-                                                        {{ $t('nav_rehab') }}
-                                                    </router-link>
-                                                </li>
+                                                
                                             </ul>
                                         </div>
                                     </li>
                                     <li class="nav-item">
                                         <router-link to="/veneers" class="nav-link">
                                             {{ $t('zircven_page_title') }}
+                                        </router-link>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div>
+                                            <router-link to="/full-mouth-rehabilitation" class="nav-link">
+                                                        {{ $t('nav_rehab') }}
+                                                    </router-link>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <router-link to="/hollywood-smile" class="nav-link">
+                                            {{ $t('nav_hsmile') }}
                                         </router-link>
                                     </li>
 

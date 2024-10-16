@@ -77,7 +77,13 @@ export default defineComponent({
                 heading: 'zircven_page_title',
                 btnLinkOne: '/veneers',
                 image: require('../../assets/images/services/zircCrowns/zirconia-crowns-service.webp'), 
-              },
+            },
+            {
+                id: 5,
+                heading: 'hollywood-smile',
+                btnLinkOne: '/nav_hsmile',
+                image: require('../../assets/images/services/hollywoodSmile/hollywood-smile-service.webp'), 
+            },
               
             
            

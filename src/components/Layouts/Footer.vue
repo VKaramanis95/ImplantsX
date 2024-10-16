@@ -99,8 +99,8 @@
             <div class="container">
                 <div class="copyright-area-content">
                     <p>
-                        &copy; {{currentYear}} Kalamata cliinic is proudly created by
-                        <a href="https://vasilis-karamanis.netlify.app" target="_blank">
+                        &copy; {{currentYear}} Kalamata clinic is proudly created by
+                        <a href="https://vkaramanis.netlify.app/" target="_blank">
                             Karamanis Vasileios
                         </a>
                     </p>

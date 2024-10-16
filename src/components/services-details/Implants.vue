@@ -17,11 +17,7 @@
                         <p>{{ $t('touth_implant_page_smile_refresh_p') }}</p>
                     </div>
 
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_what_is_implant') }}</h3></u>
-                            <p>{{ $t('touth_implant_page_what_is_implant_p') }}</p>
-                        
-                    </div>
+                    
                     <div class="services-details-overview">
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
@@ -38,30 +34,10 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_advantages_title') }}</h3></u>
-                        <p>{{ $t('touth_implant_page_advantages_p') }}</p>
-                        
-                    </div>
-
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_placement_title') }}</h3></u>
-                        <p >{{ $t('touth_implant_page_placement_p') }}</p>
-                        
-                        
-                    </div>
-
                     <div class="services-details-content">
                         <u><h3>{{ $t('touth_implant_page_success_rate_title') }}</h3></u>
                             <p>{{ $t('touth_implant_page_success_rate_p') }}</p>       
                     </div>
-
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('touth_implant_page_need_implants_title') }}</h3></u>
-                            <p>{{ $t('touth_implant_page_need_implants_p') }}</p>       
-                    </div>
-
                 </div>
 
                 <div class="sidebar-container col-md-4 col-sm-12">

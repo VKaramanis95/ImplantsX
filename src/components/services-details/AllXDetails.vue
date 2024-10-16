@@ -47,24 +47,6 @@
                         <p>{{ $t('allx_page_p3') }}</p>
                     </div>
                     
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('allx_title4') }}</h3></u>
-                        <p>{{ $t('allx_page_p4') }}</p>
-                    </div>
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('allx_title5') }}</h3></u>
-                        <p>{{ $t('allx_page_p5') }}</p>
-                    </div>
-                    
-                    <div class="services-details-content">
-                        <u><h3>{{ $t('allx_title6') }}</h3></u>
-                        <p>{{ $t('allx_page_p6') }}</p>
-                    </div>
-
-                    
-
-                 
-                    
                 </div>
 
                 <div class="sidebar-container col-md-4 col-sm-12">
