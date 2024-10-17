@@ -715,10 +715,7 @@
     "blog_tourism_sidebar_upcomingevents":"",
     "blog_tourism_sidebar_popularevents":"",
 
-    "blog_cbct_post_on":"",
-    "blog_cbct_post_date":"",
-    "blog_cbct_post_from":"",
-    "blog_cbct_post_by":"",
+   
     "blog_cbct_title":"",
     "blog_cbct_p1":"",
     "blog_cbct_p2":"",
@@ -727,10 +724,9 @@
     "blog_cbct_advantages_p1":"",
     "blog_cbct_advantages_p2":"",
 
-    "blog_bonecrafts_post_on":"",
-    "blog_bonecrafts_post_from":"",
-    "blog_bonecrafts_post_date":"",
-    "blog_bonecrafts_post_by":"",
+    "blog_full_mouth_rest_long_title":"",
+    "blog_full_mouth_rest_long_p":"",
+    
     "blog_bonecrafts_title":"",
     "blog_bonecrafts_p":"",
     "blog_autografts_title":"",

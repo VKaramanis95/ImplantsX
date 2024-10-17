@@ -49,7 +49,7 @@
                     <span class="fullimage cover bg1" role="img"></span>
                 </router-link>
                 <div class="info">
-                    <span>November 27, 2022</span>
+                     
                     <h4 class="title usmall">
                         <router-link to="#">
                             The Secrets of Ancient Olympia
@@ -63,7 +63,7 @@
                     <span class="fullimage cover bg2" role="img"></span>
                 </router-link>
                 <div class="info">
-                    <span>November 27, 2022</span>
+                     
                     <h4 class="title usmall">
                         <router-link to="#">
                             7 + 1 reasons we love Messinia
@@ -77,7 +77,7 @@
                     <span class="fullimage cover bg3" role="img"></span>
                 </router-link>
                 <div class="info">
-                    <span>November 27, 2022</span>
+                     
                     <h4 class="title usmall">
                         <router-link to="#">6 things to do in Kalamata to get to know the city</router-link>
                     </h4>

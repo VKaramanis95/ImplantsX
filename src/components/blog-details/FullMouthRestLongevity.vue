@@ -5,22 +5,19 @@
                 <div class="col-lg-8 col-md-12">
                     <div class="blog-details-desc">
                         <div class="article-image">
-                            <img src="../../assets/images/blog/cbtc/cbtc.webp" alt="image">
+                            <img src="../../assets/images/services/full-mouth-rehab/full_mouth_bg.webp" alt="image">
 
                         </div>
 
                         <div class="article-content">
                             <div class="row">
-                                
+                               
 
-                                <h2><u>{{ $t('blog_cbct_title') }}</u></h2>
-                                <p>{{ $t('blog_cbct_p1') }}</p>
-                                <p>{{ $t('blog_cbct_p2') }}</p>
-                                <p>{{ $t('blog_cbct_p3') }}</p>
+                                <h2><u>{{ $t('blog_full_mouth_rest_long_title') }}</u></h2>
+                                <p>{{ $t('blog_full_mouth_rest_long_p') }}</p>
                                 
-                                <h2><u>{{ $t('blog_cbct_advantages_title') }}</u></h2>
-                                <p>{{ $t('blog_cbct_advantages_p1') }}</p>
-                                <p>{{ $t('blog_cbct_advantages_p2') }}</p>
+                                
+                                
                             </div>
                             
 
@@ -52,7 +49,7 @@
 
 import BlogSidebar from '../Common/BlogSidebar'
 export default {
-    name: 'FirstTimeDentist',
+    name: ' FullMouthRestLongevity',
     components: {
         BlogSidebar
     },

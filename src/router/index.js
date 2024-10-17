@@ -20,9 +20,6 @@ import Bridges from "../components/services-details/Bridges.vue"
 
 import ZircAndVeneers from "../components/services-details/ZircAndVeneers.vue"
 
-
-
-
 import Whitening from "../components/services-details/Whitening.vue"
 import HollywoodSmile from "../components/services-details/HollywoodSmile.vue"
 import DentalVeneersResin from "../components/services-details/DentalVeneersResin.vue"
@@ -77,6 +74,10 @@ import BlogZircVenBenefits from "../components/Pages/BlogZircVenBenefits.vue"
 import BlogZircVenConsumption from "../components/Pages/BlogZircVenConsumption.vue"
 import BlogZircVenFall from "../components/Pages/BlogZircVenFall.vue"
 import BlogZircVenLongevity from "../components/Pages/BlogZircVenLongevity.vue"
+import BlogFullMouthRestLongevity from "../components/Pages/BlogFullMouthRestLongevity.vue"
+
+
+
 
 
 
@@ -149,7 +150,6 @@ const routes = [
   { path: "/mouth-smell", name:"BlogMouthSmell", component:BlogMouthSmell},
   { path: "/brush-properly",name:"BlogHowBrushProperly",  component:BlogHowBrushProperly},
   { path: "/implants-pain", name:"BlogImplantsPain", component:BlogImplantsPain},
-
   { path: "/all6-or-all4", name:"BlogAllxAll6OrAll4", component:BlogAllxAll6OrAll4},
   { path: "/implants-denture-care", name:"BlogAllxImplantsDentureCare", component:BlogAllxImplantsDentureCare},  
   { path: "/why-smile-make-over", name:"BlogAllxWhySmileMakeOver", component:BlogAllxWhySmileMakeOver},
@@ -160,6 +160,7 @@ const routes = [
   { path: "/implants-eat-anything", name:"BlogImplantsEatAnything", component:BlogImplantsEatAnything},
   { path: "/implants-additional-procedure", name:"BlogImplantsAdditionalProcedure", component: BlogImplantsAdditionalProcedure},
   { path: "/implants-are-painful", name:"BlogImplantsIsPainful", component: BlogImplantsIsPainful},
+  { path: "/full-mouth-rest-longevity", name:"BlogFullMouthRestLongevity", component: BlogFullMouthRestLongevity},
  
   
 

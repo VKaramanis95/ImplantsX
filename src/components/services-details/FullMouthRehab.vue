@@ -153,7 +153,7 @@
 
                 <div class="sidebar-container col-md-4 col-sm-12">
                     <div class="sidebar-wrapper" ref="sidebar">
-                        <BlogSidebarImplants />
+                        <BlogSidebarFullMouthRest />
                     </div>
                 </div>
             </div>
@@ -162,12 +162,12 @@
 </template>
 
 <script>
-import BlogSidebarImplants from '../../components/services-sidebars/BlogSidebarImplants.vue';
+import BlogSidebarFullMouthRest from '../../components/services-sidebars/BlogSidebarFullMouthRest.vue';
 
 export default {
     name: 'FullMouthRehab',
     components: {
-        BlogSidebarImplants
+        BlogSidebarFullMouthRest
     },
     mounted() {
     // Get the sidebar element

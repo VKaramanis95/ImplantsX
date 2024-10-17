@@ -11,20 +11,7 @@
 
                         <div class="article-content">
                             <div class="row">
-                                <div class="entry-meta">
-                                    <ul>
-                                        <li>
-                                            <span>{{ $t('blog_cbct_post_on') }}</span> 
-                                            {{ $t('blog_cbct_post_date') }}
-                                        </li>
-                                        <li>
-                                            <span> {{ $t('blog_cbct_post_from') }} </span> 
-                                            <router-link to="/blog-details">
-                                                {{ $t('blog_cbct_post_by') }}
-                                            </router-link>
-                                        </li>
-                                    </ul>
-                                </div>
+                                
 
                                 <h2><u>{{ $t('zircven_sidebar_title3') }}</u></h2>
                                 <p>{{ $t('blog_zircven_fall_p') }}

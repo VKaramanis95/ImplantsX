@@ -3,33 +3,7 @@
         <div class="widget widget_grin_posts_thumb">
             <h3 class="widget-title">Recent posts</h3>
 
-            <div class="item">
-                <router-link to="/blog-details" class="thumb">
-                    <span class="fullimage cover bg1" role="img"></span>
-                </router-link>
-                <div class="info">
-                     
-                    <h4 class="title usmall">
-                        <router-link to="/blog-details">
-                            New Technology Make for Dental Operation
-                        </router-link>
-                    </h4>
-                </div>
-            </div>
-
-            <div class="item">
-                <router-link to="/blog-details" class="thumb">
-                    <span class="fullimage cover bg2" role="img"></span>
-                </router-link>
-                <div class="info">
-                     
-                    <h4 class="title usmall">
-                        <router-link to="/blog-details">
-                            Regular Dental care make Your Smile Brighter
-                        </router-link>
-                    </h4>
-                </div>
-            </div>
+            
 
             <div class="item">
                 <router-link to="/blog-details" class="thumb">
@@ -38,7 +12,20 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                        <router-link to="/blog-details">Dental Hygiene for All Age to Make Smile</router-link>
+                        <router-link to="/implants-denture-care">{{ $t('allx_sidebar_title1') }}</router-link>
+                    </h4>
+                </div>
+            </div>
+            <div class="item">
+                <router-link to="/blog-details" class="thumb">
+                    <span class="fullimage cover bg2" role="img"></span>
+                </router-link>
+                <div class="info">
+                     
+                    <h4 class="title usmall">
+                        <router-link to="/full-mouth-rest-longevity">
+                            {{ $t('blog_full_mouth_rest_long_title') }}
+                        </router-link>
                     </h4>
                 </div>
             </div>
@@ -53,13 +40,16 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                        <router-link to="/blog-details">
-                            New Technology Make for Dental Operation
+                        <router-link to="/cbct-tomography">
+                            {{ $t('blog_cbct_title') }}
                         </router-link>
                     </h4>
                 </div>
             </div>
 
+            
+            
+<!--
             <div class="item">
                 <router-link to="/blog-details" class="thumb">
                     <span class="fullimage cover bg2" role="img"></span>
@@ -67,24 +57,12 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                        <router-link to="/blog-details">
-                            Regular Dental care make Your Smile Brighter
+                        <router-link to="/after-surgery">
+                            Οδηγίες μετά το χειρουργείο
                         </router-link>
                     </h4>
                 </div>
-            </div>
-
-            <div class="item">
-                <router-link to="/blog-details" class="thumb">
-                    <span class="fullimage cover bg3" role="img"></span>
-                </router-link>
-                <div class="info">
-                     
-                    <h4 class="title usmall">
-                        <router-link to="/blog-details">Dental Hygiene for All Age to Make Smile</router-link>
-                    </h4>
-                </div>
-            </div>
+            </div>-->
         </div>
 
 
@@ -93,6 +71,6 @@
 
 <script>
 export default {
-    name: 'BlogSidebar'
+    name: 'BlogSidebarFullMouthRest'
 }
 </script>
