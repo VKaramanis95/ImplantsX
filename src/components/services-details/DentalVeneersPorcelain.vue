@@ -25,13 +25,13 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/hollywoodSmile/hollywood-smile.webp" alt="image">
+                                    <img src="../../assets/images/services/hollywoodSmile/clients/hs.webp" alt="image">
                                 </div>
                             </div>
         
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/hollywoodSmile/hollywood-smile1.webp" alt="image">
+                                    <img src="../../assets/images/services/hollywoodSmile/clients/hs.webp" alt="image">
                                 </div>
                             </div>
                         </div>

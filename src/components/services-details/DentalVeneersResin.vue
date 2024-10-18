@@ -28,13 +28,13 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/resin-veneers/client1.webp" alt="image">
+                                    <img src="" alt="image">
                                 </div>
                             </div>
         
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/resin-veneers/client1.webp" alt="image">
+                                    <img src="" alt="image">
                                 </div>
                             </div>
                         </div>

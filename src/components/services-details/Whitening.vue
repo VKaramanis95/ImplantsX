@@ -23,7 +23,7 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/whitening/whitening.webp" alt="image">
+                                    <img src="../../assets/images/services/whitening/whitening1.webp" alt="image">
                                 </div>
                             </div>
         

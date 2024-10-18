@@ -21,13 +21,13 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/zircCrowns/zirconiacrowns.webp" alt="image">
+                                    <img src="../../assets/images/services/zirc-veneers/clients/veneers.webp" alt="image">
                                 </div>
                             </div>
         
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/zircCrowns/zirconiacrowns.webp" alt="image">
+                                    <img src="../../assets/images/services/zirc-veneers/clients/zv1.webp" alt="image">
                                 </div>
                             </div>
                         </div>

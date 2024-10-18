@@ -61,15 +61,15 @@ export default {
   data() {
     return {
       photos: [
-                { url: require('@/assets/images/services/all6/all61.webp'), category:this.$t('gallery_allx') },
-                { url: require('@/assets/images/services/all6/all63.webp'), category: this.$t('gallery_allx') },
-                { url: require('@/assets/images/services/all4/all4r.webp'), category: this.$t('gallery_allx') },
-                { url: require('@/assets/images/services/implants/single-implant.webp'), category: this.$t('gallery_implants') },
-                { url: require('@/assets/images/services/zircCrowns/zirconiacrowns.webp'),  category: this.$t('gallery_zcrowns')},
-                { url: require('@/assets/images/services/zircCrowns/zirconia_client.webp'), category: this.$t('gallery_zcrowns')},
-                { url: require('@/assets/images/services/bridges/dental-bridges-ex.webp'), category: this.$t('gallery_zbridges')},
-                { url: require('@/assets/images/services/bridges/dental-bridges-ex1.webp'), category: this.$t('gallery_zbridges')},
-                { url: require('@/assets/images/services/full-mouth-rehab/full_mouth1.webp'), category: this.$t('gallery_rehab') },                
+               
+      { url: require('@/assets/images/services/zirc-veneers/clients/veneers.webp'),  category: this.$t('gallery_veneers')},
+      { url: require('@/assets/images/services/zirc-veneers/clients/zv1.webp'),  category: this.$t('gallery_veneers')},
+
+      { url: require('@/assets/images/services/zircCrowns/zirconia_client.webp'), category: this.$t('gallery_zcrowns')},
+      { url: require('@/assets/images/services/full-mouth-rehab/full_mouth1.webp'), category: this.$t('gallery_rehab') },
+      { url: require('@/assets/images/services/hollywoodSmile/clients/hs.webp'), category: this.$t('gallery_hsmile') },  
+      { url: require('@/assets/images/services/hollywoodSmile/clients/hs1.webp'), category: this.$t('gallery_hsmile') },  
+      { url: require('@/assets/images/services/allOnX/clients/allx.webp'), category: this.$t('gallery_allx') },                
         // Add more photos here with their respective categories
       ],
       activeAccordion: null,

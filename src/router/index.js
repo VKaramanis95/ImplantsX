@@ -15,7 +15,6 @@ import Niliopoulou from "../components/Pages/Niliopoulou.vue"
 import ServicesPage  from "../components/Pages/ServicesPage.vue"
 import AllXDetails from "../components/services-details/AllXDetails.vue"
 import FullMouthRehab from "../components/services-details/FullMouthRehab.vue"
-import ZirconiaCr from "../components/services-details/ZirconiaCr.vue"
 import Bridges from "../components/services-details/Bridges.vue"
 
 import ZircAndVeneers from "../components/services-details/ZircAndVeneers.vue"
@@ -102,7 +101,7 @@ const routes = [
   {path: "/all-on-x-details",name:"AllXDetails", component:AllXDetails},
   {path: "/full-mouth-rehabilitation",name:"FullMouthRehab", component:FullMouthRehab},
 
-  {path: "/zirconia-crowns",name:"ZirconiaCr",component:ZirconiaCr},
+  
   {path: "/zirconia-bridges", name:"Bridges",component:Bridges},
   {path: "/whitening",name:"Whitening",component:Whitening},
   {path: "/hollywood-smile",name:"HollywoodSmile",component:HollywoodSmile},
