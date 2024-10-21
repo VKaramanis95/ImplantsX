@@ -83,7 +83,7 @@ export default defineComponent({
             },
             {
                 id: 5,
-                heading: 'hollywood-smile',
+                heading: 'gallery_hsmile',
                 btnLinkOne: '/nav_hsmile',
                 image: require('../../assets/images/services/hollywoodSmile/hollywood-smile-service.webp'), 
             },

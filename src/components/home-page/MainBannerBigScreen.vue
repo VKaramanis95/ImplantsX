@@ -66,16 +66,9 @@ export default defineComponent ({
                 btnLinkOne: '/contact-us',
                 
             },
+          
             {
                 id: 2,
-                class: 'main-slides-item item-bg5',
-                subtitle: 'Keeping Teeth Clean',
-                heading: 'The World Best Dental Specialist Treatment',
-               btnTextOne: 'Contact Us',
-                btnLinkOne: '/contact-us',
-            },
-            {
-                id: 3,
                 class: 'main-slides-item item-bg6',
                 subtitle: 'Keeping Teeth Clean',
                 heading: 'The World Best Dental Specialist Treatment',

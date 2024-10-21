@@ -52,7 +52,7 @@
                 <div class="col-lg-4">
                     <div class="about-image" >
                         <img class="about-image-main-page" src="../../assets/images/about/office1.webp" alt="image">
-                        <img class="about-image-main-page" src="../../assets/images/about/main-page.webp" alt="image">
+                        <img class="about-image-main-page" src="../../assets/images/about/office2.webp" alt="image">
                         <img class="about-image-main-page" src="../../assets/images/about/office.webp" alt="image">
                        
                         
