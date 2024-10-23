@@ -36,7 +36,7 @@
 
                 <div class="sidebar-container col-md-4 col-sm-12">
                     <div class="sidebar-wrapper" ref="sidebar">
-                        <BlogSidebar />
+                        <BlogSidebarAllonX />
                     </div>
                 </div>
                 
@@ -47,11 +47,11 @@
 
 <script>
 
-import BlogSidebar from '../Common/BlogSidebar'
+import BlogSidebarAllonX from '../../components/services-sidebars/BlogSidebarAllonX.vue';
 export default {
-    name: 'FirstTimeDentist',
+    name: 'AllxAll6OrAll4',
     components: {
-        BlogSidebar
+        BlogSidebarAllonX
     },
         mounted() {
         // Get the sidebar element

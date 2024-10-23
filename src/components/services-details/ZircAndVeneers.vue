@@ -56,7 +56,7 @@
 import BlogSideBarZircVeneers from '../../components/services-sidebars/BlogSideBarZircVeneers.vue';
 
 export default {
-    name: 'FullMouthRehab',
+    name: 'ZircAndVeneers',
     components: {
         BlogSideBarZircVeneers
     },

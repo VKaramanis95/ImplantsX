@@ -67,7 +67,6 @@ import BlogImplantsGoldStandard from "../components/Pages/BlogImplantsGoldStanda
 import BlogImplantsQuality from "../components/Pages/BlogImplantsQuality.vue"
 import BlogImplantsEatAnything from "../components/Pages/BlogImplantsEatAnything.vue"
 import BlogImplantsAdditionalProcedure from "../components/Pages/BlogImplantsAdditionalProcedure.vue"
-import BlogImplantsIsPainful from "../components/Pages/BlogImplantsIsPainful.vue"
 import BlogZircVenColor from "../components/Pages/BlogZircVenColor.vue"
 import BlogZircVenBenefits from "../components/Pages/BlogZircVenBenefits.vue"
 import BlogZircVenConsumption from "../components/Pages/BlogZircVenConsumption.vue"
@@ -158,7 +157,6 @@ const routes = [
   { path: "/implants-quality", name:"BlogImplantsQuality", component:BlogImplantsQuality},
   { path: "/implants-eat-anything", name:"BlogImplantsEatAnything", component:BlogImplantsEatAnything},
   { path: "/implants-additional-procedure", name:"BlogImplantsAdditionalProcedure", component: BlogImplantsAdditionalProcedure},
-  { path: "/implants-are-painful", name:"BlogImplantsIsPainful", component: BlogImplantsIsPainful},
   { path: "/full-mouth-rest-longevity", name:"BlogFullMouthRestLongevity", component: BlogFullMouthRestLongevity},
  
   

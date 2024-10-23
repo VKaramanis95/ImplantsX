@@ -33,7 +33,7 @@
 
                 <div class="sidebar-container col-md-4 col-sm-12">
                     <div class="sidebar-wrapper" ref="sidebar">
-                        <BlogSidebar />
+                        <BlogSidebarImplants />
                     </div>
                 </div>
                 
@@ -44,11 +44,11 @@
 
 <script>
 
-import BlogSidebar from '../Common/BlogSidebar'
+import BlogSidebarImplants from '../../components/services-sidebars/BlogSidebarImplants.vue';
 export default {
     name: 'ImplantsPain',
     components: {
-        BlogSidebar
+        BlogSidebarImplants
     },
         mounted() {
         // Get the sidebar element

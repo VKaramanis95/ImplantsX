@@ -56,7 +56,7 @@
 
                 <div class="sidebar-container col-md-4 col-sm-12">
                     <div class="sidebar-wrapper" ref="sidebar">
-                        <BlogSidebar />
+                        <BlogSideBarZircVeneers />
                     </div>
                 </div>
                 
@@ -67,11 +67,12 @@
 
 <script>
 
-import BlogSidebar from '../Common/BlogSidebar'
+import BlogSideBarZircVeneers from '../../components/services-sidebars/BlogSideBarZircVeneers.vue';
 export default {
-    name: 'FirstTimeDentist',
+    name: 'ZircVenFall',
     components: {
-        BlogSidebar
+        BlogSideBarZircVeneers
+
     },
         mounted() {
         // Get the sidebar element

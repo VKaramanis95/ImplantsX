@@ -75,14 +75,14 @@
             
 
             <div class="item">
-                <router-link to="/implants-are-painful" class="thumb">
+                <router-link to="/implants-pain" class="thumb">
                     <span class="fullimage cover bg2" role="img"></span>
                 </router-link>
                 <div class="info">
                      
                     <h4 class="title usmall">
                       
-                        <router-link to="/implants-are-painful">{{ $t('implant_sidebar_title_is_painful') }}</router-link>
+                        <router-link to="/implants-pain">{{ $t('implant_sidebar_title_is_painful') }}</router-link>
 
                     </h4>
                 </div>
