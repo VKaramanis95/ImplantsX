@@ -34,17 +34,7 @@
                                 {{ $t('button_read_more') }}
                             </router-link>
 
-                            <ul class="entry-meta">
-                                <li>
-                                    <i class='bx bxs-user'></i>
-                                    <span>By 
-                                        <router-link to="/tsetsenekou">
-                                            {{ $t('our_team_tsetsenekou') }}
-                                        </router-link>
-                                    </span>
-                                </li>
-                                
-                            </ul>
+                           
                         </div>
                     </div>
                 </div>
@@ -69,17 +59,7 @@
                                 {{ $t('button_read_more') }}
                             </router-link>
 
-                            <ul class="entry-meta">
-                                <li>
-                                    <i class='bx bxs-user'></i>
-                                    <span>By 
-                                        <router-link to="/tsetsenekou">
-                                            {{ $t('our_team_tsetsenekou') }}
-                                        </router-link>
-                                    </span>
-                                </li>
-                                
-                            </ul>
+                            
                         </div>
                     </div>
                 </div>
@@ -104,17 +84,7 @@
                                 {{ $t('button_read_more') }}
                             </router-link>
 
-                            <ul class="entry-meta">
-                                <li>
-                                    <i class='bx bxs-user'></i>
-                                    <span>By 
-                                        <router-link to="/tsetsenekou">
-                                            {{ $t('our_team_tsetsenekou') }}
-                                        </router-link>
-                                    </span>
-                                </li>
-                                
-                            </ul>
+                            
                         </div>
                     </div>
                 </div>

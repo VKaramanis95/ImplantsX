@@ -20,7 +20,7 @@
     import AboutUsHomePage from'../home-page/AboutUsHomePage.vue'
     import OurDentist from '../Common/OurDentist'
     import OurClients from '../Common/OurClients'
-    import Blog from '../Common/Blog'
+    import Blog from '../Blog/BlogHomePage'
     import OurServicesMainPage from '../ServicesMainPage/OurServicesMainPage.vue'
     import PartnerCarousel from '../Common/PartnerCarousel.vue'
 

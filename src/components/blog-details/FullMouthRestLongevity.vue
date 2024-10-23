@@ -36,7 +36,7 @@
 
                 <div class="sidebar-container col-md-4 col-sm-12">
                     <div class="sidebar-wrapper" ref="sidebar">
-                        <BlogSidebar />
+                        <BlogSidebarFullMouthRest />
                     </div>
                 </div>
                 
@@ -47,11 +47,11 @@
 
 <script>
 
-import BlogSidebar from '../Common/BlogSidebar'
+import BlogSidebarFullMouthRest from '../../components/services-sidebars/BlogSidebarFullMouthRest.vue';
 export default {
-    name: ' FullMouthRestLongevity',
+    name: 'FullMouthRestLongevity',
     components: {
-        BlogSidebar
+        BlogSidebarFullMouthRest
     },
         mounted() {
         // Get the sidebar element

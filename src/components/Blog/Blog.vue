@@ -49,10 +49,7 @@ export default {
                     image: require('@/assets/images/blog/pediatric-dentistry/pediatric_allblog.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/pediatric-dentistry',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                   
                 },
                 {
                     titleKey: 'blog_allpage_preventive_title',
@@ -60,10 +57,7 @@ export default {
                     image: require('@/assets/images/blog/preventive-dentistry/preventive_dentistry_allblog.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/preventive-dentistry',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                   
                 },
                 
                 {
@@ -72,10 +66,7 @@ export default {
                     image: require('@/assets/images/blog/mouth-smell/mouth_smell_blog_all.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/mouth-smell',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                   
                 },
                 {
                     titleKey: 'blog_allpage_mouth_brush_title',
@@ -83,10 +74,7 @@ export default {
                     image: require('@/assets/images/blog/brushing/mouth-brushing-allblog.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/brush-properly',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                   
                 },
                 {
                     titleKey: 'blog_allpage_white_smile_secrets_title',
@@ -94,10 +82,7 @@ export default {
                     image: require('@/assets/images/blog/white-smile-secrets/white_smile_allblog.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/white-smile-secrets',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                   
                 },
                 {
                     titleKey: 'blog_allpage_implants_pain_title',
@@ -105,10 +90,7 @@ export default {
                     image: require('@/assets/images/blog/implants-pain/implantspain-allblog.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/implants-pain',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                   
                 },
                 
                 {
@@ -117,10 +99,7 @@ export default {
                     image: require('@/assets/images/blog/implants-rejection-possibility/rejection_allblog.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/implants-rejection-podibility',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                    
                 },
                 {
                     titleKey: 'blog_allpage_wisdom_tooth_extraction_title',
@@ -128,10 +107,7 @@ export default {
                     image: require('@/assets/images/blog/wisdom-tooth/wisdom-teeth-allblog.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/wisdom-tooth-extraction',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                    
                 },
                 {
                     titleKey: 'blog_allpage_dentist_first_title',
@@ -139,10 +115,7 @@ export default {
                     image: require('@/assets/images/blog/first-time/first_time_allblog.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/first-time',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                    
                 },
                 {
                     titleKey: 'blog_allpage_prp_facelift_title',
@@ -150,10 +123,15 @@ export default {
                     image: require('@/assets/images/blog/prp-facelift/prp_facelift_main.webp'),
                     altKey: 'image_alt_pediatric',
                     link: '/prp-facelift',
-                    author: {
-                        nameKey: 'our_team_tsetsenekou',
-                        link: '/tsetsenekou'
-                    }
+                    
+                },
+                {
+                    titleKey: 'blog_allpage_cbct_title  ',
+                    excerptKey: 'blog_allpage_cbct_p',
+                    image: require('@/assets/images/blog/cbtc/cbtc.webp'),
+                    altKey: 'image_alt_pediatric',
+                    link: '/cbct-tomography',
+                    
                 },
             ],
             perPage: 6,

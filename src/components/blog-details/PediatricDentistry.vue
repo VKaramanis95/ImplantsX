@@ -90,7 +90,6 @@
 
 <script>
 
-import BlogSidebar from '../Common/BlogSidebar'
 export default {
     name: 'PediatricDentistry',
     
