@@ -24,7 +24,7 @@
     computed: {
       isSmallScreen() {
         // Example: Check if screen width is less than 768px for small screen
-        return window.innerWidth <= 1280;
+        return window.innerWidth <= 1262;
       }
     },
     mounted() {

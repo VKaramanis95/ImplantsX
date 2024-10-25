@@ -1029,49 +1029,7 @@ Main Service Slides Area CSS
           animation-delay: 2s;
 }
 
-.main-slides-content-services .slides-btn .checkup-content {
-  display: inline-block;
-  position: relative;
-  margin-left: 20px;
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
-}
 
-.main-slides-content-services .slides-btn .checkup-content .icon {
-  position: absolute;
-  top: -20px;
-  left: 0;
-}
-
-.main-slides-content-services.slides-btn .checkup-content .icon i {
-  display: inline-block;
-  height: 65px;
-  width: 65px;
-  line-height: 65px;
-  background-color: #06a3da;
-  color: #ffffff;
-  font-size: 40px;
-  text-align: center;
-  border-radius: 50%;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.main-slides-content-services .slides-btn .checkup-content .icon i:hover {
-  background-color: #124390;
-}
-
-.main-slides-content-services .slides-btn .checkup-content span {
-  padding-left: 75px;
-}
-
-.main-slides-content-services .slides-btn .checkup-content span a {
-  color: #222222;
-}
-
-.main-slides-content-services .slides-btn .checkup-content span a:hover {
-  color: #06a3da;
-}
 
 .main-slides-content-services .slides-btn .optional-btn {
   display: inline-block;
@@ -1228,50 +1186,6 @@ Main Slides Area CSS
 .main-slides-content .slides-btn .default-btn {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
-}
-
-.main-slides-content .slides-btn .checkup-content {
-  display: inline-block;
-  position: relative;
-  margin-left: 20px;
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
-}
-
-.main-slides-content .slides-btn .checkup-content .icon {
-  position: absolute;
-  top: -20px;
-  left: 0;
-}
-
-.main-slides-content .slides-btn .checkup-content .icon i {
-  display: inline-block;
-  height: 65px;
-  width: 65px;
-  line-height: 65px;
-  background-color: #06a3da;
-  color: #ffffff;
-  font-size: 40px;
-  text-align: center;
-  border-radius: 50%;
-  -webkit-transition: 0.6s;
-  transition: 0.6s;
-}
-
-.main-slides-content .slides-btn .checkup-content .icon i:hover {
-  background-color: #124390;
-}
-
-.main-slides-content .slides-btn .checkup-content span {
-  padding-left: 75px;
-}
-
-.main-slides-content .slides-btn .checkup-content span a {
-  color: #222222;
-}
-
-.main-slides-content .slides-btn .checkup-content span a:hover {
-  color: #06a3da;
 }
 
 .main-slides-content .slides-btn .optional-btn {
@@ -4380,7 +4294,7 @@ th {
   border-radius: 30px 0 0 30px;
 }
 
-.gallery-list-tab .tabs .tabs__header .tabs__header-item:nth-child(7) {
+.gallery-list-tab .tabs .tabs__header .tabs__header-item:nth-child(6) {
   border-radius: 0 30px 30px 0;
 }
 

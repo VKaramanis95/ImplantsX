@@ -905,46 +905,7 @@ Main Slides Area CSS
         .default-btn {
             animation-delay: 2s;
         }
-        .checkup-content {
-            display: inline-block;
-            position: relative;
-            margin-left: 20px;
-            animation-delay: 2.5s;
-
-            .icon {
-                position: absolute;
-                top: -20px;
-                left: 0;
-
-                i {
-                    display: inline-block;
-                    height: 65px;
-                    width: 65px;
-                    line-height: 65px;
-                    background-color: $main-color;
-                    color: $white-color;
-                    font-size: 40px;
-                    text-align: center;
-                    border-radius: 50%;
-                    transition: $transition;
-
-                    &:hover {
-                        background-color: $optional-color;
-                    }
-                }
-            }
-            span {
-                padding-left: 75px;
-
-                a {
-                    color: $black-color;
-
-                    &:hover {
-                        color: $main-color;
-                    }
-                }
-            }
-        }
+       
         .optional-btn {
             display: inline-block;
             background-color: $black-color;

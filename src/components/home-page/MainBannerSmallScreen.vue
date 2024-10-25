@@ -16,7 +16,6 @@
                                 {{slide.subtitle}}
                             </span>
                             <h1>{{slide.heading}}</h1>
-                            <p>{{slide.description}}</p>
                             
                             <div class="slides-btn">
                                 <router-link 
@@ -58,19 +57,17 @@ export default defineComponent ({
                 id: 1,
                 class: 'main-slides-item item-bg4',
                 subtitle: 'Keeping Teeth Clean',
-                heading: 'The World Best Dental Specialist Treatment',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                heading: 'Brighten Your Smile Today!',
                 btnTextOne: 'Contact Us',
                 btnLinkOne: '/contact-us',
                 
             },
-            
+          
             {
                 id: 2,
                 class: 'main-slides-item item-bg6',
-                subtitle: 'Keeping Teeth Clean',
-                heading: 'The World Best Dental Specialist Treatment',
-                description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+                subtitle: 'Keeping your smile Bright',
+                heading: 'Your Smile, Our Priority!',
                 btnTextOne: 'Contact Us',
                 btnLinkOne: '/contact-us',
             },
@@ -78,3 +75,15 @@ export default defineComponent ({
     })
 })
 </script>
+<style>
+.align-right {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: -70px; /* Adds more space from the right */
+}
+
+.align-right .main-slides-content {
+    text-align: right;
+    margin-right: -70px; /* Adds more space from the right for finer control */
+}
+</style>

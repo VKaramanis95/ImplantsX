@@ -2,7 +2,7 @@
     <div class="container" ref="container">
         <div class="row">
         
-            <div class="services-details-area ptb-80">
+            <div class="services-details-area ptb-80" style="padding:100px 5px;">
                 
                
                <p>{{ $t('blog_implants_dailycare_p') }}</p>

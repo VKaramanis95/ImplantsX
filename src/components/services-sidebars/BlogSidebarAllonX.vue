@@ -71,20 +71,33 @@
             </div>
 
             
-<!--
+
             <div class="item">
-                <router-link to="/blog-details" class="thumb">
+                <router-link to="/after-surgery" class="thumb">
                     <span class="fullimage cover bg2" role="img"></span>
                 </router-link>
                 <div class="info">
                      
                     <h4 class="title usmall">
                         <router-link to="/after-surgery">
-                            Οδηγίες μετά το χειρουργείο
+                            {{ $t('blog_implants_after_surgery_main_title') }}
                         </router-link>
                     </h4>
                 </div>
-            </div>-->
+            </div>
+            <div class="item">
+                <router-link to="/daily-care" class="thumb">
+                    <span class="fullimage cover bg2" role="img"></span>
+                </router-link>
+                <div class="info">
+                     
+                    <h4 class="title usmall">
+                      
+                        <router-link to="/daily-care">{{ $t('blog_implants_dailycare_title') }}</router-link>
+
+                    </h4>
+                </div>
+            </div>
         </div>
 
 

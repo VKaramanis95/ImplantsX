@@ -40,6 +40,7 @@
                 </div>
             </div>
             
+            
         </div>
         <div class="widget widget_grin_posts_thumb">
             <h3 class="widget-title">Most Popular Posts</h3>
@@ -67,6 +68,19 @@
                     <h4 class="title usmall">
                       
                         <router-link to="/veneers-longevity">{{ $t('zircven_sidebar_title4') }}</router-link>
+
+                    </h4>
+                </div>
+            </div>
+            <div class="item">
+                <router-link to="/daily-care" class="thumb">
+                    <span class="fullimage cover bg2" role="img"></span>
+                </router-link>
+                <div class="info">
+                     
+                    <h4 class="title usmall">
+                      
+                        <router-link to="/daily-care">{{ $t('blog_implants_dailycare_title') }}</router-link>
 
                     </h4>
                 </div>

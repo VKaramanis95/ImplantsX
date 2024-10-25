@@ -161,7 +161,7 @@ const routes = [
  
   
 
-  { path: "/after-surgery",name:"BlogImplantsGuideAfterSurgery.vue",  component:BlogImplantsGuideAfterSurgery.vue},
+  { path: "/after-surgery",name:"BlogImplantsGuideAfterSurgery",  component:BlogImplantsGuideAfterSurgery},
   { path: "/daily-care",name:"BlogDailyImplantsCare",  component:BlogDailyImplantsCare},
 
   { path: "/implants-rejection-podibility",name:"BlogImplantsRejectionPosibility", component:BlogImplantsRejectionPosibility},

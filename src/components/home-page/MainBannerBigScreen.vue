@@ -34,9 +34,9 @@
                 </div>
             </slide>
             
-            <template #addons>
+            <!--<template #addons>
                 <Navigation />
-            </template>
+            </template>-->
         </carousel>
     </div>
 </template>
@@ -61,7 +61,7 @@ export default defineComponent ({
                 id: 1,
                 class: 'main-slides-item item-bg4',
                 subtitle: 'Keeping Teeth Clean',
-                heading: 'The World Best Dental Specialist Treatment',
+                heading: 'Brighten Your Smile Today!',
                 btnTextOne: 'Contact Us',
                 btnLinkOne: '/contact-us',
                 
@@ -70,8 +70,8 @@ export default defineComponent ({
             {
                 id: 2,
                 class: 'main-slides-item item-bg6',
-                subtitle: 'Keeping Teeth Clean',
-                heading: 'The World Best Dental Specialist Treatment',
+                subtitle: 'Keeping your smile Bright',
+                heading: 'Your Smile, Our Priority!',
                 btnTextOne: 'Contact Us',
                 btnLinkOne: '/contact-us',
             },
