@@ -75,7 +75,7 @@
 
 <script>
 export default {
-    name: 'Pricing',
+    name: 'PricingLargeScreenLayout',
     data () {
         return {
             activeTab: 1,

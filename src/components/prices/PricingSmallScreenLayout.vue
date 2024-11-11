@@ -79,7 +79,7 @@
 
 <script>
 export default {
-    name: 'Pricing',
+    name: 'PricingSmallScreenLayout',
     data () {
         return {
             tabs: [
