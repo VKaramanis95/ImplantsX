@@ -413,6 +413,67 @@ Top Header Area CSS
 }
 
 /*================================================
+Top Header Offer Area CSS
+=================================================*/
+.top-header-area-offer {
+  background: linear-gradient(90deg, #f8f9fa, #e9ecef, #dee2e6, #ced4da, #adb5bd);
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.text-carousel-offer {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-content-offer {
+  display: inline-block;
+  animation: scroll 20s linear infinite;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.carousel-content-offer router-link {
+  text-decoration: none;
+}
+
+.carousel-content-offer span {
+  display: inline-block;
+  padding: 0 50px; /* Adjust spacing between items */
+  font-size: 18px;
+  color: #495057;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.carousel-content-offer span:hover {
+  color: #06a3da /* Change color on hover */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-content-offer span {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-content-offer span {
+    font-size: 22px;
+  }
+}
+/*================================================
 Middle Header Area CSS
 =================================================*/
 .middle-header-area {
