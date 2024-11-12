@@ -26,28 +26,56 @@
     mounted() {
       const carousel = this.$el.querySelector('.carousel-content-offer');
       const spans = carousel.querySelectorAll('span');
+      let interactionOccurred = false; // Track whether the user has interacted
   
       spans.forEach(span => {
-        // Mouse events
+        // Hover behavior
         span.addEventListener('mouseenter', () => {
-          carousel.style.animationPlayState = 'paused';
+          if (!interactionOccurred) {
+            carousel.style.animationPlayState = 'paused';
+          }
         });
         span.addEventListener('mouseleave', () => {
-          carousel.style.animationPlayState = 'running';
+          if (!interactionOccurred) {
+            carousel.style.animationPlayState = 'running';
+          }
         });
   
         // Touch events
         span.addEventListener('touchstart', () => {
-          carousel.style.animationPlayState = 'paused';
+          if (!interactionOccurred) {
+            carousel.style.animationPlayState = 'paused';
+          }
         });
         span.addEventListener('touchend', () => {
-          carousel.style.animationPlayState = 'running';
+          if (!interactionOccurred) {
+            carousel.style.animationPlayState = 'running';
+          }
         });
   
-        // Click event (after click, resume the carousel)
+        // Click or touch event to resume animation and disable hover effects
         span.addEventListener('click', () => {
-          carousel.style.animationPlayState = 'running';  // Resume animation immediately after click
+          carousel.style.animationPlayState = 'running';
+          interactionOccurred = true; // Mark that interaction has occurred
+          // Remove hover and touch behavior after click/touch
+          span.removeEventListener('mouseenter', pauseAnimation);
+          span.removeEventListener('mouseleave', resumeAnimation);
+          span.removeEventListener('touchstart', pauseAnimation);
+          span.removeEventListener('touchend', resumeAnimation);
         });
+  
+        // Helper functions for hover and touch
+        const pauseAnimation = () => {
+          if (!interactionOccurred) {
+            carousel.style.animationPlayState = 'paused';
+          }
+        };
+  
+        const resumeAnimation = () => {
+          if (!interactionOccurred) {
+            carousel.style.animationPlayState = 'running';
+          }
+        };
       });
     }
   }
