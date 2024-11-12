@@ -115,7 +115,7 @@
                             </div>
 
                             <!-- Pricing Info -->
-                            <div class="col-lg-4 col-md-4" @mouseover="underlineClickHere" @mouseleave="removeUnderline">
+                            <div  v-if="userCountry !== 'Greece'" class="col-lg-4 col-md-4" @mouseover="underlineClickHere" @mouseleave="removeUnderline">
                                 <div class="about-info">
                                     <i class="flaticon-euro"></i>
                                     <h4>{{ $t('dental_tourism_prices') }}</h4>
@@ -152,59 +152,73 @@ export default {
     },
     data() {
         return {
-            underlineClick: false
+            underlineClick: false,
+            userCountry: null
         };
     },
     mounted() {
-        this.setupSidebar();
+        this.fetchUserCountry();
 
+        this.setupSidebar();
         window.addEventListener('scroll', this.handleScroll);
         this.handleScroll(); // Call handleScroll once on mount to initialize elements in viewport
     
      // Get the sidebar element
      const sidebar = this.$refs.sidebar;
 
-// Capture the initial width of the sidebar before fixing it
-const sidebarInitialWidth = sidebar.offsetWidth;
+    // Capture the initial width of the sidebar before fixing it
+    const sidebarInitialWidth = sidebar.offsetWidth;
 
-// Get the navigation bar height
-const navbarHeight = document.querySelector('nav').offsetHeight;
+    // Get the navigation bar height
+    const navbarHeight = document.querySelector('nav').offsetHeight;
 
-// Calculate the top position of the sidebar
-const sidebarTop = sidebar.getBoundingClientRect().top + window.scrollY - navbarHeight;
+    // Calculate the top position of the sidebar
+    const sidebarTop = sidebar.getBoundingClientRect().top + window.scrollY - navbarHeight;
 
-// Get the services details area container
-const servicesDetailsArea = document.querySelector('.services-details-area');
+    // Get the services details area container
+    const servicesDetailsArea = document.querySelector('.services-details-area');
 
-// Get the height of the services details area
-const servicesDetailsAreaHeight = servicesDetailsArea.offsetHeight;
+    // Get the height of the services details area
+    const servicesDetailsAreaHeight = servicesDetailsArea.offsetHeight;
 
-// Calculate the bottom position of the services details area
-const servicesDetailsAreaBottom = servicesDetailsArea.getBoundingClientRect().bottom + window.scrollY - sidebar.offsetHeight - 210; // Adjust 210 to stop earlier
+    // Calculate the bottom position of the services details area
+    const servicesDetailsAreaBottom = servicesDetailsArea.getBoundingClientRect().bottom + window.scrollY - sidebar.offsetHeight - 210; // Adjust 210 to stop earlier
 
-// Add padding to the top of the sidebar equal to the height of the navigation bar
-sidebar.style.paddingTop = `${navbarHeight}px`;
+    // Add padding to the top of the sidebar equal to the height of the navigation bar
+    sidebar.style.paddingTop = `${navbarHeight}px`;
 
-// Add scroll event listener to window
-window.addEventListener('scroll', () => {
-    // Calculate the scroll distance from top
-    const scrollTop = window.scrollY;
+    // Add scroll event listener to window
+    window.addEventListener('scroll', () => {
+        // Calculate the scroll distance from top
+        const scrollTop = window.scrollY;
 
-    // Check if the scroll distance is greater than or equal to the top position of the sidebar
-    // and less than the position of the bottom of the services details area
-    if (scrollTop >= sidebarTop && scrollTop <= servicesDetailsAreaBottom) {
-        // Fix the position of the sidebar
-        sidebar.style.position = 'fixed';
-        sidebar.style.top = `${navbarHeight}px`; // Adjust for the height of the navigation bar
-        sidebar.style.width = `${sidebarInitialWidth}px`; // Keep the sidebar width consistent
-    } else {
-        // Release the fixed position of the sidebar
-        sidebar.style.position = 'static';
-        sidebar.style.width = ''; // Reset the width when not fixed
+        // Check if the scroll distance is greater than or equal to the top position of the sidebar
+        // and less than the position of the bottom of the services details area
+        if (scrollTop >= sidebarTop && scrollTop <= servicesDetailsAreaBottom) {
+            // Fix the position of the sidebar
+            sidebar.style.position = 'fixed';
+            sidebar.style.top = `${navbarHeight}px`; // Adjust for the height of the navigation bar
+            sidebar.style.width = `${sidebarInitialWidth}px`; // Keep the sidebar width consistent
+        } else {
+            // Release the fixed position of the sidebar
+            sidebar.style.position = 'static';
+            sidebar.style.width = ''; // Reset the width when not fixed
     }
 });
     },
     methods: {
+        fetchUserCountry() {
+            fetch('https://ipapi.co/json/')
+                .then(response => response.json())
+                .then(data => {
+                    this.userCountry = data.country_name; // Set the country name
+                    console.log("User's country:", this.userCountry); // Log for testing purposes
+                })
+                .catch(error => {
+                    console.error('Error fetching country:', error);
+                    this.userCountry = 'Unknown'; // Fallback in case of error
+                });
+        },
         underlineClickHere() {
             this.underlineClick = true;
         },

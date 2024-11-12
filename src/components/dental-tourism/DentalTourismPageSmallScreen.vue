@@ -110,17 +110,16 @@
                                                 <span>{{ $t('dental_tourism_clients_span') }}</span>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4" @mouseover="underlineClickHere" @mouseleave="removeUnderline">
+                            <div class="col-lg-4 col-md-4" v-if="userCountry !== 'Greece'" @mouseover="underlineClickHere" @mouseleave="removeUnderline">
                                 <div class="about-info">
-                                                <i class="flaticon-euro"></i>
-                                                <h4>{{ $t('dental_tourism_prices') }}</h4>
-                                                <router-link to="/pricing">
-                                                    <span :style="{ 'text-decoration': underlineClick ? 'underline' : 'none', 'font-weight': underlineClick ? 'bold' : 'normal' }"><a href="/pricing">{{ $t('dental_tourism_prices_clik_span') }}</a></span>
-                                                </router-link>
+                                    <i class="flaticon-euro"></i>
+                                    <h4>{{ $t('dental_tourism_prices') }}</h4>
+                                    <router-link to="/pricing">
+                                        <span :style="{ 'text-decoration': underlineClick ? 'underline' : 'none', 'font-weight': underlineClick ? 'bold' : 'normal' }"><a href="/pricing">{{ $t('dental_tourism_prices_clik_span') }}</a></span>
+                                    </router-link>
                 
                                 </div>
-                            </div>
-                                    
+                            </div>        
                         </div>
                     </div>
                    
@@ -146,17 +145,30 @@ export default {
     components: {
         BlogSideBarDentalTourism
     },
+    data() {
+        return {
+            underlineClick: false,
+            userCountry: null 
+        };
+    },
     mounted() {
+            this.fetchUserCountry();
             window.addEventListener('scroll', this.handleScroll);
             this.handleScroll(); // Call handleScroll once on mount to initialize elements in viewport
     },
 
-    data() {
-        return {
-            underlineClick: false
-        }
-    },
     methods: {
+        fetchUserCountry() {
+            fetch('https://ipapi.co/json/')
+                .then(response => response.json())
+                .then(data => {
+                    this.userCountry = data.country_name;
+                })
+                .catch(error => {
+                    console.error('Error fetching country:', error);
+                    this.userCountry = 'Unknown'; // Fallback if there's an error
+                });
+        },
         handleScroll() {
             let elements = document.querySelectorAll('.glide-in');
             elements.forEach(element => {
