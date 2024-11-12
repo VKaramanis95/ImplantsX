@@ -28,10 +28,19 @@
       const spans = carousel.querySelectorAll('span');
   
       spans.forEach(span => {
+        // Mouse events
         span.addEventListener('mouseenter', () => {
           carousel.style.animationPlayState = 'paused';
         });
         span.addEventListener('mouseleave', () => {
+          carousel.style.animationPlayState = 'running';
+        });
+  
+        // Touch events
+        span.addEventListener('touchstart', () => {
+          carousel.style.animationPlayState = 'paused';
+        });
+        span.addEventListener('touchend', () => {
           carousel.style.animationPlayState = 'running';
         });
       });
@@ -39,4 +48,3 @@
   }
   </script>
   
- 
