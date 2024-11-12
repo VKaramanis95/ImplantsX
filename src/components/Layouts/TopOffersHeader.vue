@@ -43,6 +43,11 @@
         span.addEventListener('touchend', () => {
           carousel.style.animationPlayState = 'running';
         });
+  
+        // Click event (after click, resume the carousel)
+        span.addEventListener('click', () => {
+          carousel.style.animationPlayState = 'running';  // Resume animation immediately after click
+        });
       });
     }
   }
