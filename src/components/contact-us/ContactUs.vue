@@ -7,8 +7,8 @@
             <i class="flaticon-hashtag-symbol"></i>
             Message Us
           </span>
-          <h2>Need dental advice? Message us anytime for expert help and care!</h2>
-          <p>We stand ready to assist you with all your dental inquiries and requirements. Whether you are seeking advice, wish to schedule an appointment, or have concerns to address, please do not hesitate to send us a message. Our dedicated team is committed to providing the support and solutions necessary for nurturing a healthier smile.</p>
+          <h2>{{ $t('contact_title') }}</h2>
+          <p>{{ $t('contact_p') }}</p>
         </div>
   
         <!-- Contact Form -->
@@ -68,10 +68,10 @@
         <!-- Contact Information -->
         <div class="contact-info">
           <div class="contact-info-content">
-            <h3>Reach out to us via phone or email for assistance.</h3>
+            <h3>{{ $t('contact_reachout') }}</h3>
             <h2>
               <a href="tel:+302721098891">+30 2721098891</a>
-              <span>OR</span>
+              <span>{{ $t('contact_or') }}</span>
               <a href="mailto:smilemakeover4u@gmail.com">smilemakeover4u@gmail.com</a>
             </h2>
             <!-- Social Links -->

@@ -63,6 +63,7 @@
     "services_main_page_span":" Our Dental Services",
     "services_main_page_h2":"Our Services",
 
+
     "form_fname":"First Name",
     "form_lname":"Last Name",
     "form_phone":"Phone",
@@ -150,22 +151,19 @@
     "aboutUsHomePage_ul_li_4":"Aesthetic color change interventions and tooth shape (whitening, veneers, smile aligners)",
     "aboutUsHomePage_p_end":"Your Smile, Our Priority!",
 
-    "services_main_span":"",
-    "services_main_title":"",
-    "services_main_all4_p":"Revolutionize your smile with our All-on-4 dental implants. This innovative technique utilizes four strategically placed implants to support a full set of teeth, providing a secure and natural-looking solution. Experience the confidence of a complete smile restoration with our expert team.",
-    "services_main_all6_p":"Regain your full smile with the All-On-X system, offering All-on-4 or All-on-6 options. This advanced dental technique uses four or six implants to support a permanent, natural-looking set of teeth, providing maximum comfort, stability, and a beautifully restored smile.",
+    "services_main_title":"Welcome to our Services",
+    "services_main_p":"At Smile Make Over Clinic, we provide a full range of dental services, from preventive care to cosmetic and restorative treatments. Our expert team uses the latest techniques and technologies to ensure your smile is both healthy and beautiful, with your comfort and satisfaction as our top priorities.",
+    "services_main_allx_p":"Regain your full smile with the All-On-X system, offering All-on-4 or All-on-6 options. This advanced dental technique uses four or six implants to support a permanent, natural-looking set of teeth, providing maximum comfort, stability, and a beautifully restored smile.",
     "services_main_implants_p":"Revitalize your smile with our advanced dental implants. From precise placement to natural-looking crowns, our expert team ensures a seamless process for single, multiple, or full-tooth restoration. Regain confidence and functionality—schedule your personalized consultation today!",
     "services_main_mouthRehab_p":"Revitalize your smile with our full mouth rehabilitation services. Our personalized approach addresses oral health concerns, offering a comprehensive range of treatments, from restorations to cosmetic enhancements. Experience optimal functionality and lasting results with our skilled team. Unveil a renewed, confident smile with our transformative full mouth rehabilitation.",
-    "services_main_zcrowns_p":"Transform your smile with custom-made veneers and durable zirconia crowns. These cosmetic solutions provide a natural, flawless look, enhancing both the function and beauty of your teeth.",
-    "services_main_zbridges_p":"Revitalize your smile with Zirconia Bridges at Smile Make Over! Our bridges, known for their durability and natural appearance, seamlessly replace missing teeth, restoring both function and aesthetics. Say farewell to gaps and embrace a confident, radiant smile. Schedule a consultation today to explore the transformative benefits of Zirconia Bridges – the key to a beautiful and resilient smile!",
-    "services_main_veneers_resin_p":"Elevate your smile effortlessly with our resin veneers. Crafted with precision, these custom-designed shells seamlessly cover imperfections, ensuring a flawless appearance. Enjoy a natural and radiant smile transformation that boosts your confidence. Schedule a consultation today to discover how our personalized resin veneer solution can revitalize your smile with ease.",
-    "services_main_veneers_porcelain_p":"Indulge in a smile makeover with our porcelain veneers, meticulously crafted to perfection. These ultra-thin shells are tailored to conceal imperfections while delivering a luminous, natural-looking smile. Transform your appearance with confidence and grace. Book a consultation now to explore how our personalized porcelain veneer solution can enhance your smile effortlessly.",
+    "services_main_zcrowns_veneers_p":"Transform your smile with custom-made veneers and durable zirconia crowns. These cosmetic solutions provide a natural, flawless look, enhancing both the function and beauty of your teeth.",
     "services_main_hsmile_p":"Discover your Hollywood smile at our cutting-edge dental clinic. With expert care and advanced techniques, we'll transform your teeth into a radiant masterpiece. Schedule your appointment today!",
     "services_main_whitening_p":"Brighten your smile effortlessly with our teeth whitening services. Our professional treatment effectively removes stains and discoloration, leaving your teeth noticeably whiter and brighter. Achieve a radiant, confident smile in no time. Schedule your teeth whitening session for a dazzling transformation!",
     "services_main_denture_p":"Rediscover confidence in your smile with our custom dentures. Carefully crafted to fit your unique dental structure, our dentures offer comfort and functionality. Say goodbye to discomfort and hello to a natural-looking smile that restores your confidence. Schedule a consultation today and embark on the journey towards a vibrant, new smile with our personalized denture solutions.",
     "services_main_lays_p":"Experience dental restoration at its finest with our precision-crafted onlays. Designed to seamlessly blend with your natural teeth, our onlays provide durable and long-lasting solutions for tooth restoration. Restore both function and aesthetics to your smile with confidence. Reach out to us today to learn more about how our customized onlay solutions can revitalize your dental health effortlessly.",
-    "services_main_p":"With pleasure, we offer Conscious Sedation as part of our dental services, ensuring your comfort and relaxation during procedures. Prioritizing safety and efficiency, our clinic provides optimal care for your dental needs. For more information, click",
+    "services_main_p_sedation":"With pleasure, we offer Conscious Sedation as part of our dental services, ensuring your comfort and relaxation during procedures. Prioritizing safety and efficiency, our clinic provides optimal care for your dental needs. For more information, click",
     "services_main_p_here":"here",
+
 
     
     "conscious_sedation_title":"Conscious Sedation",
@@ -537,6 +535,11 @@
     "gallery_hsmile":"Hollywood Smile",
     "gallery_whitening":"Teeth Whitening",
 
+    "contact_title":"Need dental advice? We’re here to help! Message us anytime for expert care and personalized support!",
+    "contact_p":"We stand ready to assist you with all your dental inquiries and requirements. Whether you are seeking advice, wish to schedule an appointment, or have concerns to address, please do not hesitate to send us a message. Our dedicated team is committed to providing the support and solutions necessary for nurturing a healthier smile.",
+    "contact_reachout":"Reach out to us via phone or email for assistance.",
+    "contact_or":"OR",
+
     "prices_span":"Prices",
     "prices_h2":"Our Price Packages",
     "prices_all6":"All on 6",
@@ -566,13 +569,7 @@
     "our_clinic_equipment_product4_p":"Piezo bone surgery is an alternative method of jaw bone surgery, which is performed using a special device, the piezotome. It is an ultrasound device that gives the dentist the ability to perform high-precision osteotomies. The main advantage of the piezotome is that it does not cut soft tissues but only the bone which is of interest to us. Thus we can perform difficult surgical operations near complex anatomical areas such as large vessels and nerves, protecting them from injury and providing the patient with safety during the operation.",
     "our_clinic_equipment_product5_h3":"CBCT-Panoramic",  
     "our_clinic_equipment_product5_p":"Panoramic X-Rays and Dental cone beam computed tomography (CBCT) are special types of x-ray equipment. Ours is a state-of-the-art scanning machine. We use it to produce precise, high quality 2D and 3D images of your teeth, soft tissues, nerve pathways and bone in a single scan. Unlike standard x-rays, it allows us to measure the bone depth, width, density and condition of your jawbone when necessary and the location of important structures such as nerve and blood canals or the sinuses ingreat detail. We use 2D and 3D images either as a preventive screening or as a partof the treatment planning .",
-    "our_clinic_equipment_product5_a":"a) for preventive examination, where it may reveal:",
-    "our_clinic_equipment_product5_li_1":"Periodontal disease",
-    "our_clinic_equipment_product5_li_2":"Impacted teeth",
-    "our_clinic_equipment_product5_li_3":"Temporomandibular joint disorder",
-    "our_clinic_equipment_product5_li_4":"Sinusitis",
-    "our_clinic_equipment_product5_li_5":"Tumor",
-    "our_clinic_equipment_product5_b":"b) for the planning of prosthetic work, extractions, and implants.",
+   
 
     "dental_tourism_span":"Dental Tourism",
     "dental_tourism_main_h3":"Discover the Enriching Dental Journey in Kalamata: A Blend of Care and Culture",
@@ -726,7 +723,7 @@
     "blog_main_prp_facelift_title":"Is the PRP- mesotherapy treatment safe?",
     "blog_main_prp_facelift_p":"This modern anti-aging treatment uses our own blood and utilizes its healing and regenerative properties. Therefore there is no risk of infection, allergy or other reactions. The PRP method rebuilds the skin naturally and eliminates wrinkles not by “filling” them with foreign substances in the body, but refreshing the skin from within: collagen and hyaluronic acid are produced by fibroblasts of the organization itself, so the filling of wrinkles occurs gradually and lasts over time. There are of course some health conditions (eg haematological disorders) you should talk about with the doctor which might be contraindications for the implementation of the method.",
 
-    "blog_allpage_cbct_title  ":"Cone Beam Computed Tomography(CBCT)",
+    "blog_allpage_cbct_title":"Cone Beam Computed Tomography(CBCT)",
     "blog_allpage_cbct_p":"Three-dimensional radiographic imaging is a scientific achievement with...",
     "blog_main_cbct_title":"Cone Beam Computed Tomography(CBCT)",
     "blog_main_cbct_p1":"Three-dimensional radiographic imaging is a scientific achievement with many advantages, offering a more accurate and safer diagnostic tool. Today, three-dimensional radiographic imaging through Cone Beam Computer Tomography (CBCT) in modern dental practice is a valuable diagnostic tool, particularly in cases of anatomical challenges encountered in implant planning or general dental treatments (e.g., the inferior alveolar nerve, nasal and paranasal sinuses). Proper and accurate planning protects the patient while also providing unique treatment planning protocols and loading strategies for dental implants. The much greater imaging accuracy compared to a traditional Dental CT allows for the digital placement of implants on a computer using data from the radiograph, facilitated by specialized software. This ensures more precise planning and enhances patient safety.",

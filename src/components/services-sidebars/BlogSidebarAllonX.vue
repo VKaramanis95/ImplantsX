@@ -50,7 +50,7 @@
                      
                     <h4 class="title usmall">
                         <router-link to="/cbct-tomography">
-                            {{ $t('blog_allpage_cbct_title  ') }}
+                            {{ $t('blog_allpage_cbct_title') }}
                         </router-link>
                     </h4>
                 </div>

@@ -2,11 +2,9 @@
     <div class="services-area ptb-100">
         <div class="container">
             <div class="team-text">
-                <h2>Welcome to our Services</h2>
+                <h2>{{ $t('services_main_title') }}</h2>
                 <p  style="padding-top:10px;">
-                    At Smile Make Over Clinic, we provide a full range of dental services, from preventive care to cosmetic and restorative treatments. Our expert team uses the latest techniques and technologies to ensure your smile is both healthy and beautiful, with your comfort and satisfaction as our top priorities.
-
-
+                    {{ $t('services_main_p') }}
                 </p>
             </div>
 
@@ -32,7 +30,7 @@
                                     {{ $t('nav_allx') }}
                                 </router-link>
                             </h3>
-                            <p>{{ $t('services_main_all6_p') }}</p>
+                            <p>{{ $t('services_main_allx_p') }}</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +56,7 @@
                                     
                                 </router-link>
                             </h3>
-                            <p>{{ $t('touth_implant_service_p') }}</p>
+                            <p>{{ $t('services_main_implants_p') }}</p>
                         </div>
                     </div>
                 </div>
@@ -107,7 +105,7 @@
                                     
                                 </router-link>
                             </h3>
-                            <p>{{ $t('services_main_zcrowns_p') }}</p>
+                            <p>{{ $t('services_main_zcrowns_veneers_p') }}</p>
                         </div>
                     </div>
                 </div>
@@ -157,7 +155,7 @@
                                     
                                 </router-link>
                             </h3>
-                            <p>{{ $t('services_main_zcrowns_p') }}</p>
+                            <p>{{ $t('services_main_zcrowns_veneers_p') }}</p>
                         </div>
                     </div>
                 </div>
@@ -517,7 +515,7 @@
             </div>
         </div>
         <div class="container" style="padding-top: 50px;">
-            <p>{{ $t('services_main_p') }}  <router-link to="/conscious-sedation"><u><b>{{ $t('services_main_p_here') }}</b></u></router-link>!</p>
+            <p>{{ $t('services_main_p_sedation') }}  <router-link to="/conscious-sedation"><u><b>{{ $t('services_main_p_here') }}</b></u></router-link>!</p>
         </div>
     </div>
 </template>

@@ -144,20 +144,18 @@
     "aboutUsHomePage_ul_li_4":"Ästhetische Zahnheilkunde (Bleaching, Veneers)",
     "aboutUsHomePage_p_end":"Ihr Lächeln, unsere Priorität!",
 
-    "services_main_span":"",
     "services_main_title":"",
+    "services_main_p":"",
     "services_main_all4_p":"",
-    "services_main_all6_p":"",
+    "services_main_allx_p":"",
     "services_main_implants_p":"",
     "services_main_mouthRehab_p":"",
-    "services_main_zcrowns_p":"",
-    "services_main_zbridges_p":"",
-    "services_main_veneers_p":"",
+    "services_main_zcrowns_veneers_p":"",
     "services_main_hsmile_p":"",
     "services_main_whitening_p":"",
     "services_main_denture_p":"",
     "services_main_lays_p":"",
-    "services_main_p":"",
+    "services_main_p_sedation":"",
     "services_main_p_here":"",
 
 
@@ -512,6 +510,10 @@
     "gallery_hsmile":"Hollywood-Lächeln",
     "gallery_whitening":"Zahnaufhellung",
 
+    "contact_title":"",
+    "contact_p":"",
+    "contact_reachout":"",
+"contact_or":"",
 
     "prices_span":"Preise",
     "prices_h2":"Unsere Preispakete",
@@ -543,13 +545,7 @@
     "our_clinic_equipment_product4_p":"",
     "our_clinic_equipment_product5_h3":"",
     "our_clinic_equipment_product5_p":"",
-    "our_clinic_equipment_product5_a":"",
-    "our_clinic_equipment_product5_li_1":"",
-    "our_clinic_equipment_product5_li_2":"",
-    "our_clinic_equipment_product5_li_3":"",
-    "our_clinic_equipment_product5_li_4":"",
-    "our_clinic_equipment_product5_li_5":"",
-    "our_clinic_equipment_product5_b":"",
+  
 
 
     "dental_tourism_span":"",

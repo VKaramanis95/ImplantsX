@@ -13,7 +13,7 @@
                             <div class="row">
                                 
 
-                                <h2><u>{{ $t('blog_allpage_cbct_title  ') }}</u></h2>
+                                <h2><u>{{ $t('blog_allpage_cbct_title') }}</u></h2>
                                 <p>{{ $t('blog_main_cbct_p1') }}</p>
                                 <p>{{ $t('blog_main_cbct_p2') }}</p>
                                 <p>{{ $t('blog_main_cbct_p3') }}</p>

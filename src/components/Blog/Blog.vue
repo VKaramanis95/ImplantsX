@@ -126,7 +126,7 @@ export default {
                     
                 },
                 {
-                    titleKey: 'blog_allpage_cbct_title  ',
+                    titleKey: 'blog_allpage_cbct_title',
                     excerptKey: 'blog_allpage_cbct_p',
                     image: require('@/assets/images/blog/cbtc/cbtc.webp'),
                     altKey: 'image_alt_pediatric',
