@@ -2,9 +2,9 @@
     <div class="contact-area ptb-100">
         <div class="container">
             <div class="contact-form border">
-                <u><h2 class="animated">Thank you for reaching out our clinic!</h2></u>
-                <p class="animated">Your message has been received, and we greatly appreciate your interest in Smile Make Over. Our team is dedicated to providing you with the best possible service, and we will get back to you as soon as possible.</p>
-                <p class="animated">In the interim, should you have any pressing questions or require immediate assistance, please don't hesitate to reach out to us directly at <b><a href="tel:+302721098891">+30 2721098891</a></b> Your satisfaction and comfort are our top priorities, and we eagerly anticipate the opportunity to assist you further in our dental clinic.</p>
+                <u><h2 class="animated">{{ $t('contact_thanks_title') }}</h2></u>
+                <p class="animated">{{ $t('contact_thanks_p') }}</p>
+                <p class="animated">{{ $t('contact_thanks_p1') }} <b><a href="tel:+302721098891">{{ $t('contact_thanks_p_phone') }}</a></b>{{ $t('contact_thanks_p1_1') }}</p>
             </div>
         </div>
     </div>

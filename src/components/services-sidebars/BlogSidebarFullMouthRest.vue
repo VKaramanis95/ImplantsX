@@ -1,7 +1,7 @@
 <template>
     <div class="widget-area"> 
         <div class="widget widget_grin_posts_thumb">
-            <h3 class="widget-title">Recent posts</h3>
+            <h3 class="widget-title">{{ $t('sidebar_recent_posts') }}</h3>
 
             
 
@@ -12,7 +12,7 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                        <router-link to="/implants-denture-care">{{ $t('allx_sidebar_title1') }}</router-link>
+                        <router-link to="/implants-denture-care">{{ $t('sidebar_fullmouth_r1_title') }}</router-link>
                     </h4>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                      
                     <h4 class="title usmall">
                         <router-link to="/full-mouth-rest-longevity">
-                            {{ $t('blog_full_mouth_rest_long_title') }}
+                             {{ $t('sidebar_fullmouth_r2_title') }}
                         </router-link>
                     </h4>
                 </div>
@@ -32,7 +32,7 @@
             
         </div>
         <div class="widget widget_grin_posts_thumb">
-            <h3 class="widget-title">Most Popular Posts</h3>
+            <h3 class="widget-title">{{ $t('sidebar_popular_posts') }}</h3>
 
             
             <div class="item">
@@ -43,7 +43,7 @@
                      
                     <h4 class="title usmall">
                         <router-link to="/after-surgery">
-                            {{ $t('blog_implants_after_surgery_main_title') }}
+                            {{ $t('sidebar_fullmouth_p1_title') }}
                         </router-link>
                     </h4>
                 </div>
@@ -56,7 +56,7 @@
                      
                     <h4 class="title usmall">
                       
-                        <router-link to="/daily-care">{{ $t('blog_implants_dailycare_title') }}</router-link>
+                        <router-link to="/daily-care">{{ $t('sidebar_fullmouth_p2_title') }}</router-link>
 
                     </h4>
                 </div>

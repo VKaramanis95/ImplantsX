@@ -1,7 +1,7 @@
 <template>
     <div class="widget-area"> 
         <div class="widget widget_grin_posts_thumb">
-            <h3 class="widget-title">Recent posts</h3>
+            <h3 class="widget-title">{{ $t('sidebar_recent_posts') }}</h3>
 
             <div class="item">
                 <router-link to="/why-we-lose-teeth" class="thumb">
@@ -10,7 +10,7 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                       <router-link to="/why-we-lose-teeth">{{ $t('implant_sidebar_title_lose_teeth') }}</router-link>
+                       <router-link to="/why-we-lose-teeth">{{ $t('sidebar_implants_r1_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -23,7 +23,7 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                        <router-link to="/implants-gold-standards">{{ $t('implant_sidebar_title_gold_standard') }}</router-link>
+                        <router-link to="/implants-gold-standards">{{ $t('sidebar_implants_r2_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -35,14 +35,14 @@
                      
                     <h4 class="title usmall">
                      
-                        <router-link to="/implants-quality">{{ $t('implant_sidebar_title_quality_implant') }}</router-link>
+                        <router-link to="/implants-quality">{{ $t('sidebar_implants_r3_title') }}</router-link>
 
                     </h4>
                 </div>
             </div>
         </div>
         <div class="widget widget_grin_posts_thumb">
-            <h3 class="widget-title">Most Popular Posts</h3>
+            <h3 class="widget-title">{{ $t('sidebar_popular_posts') }}</h3>
 
             <div class="item">
                 <router-link to="/implants-eat-anything" class="thumb">
@@ -52,7 +52,7 @@
                      
                     <h4 class="title usmall">
                        
-                        <router-link to="/implants-eat-anything">{{ $t('implant_sidebar_title_eat_anything') }}</router-link>
+                        <router-link to="/implants-eat-anything">{{ $t('sidebar_implants_p1_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -66,7 +66,7 @@
                      
                     <h4 class="title usmall">
                        
-                        <router-link to="/implants-additional-procedure">{{ $t('implant_sidebar_title_additional_procedure') }}</router-link>
+                        <router-link to="/implants-additional-procedure">{{ $t('sidebar_implants_p2_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -82,7 +82,7 @@
                      
                     <h4 class="title usmall">
                       
-                        <router-link to="/daily-care">{{ $t('blog_implants_dailycare_title') }}</router-link>
+                        <router-link to="/daily-care">{{ $t('sidebar_implants_p3_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -96,7 +96,7 @@
                      
                     <h4 class="title usmall">
                         <router-link to="/after-surgery">
-                            {{ $t('blog_implants_after_surgery_main_title') }}
+                            {{ $t('sidebar_implants_p4_title') }}
                         </router-link>
                     </h4>
                 </div>

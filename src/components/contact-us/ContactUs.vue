@@ -115,7 +115,7 @@
     methods: {
       sendEmail() {
         if (this.validateForm()) {
-          emailjs.sendForm('service_ft361vz', 'template_nkw036e', this.$refs.form, 'B53nC8ZIxp5S9FY6k')
+          emailjs.sendForm('service_78mwolq', 'template_6gyg9ln', this.$refs.form, 'WdpwOxF2-E9dpdfWf')
             .then((response) => {
               console.log('SUCCESS!', response.status, response.text);
               this.submissionStatus = 'success';

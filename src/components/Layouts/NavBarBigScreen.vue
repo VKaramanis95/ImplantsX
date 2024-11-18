@@ -77,7 +77,7 @@
                                                 
                                                 <li class="nav-item">
                                                     <router-link to="/implants" class="nav-link">
-                                                        {{ $t('touth_implant') }}
+                                                        {{ $t('nav_implants') }}
                                                     </router-link>
                                                 </li>
                                                 

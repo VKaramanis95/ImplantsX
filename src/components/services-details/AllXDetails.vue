@@ -32,12 +32,12 @@
                         <div class="row">
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/all6/all61.webp" alt="image">
+                                    <img src="../../assets/images/services/allOnX/clients/allx.webp" alt="image">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="single-gallery">
-                                    <img src="../../assets/images/services/all6/all62.webp" alt="image">
+                                    <img src="../../assets/images/services/allOnX/clients/allx.webp" alt="image">
                                 </div>
                             </div>
                         </div>

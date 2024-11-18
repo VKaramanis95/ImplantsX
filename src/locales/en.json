@@ -56,6 +56,10 @@
     "nav_periodontology":"Periodontology",
     "nav_orofacial":"Orofacial Pain",
 
+    "top_bar_offer_allx":"All on X from 8000$",
+    "top_bar_offer_implant":"Single dental implant from 1200$",
+    "top_bar_offer_hs":"Hollywood Smile from 800$",
+    "top_bar_offer_veneers":"Veneers from 700$",
 
     "button_view_all":"More",
     "button_read_more":"Read More",
@@ -220,13 +224,6 @@
    "allx_page_p2":"The duration of the procedure varies depending on the patient, but the surgery typically takes approximately two and a half hours per arch. With All-on-X, patients can receive their temporary teeth restoration immediately after surgery. However, there is a 4 to 6-month osseointegration period during which the implants fuse with the jawbone.",
    "allx_title3":"What happens if I don't undergo the All-On-X procedure?",
    "allx_page_p3":"When teeth are lost, progressive bone loss ensues. Without the stimulation provided by roots or implants, the bone rapidly resorbs, with up to 25% lost within the first year. While dentures and crowns may address cosmetic concerns, they fail to tackle bone loss in the jaw, leading to a weakened jawbone over time. This can result in a sunken facial appearance, which is highly unaesthetic. Dental implants stimulate the bone, preventing resorption and preserving facial aesthetics.",
-   
-   "allx_sidebar_title":"What is the difference between All-On-4 and All-On-6?",
-   "allx_sidebar_title1":"How should patients care for their new implant dentures?",
-   "allx_sidebar_title2":"Why choose Smile Make Over for All-On-X treatment ?",
-   "allx_sidebar_title3":"Will the dental implants require additional adhesives?",
-   "allx_sidebar_title4":"",
-
   
 
    "blog_allx_all4orall6_post_date":"September XXX",
@@ -401,13 +398,7 @@
     "touth_implant_page_success_rate_title":"What is the success rate of dental implants?",
     "touth_implant_page_success_rate_p":"Dental implants have achieved a consistently high success rate (over 95%) since their introduction decades ago. Greater success is achieved through a combination of surgical technology, high-quality materials, clinical experience, and long-term maintenance. Naturally, when you undergo any restorative health care treatment, you want to be confident that you’ll receive the absolute best care, both in terms of the skill and capability of the provider and in the quality and effectiveness of the materials used in the procedure. At Smile Make Over clinic, we are committed to giving our patients the best possible result in everything we do, which means using the finest dental implants available. Therefore, we choose to use Nobel BioCare implants in our clinics, as they feature the most effective designs and highest quality materials available today with a lifetime guarantee. For dental implants to provide the most excellent combination of longevity, stability, durability, and appearance, they must be manufactured with the highest quality materials. Titanium is the finest dental implant material due to its unique combination of strength, lightweight, and ability to strongly bond with human bone. This last factor is significant, as not all metals can do this.",
 
-    "implant_sidebar_title_lose_teeth":"Why do we lose our teeth ?",
-    "implant_sidebar_title_gold_standard":"What makes dental implants 'The Gold Standard' ?",
-    "implant_sidebar_title_quality_implant":"What is the quality of Dental Implants ?",
-    "implant_sidebar_title_eat_anything":"Can I eat anything with Dental Implants ?",
-    "implant_sidebar_title_additional_procedure":"Are there ant additional procedures needed ?",
-    "implant_sidebar_title_is_painful":"Is it painful to get Dental Implants ?",
-    
+   
     "blog_implants_lose_teeth_p":"People lose their permanent teeth for many reasons, including accidents, trauma, and disease. One of the most common diseases that can result in the loss of permanent teeth is periodontitis, also known as gum disease. This disease occurs due to bacteria and infection in the gums and leads to inflammation and the bone and tissue supporting the teeth breaking down. Pregnancy, osteoporosis, and even some medications can also cause tooth loss. Many adults experience teeth loss, so you’re not alone. Dental implants offer the most incredible comfort of all tooth replacement solutions and avoid the long-term health effects of tooth loss and bone density reduction. Choosing to undergo a dental implant procedure is a big step, but one that can have a significant impact on the state of your health & quality of your life. Therefore, it’s so important that the procedure is performed with only the best tools, equipment, and materials. Losing teeth can occur for a wide range of different reasons. Perhaps the tooth was knocked out by an accidental impact or became so severely damaged as to necessitate an extraction, or maybe extensive tooth decay and other dental problems have caused one or more teeth to become loose or even fall out. Regardless of the underlying cause, lost teeth can lead to further oral health problems if left untreated. Fortunately, dental implants are a simple, effective, and permanent solution to the problem of lost and missing teeth. Dental implants are far superior to other options, such as traditional dentures or bridges. They can prevent many of the long-term dental problems known to develop because of the loss of teeth in the jaw, including gradual bone density loss and problems chewing or talking.",
     "blog_implants_gold_standard_p":"Dental implants are the only permanent tooth replacement option, and they’re designed to last for decades. Because they are surgically inserted into the jawbone, they provide health and functional benefits comparable to natural teeth. Since the implant itself mimics the form and structure of a natural tooth and is embedded directly into the jaw to take the place of the entire missing tooth and root, it prevents the loss of bone density.",
     "blog_implants_quality_implant_p":"The shape and structure of the post of the implant also have a significant impact on the connection between the bone and the replacement tooth. Many types of implants have specialised ‘threads’ on the post designed to provide the maximum surface area for the bone to adhere to, increasing the connection’s strength and the bond’s permanence. While there are many different manufacturers of dental implants, Happy Smile Clinic relies on the quality and advanced technology of the dental implants offered by Nobel BioCare, Straumann, and Hiossen. As the industry leader in dental implant innovation, both in design and material development, Nobel BioCare, Straumann, and Hiossen have a proven track record that is renowned worldwide. Happy Smile Clinics feels there is no better choice of dental implants for our patients than Nobel BioCare, Straumann, and Hiossen.",
@@ -539,6 +530,12 @@
     "contact_p":"We stand ready to assist you with all your dental inquiries and requirements. Whether you are seeking advice, wish to schedule an appointment, or have concerns to address, please do not hesitate to send us a message. Our dedicated team is committed to providing the support and solutions necessary for nurturing a healthier smile.",
     "contact_reachout":"Reach out to us via phone or email for assistance.",
     "contact_or":"OR",
+
+    "contact_thanks_title":"Thank you for reaching out our clinic!",
+    "contact_thanks_p":"Your message has been received, and we greatly appreciate your interest in Smile Make Over. Our team is dedicated to providing you with the best possible service, and we will get back to you as soon as possible.",
+    "contact_thanks_p1":"In the interim, should you have any pressing questions or require immediate assistance, please don't hesitate to reach out to us directly at",
+    "contact_thanks_p_phone":"+30 2721098891 ",
+    "contact_thanks_p1_1":"Your satisfaction and comfort are our top priorities, and we eagerly anticipate the opportunity to assist you further in our dental clinic.",
 
     "prices_span":"Prices",
     "prices_h2":"Our Price Packages",
@@ -738,12 +735,38 @@
     "blog_tourism_sidebar_upcomingevents":"Upcoming Events:",
     "blog_tourism_sidebar_popularevents":"Most Popular Events:",
 
-    
-   
 
-    "blog_full_mouth_rest_long_title":"How long can my full-mouth reconstruction can last?",
-    "blog_full_mouth_rest_long_p":"The future timeline for a full-mouth reconstruction will vary, as it does with all patients, depending on your personal factors, oral structure, health, and the type of procedures you undergone. However, many of the most commonly used reconstruction options have a lifespan of at least a decade. These options include veneers, dental implants, crowns, and bridges, all of which can last ten years or more if patients take the proper care. Proper care, of course, involves daily hygiene habits such as brushing, flossing, and rinsing. Another integral component is scheduling routine check-ups and cleanings. After your full-mouth reconstruction, a follow-up appointment will allow us (or your general dentist) to check that everything is comfortable and that your bite is functional and does not give you any trouble. Additionally, our doctors can provide tips and tricks for correct care to help you extend the lifespan of your reconstruction or make any necessary alterations if you aren't pleased with your results. Then, through routine check-ups, we can monitor your progress, provide professional cleanings, and evaluate the integrity of any implants, fixtures, or veneers.",
-   
+    "sidebar_recent_posts":"Recent posts",
+    "sidebar_popular_posts":"Most Popular Posts",
+
+    "sidebar_allx_r1_title":"What is the difference between All-On-4 and All-On-6?",
+    "sidebar_allx_r2_title":"How should patients care for their new implant dentures?",
+    "sidebar_allx_r3_title":"Why choose Smile Make Over for All-On-X treatment ?",
+    "sidebar_allx_p1_title":"Cone Beam Computed Tomography(CBCT)",
+    "sidebar_allx_p2_title":"Will the dental implants require additional adhesives?",
+    "sidebar_allx_p3_title":"After surgery instructions",
+    "sidebar_allx_p4_title":"Daily Care",
+
+    "sidebar_implants_r1_title":"Why do we lose our teeth ?",
+    "sidebar_implants_r2_title":"What makes dental implants 'The Gold Standard'?",
+    "sidebar_implants_r3_title":"What is the quality of Dental Implants ?",
+    "sidebar_implants_p1_title":"Can I eat anything with Dental Implants ?",
+    "sidebar_implants_p2_title":"Are there ant additional procedures needed ?",
+    "sidebar_implants_p3_title":"Daily Care",
+    "sidebar_implants_p4_title":"After surgery instructions",
+
+    "sidebar_fullmouth_r1_title":"How should patients care for their new implant dentures?",
+    "sidebar_fullmouth_r2_title":"How long can my full-mouth reconstruction can last?",
+    "sidebar_fullmouth_p1_title":"After surgery instructions",
+    "sidebar_fullmouth_p2_title":"Daily Care",
+      
+    "sidebar_veneers_r1_title":"Can you get zirconia veneers in a more natural colour/not so white ?",
+    "sidebar_veneers_r2_title":"What is E.max® and what are it's benefits ?",
+    "sidebar_veneers_r3_title":"What can i eat and drink with veneers ?",
+    "sidebar_veneers_p1_title":"Can veneers fall off ?",
+    "sidebar_veneers_p2_title":"How long do E.MAX®️ and Zirconia veneers last ?",
+    "sidebar_veneers_p3_title":"Daily Care",
+
     "blog_bonecrafts_title":"",
     "blog_bonecrafts_p":"",
     "blog_autografts_title":"",

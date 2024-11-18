@@ -1,7 +1,7 @@
 <template>
     <div class="widget-area"> 
         <div class="widget widget_grin_posts_thumb">
-            <h3 class="widget-title">Recent posts</h3>
+            <h3 class="widget-title">{{ $t('sidebar_recent_posts') }}</h3>
 
             <div class="item">
                 <router-link to="/veneers-natural-color" class="thumb">
@@ -10,7 +10,7 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                       <router-link to="/veneers-natural-color">{{ $t('zircven_sidebar_title') }}</router-link>
+                       <router-link to="/veneers-natural-color">{{ $t('sidebar_veneers_r1_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -22,7 +22,7 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                       <router-link to="/veneers-benefits">{{ $t('zircven_sidebar_title1') }}</router-link>
+                       <router-link to="/veneers-benefits">{{ $t('sidebar_veneers_r2_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -34,7 +34,7 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                        <router-link to="/veneers-consumption">{{ $t('zircven_sidebar_title2') }}</router-link>
+                        <router-link to="/veneers-consumption">{{ $t('sidebar_veneers_r3_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -43,7 +43,7 @@
             
         </div>
         <div class="widget widget_grin_posts_thumb">
-            <h3 class="widget-title">Most Popular Posts</h3>
+            <h3 class="widget-title">{{ $t('sidebar_popular_posts') }}</h3>
 
             <div class="item">
                 <router-link to="/veneers-fall" class="thumb">
@@ -53,7 +53,7 @@
                      
                     <h4 class="title usmall">
                       
-                        <router-link to="/veneers-fall">{{ $t('zircven_sidebar_title3') }}</router-link>
+                        <router-link to="/veneers-fall">{{ $t('sidebar_veneers_p1_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -67,7 +67,7 @@
                      
                     <h4 class="title usmall">
                       
-                        <router-link to="/veneers-longevity">{{ $t('zircven_sidebar_title4') }}</router-link>
+                        <router-link to="/veneers-longevity">{{ $t('sidebar_veneers_p2_title') }}</router-link>
 
                     </h4>
                 </div>
@@ -80,7 +80,7 @@
                      
                     <h4 class="title usmall">
                       
-                        <router-link to="/daily-care">{{ $t('blog_implants_dailycare_title') }}</router-link>
+                        <router-link to="/daily-care">{{ $t('sidebar_veneers_p3_title') }}</router-link>
 
                     </h4>
                 </div>

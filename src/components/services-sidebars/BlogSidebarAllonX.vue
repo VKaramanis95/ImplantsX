@@ -1,7 +1,7 @@
 <template>
     <div class="widget-area"> 
         <div class="widget widget_grin_posts_thumb">
-            <h3 class="widget-title">Recent posts</h3>
+            <h3 class="widget-title">{{ $t('sidebar_recent_posts') }}</h3>
 
             <div class="item">
                 <router-link to="/all6-or-all4" class="thumb">
@@ -9,7 +9,7 @@
                 </router-link>
                 <div class="info">
                     <h4 class="title usmall">
-                        <router-link to="/all6-or-all4">{{ $t('allx_sidebar_title') }}</router-link>
+                        <router-link to="/all6-or-all4">{{ $t('sidebar_allx_r1_title') }}</router-link>
                     </h4>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                 <div class="info">
                      
                     <h4 class="title usmall">
-                        <router-link to="/implants-denture-care">{{ $t('allx_sidebar_title1') }}</router-link>
+                        <router-link to="/implants-denture-care">{{ $t('sidebar_allx_r2_title') }}</router-link>
                     </h4>
                 </div>
             </div>
@@ -33,14 +33,14 @@
                      
                     <h4 class="title usmall">
                         <router-link to="/why-smile-make-over">
-                            {{ $t('allx_sidebar_title2') }}
+                            {{ $t('sidebar_allx_r3_title') }}
                         </router-link>
                     </h4>
                 </div>
             </div>
         </div>
         <div class="widget widget_grin_posts_thumb">
-            <h3 class="widget-title">Most Popular Posts</h3>
+            <h3 class="widget-title">{{ $t('sidebar_popular_posts') }}</h3>
 
             <div class="item">
                 <router-link to="/cbct-tomography" class="thumb">
@@ -50,7 +50,7 @@
                      
                     <h4 class="title usmall">
                         <router-link to="/cbct-tomography">
-                            {{ $t('blog_allpage_cbct_title') }}
+                            {{ $t('sidebar_allx_p1_title') }}
                         </router-link>
                     </h4>
                 </div>
@@ -64,7 +64,7 @@
                      
                     <h4 class="title usmall">
                         <router-link to="/additional-adhesives">
-                            {{ $t('allx_sidebar_title3') }}
+                            {{ $t('sidebar_allx_p2_title') }}
                         </router-link>
                     </h4>
                 </div>
@@ -80,7 +80,7 @@
                      
                     <h4 class="title usmall">
                         <router-link to="/after-surgery">
-                            {{ $t('blog_implants_after_surgery_main_title') }}
+                            {{ $t('sidebar_allx_p3_title') }}
                         </router-link>
                     </h4>
                 </div>
@@ -93,7 +93,7 @@
                      
                     <h4 class="title usmall">
                       
-                        <router-link to="/daily-care">{{ $t('blog_implants_dailycare_title') }}</router-link>
+                        <router-link to="/daily-care">{{ $t('sidebar_allx_p4_title') }}</router-link>
 
                     </h4>
                 </div>

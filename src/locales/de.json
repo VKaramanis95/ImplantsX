@@ -53,6 +53,10 @@
     "nav_periodontology":"Parodontologie",
     "nav_orofacial":"Störungen des Kiefergelenks",
 
+    "top_bar_offer_allx":"",
+    "top_bar_offer_implant":"",
+    "top_bar_offer_hs":"",
+    "top_bar_offer_veneers":"",
 
     "button_view_all":"",
     "button_read_more":"",
@@ -220,18 +224,6 @@
    "allx_page_p2":"",
    "allx_title3":"",
    "allx_page_p3":"",
-   
-
-   "allx_sidebar_title":"",
-   "allx_sidebar_p":"",
-   "allx_sidebar_title1":"",
-   "allx_sidebar_p1":"",
-   "allx_sidebar_title2":"",
-   "allx_sidebar_p2":"",
-   "allx_sidebar_title3":"",
-   "allx_sidebar_p3":"",
-   "allx_sidebar_title4":"",
-   "allx_sidebar_p4":"",
 
    
 
@@ -386,13 +378,7 @@
     "touth_implant_page_success_rate_p":"",
    
 
-    "implant_sidebar_title_lose_teeth":"",
-    "implant_sidebar_title_need_implants":"",
-    "implant_sidebar_title_gold_standard":"",
-    "implant_sidebar_title_quality_implant":"",
-    "implant_sidebar_title_eat_anything":"",
-    "implant_sidebar_title_additional_procedure":"",
-    "implant_sidebar_title_is_painful":"",
+    
 
     "invisible_orthodontics_services_title":"Unsichtbare Kieferorthopädie",
     "invisible_orthodontics_services_p":"",
@@ -513,7 +499,13 @@
     "contact_title":"",
     "contact_p":"",
     "contact_reachout":"",
-"contact_or":"",
+    "contact_or":"",
+
+    "contact_thanks_title":"",
+    "contact_thanks_p":"",
+    "contact_thanks_p1":"",
+    "contact_thanks_p_phone":"",
+    "contact_thanks_p1_1":"",
 
     "prices_span":"Preise",
     "prices_h2":"Unsere Preispakete",
@@ -587,9 +579,7 @@
   
    
    
-    "blog_page_pediatric_post_on":"",
-    "blog_page_pediatric_post_date":"",
-    "blog_page_pediatric_post_by":"",
+    
    
 
     "blog_page_pediatric_title":"",
@@ -711,6 +701,35 @@
     "blog_tourism_sidebar_upcomingevents":"",
     "blog_tourism_sidebar_popularevents":"",
 
+    "sidebar_recent_posts":"",
+    "sidebar_popular_posts":"",
+    "sidebar_allx_r1_title":"",
+    "sidebar_allx_r2_title":"",
+    "sidebar_allx_r3_title":"",
+    "sidebar_allx_p1_title":"",
+    "sidebar_allx_p2_title":"",
+    "sidebar_allx_p3_title":"",
+    "sidebar_allx_p4_title":"",
+
+    "sidebar_implants_r1_title":"",
+    "sidebar_implants_r2_title":"",
+    "sidebar_implants_r3_title":"",
+    "sidebar_implants_p1_title":"",
+    "sidebar_implants_p2_title":"",
+    "sidebar_implants_p3_title":"",
+    "sidebar_implants_p4_title":"",
+
+    "sidebar_fullmouth_r1_title":"",
+    "sidebar_fullmouth_r2_title":"",
+    "sidebar_fullmouth_p1_title":"",
+    "sidebar_fullmouth_p2_title":"",
+
+    "sidebar_veneers_r1_title":"",
+    "sidebar_veneers_r2_title":"",
+    "sidebar_veneers_r3_title":"",
+    "sidebar_veneers_p1_title":"",
+    "sidebar_veneers_p2_title":"",
+    "sidebar_veneers_p3_title":"",
    
     "blog_allpage_cbct_title  ":"",
     "blog_main_cbct_p1":"",
@@ -720,8 +739,7 @@
     "blog_main_cbct_advantages_p1":"",
     "blog_main_cbct_advantages_p2":"",
 
-    "blog_full_mouth_rest_long_title":"",
-    "blog_full_mouth_rest_long_p":"",
+  
     
     "blog_bonecrafts_title":"",
     "blog_bonecrafts_p":"",
@@ -776,4 +794,6 @@
     "blog_implants_dailycare_guide_floss_p":"",
     "blog_implants_dailycare_guide_check_title":"",
     "blog_implants_dailycare_guide_check_p":""
+
+    
 }
