@@ -7,7 +7,7 @@
 
             <div class="item">
                 <router-link to="/implants-denture-care" class="thumb">
-                    <span class="fullimage cover bg3" role="img"></span>
+                    <span class="fullimage cover bg4" role="img"></span>
                 </router-link>
                 <div class="info">
                      
@@ -37,7 +37,7 @@
             
             <div class="item">
                 <router-link to="/after-surgery" class="thumb">
-                    <span class="fullimage cover bg2" role="img"></span>
+                    <span class="fullimage cover bg7" role="img"></span>
                 </router-link>
                 <div class="info">
                      

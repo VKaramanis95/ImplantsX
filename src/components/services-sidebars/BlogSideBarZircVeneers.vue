@@ -29,7 +29,7 @@
             </div>
             <div class="item">
                 <router-link to="/veneers-consumption" class="thumb">
-                    <span class="fullimage cover bg3" role="img"></span>
+                    <span class="fullimage cover bg6" role="img"></span>
                 </router-link>
                 <div class="info">
                      

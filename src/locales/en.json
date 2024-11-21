@@ -405,6 +405,7 @@
     "blog_implants_eat_anything_p":"Yes. Once your implants have completely healed, you can treat them like natural teeth. Many patients report being able to eat foods that they couldn’t eat before surgery and can enjoy chewy and hard foods again. Only liquids and soft food are allowed during the healing process to prevent irritating your jaw and gums. This can range anywhere from a few days to a week before you can slowly add solid foods to your diet.",
     "blog_implants_additional_procedure_p":"Not always, but three different procedures can accompany implants. Bone grafting is needed if your jawbone is too thin or soft because chewing puts much pressure on your jawbone, and the implant can fail once you begin to eat solid food. A bone graft will strengthen your jawbone using a part of your bone from a different area of your body or synthetic bone material. A few months will be needed for the graft to grow strong enough to support the implant. A sinus augmentation is sometimes required if an implant is put in the upper jawbone, depending on the location of your sinuses. This procedure lifts the floor of the sinuses to give more room for the implant. Bone augmentation is needed if the patient’s jawbone needs additional work. Bone augmentation is a surgical procedure to replace bone surrounding the root of a tooth, making it possible for you to have an implant if you don’t have enough natural bone in your jaw. Unlike other body tissue types, bone can regenerate in the right conditions. A graft makes this process possible while helping to hold your implant and existing teeth in place. Over time, your bone will grow to replace the graft material. Once the site around the graft has successfully healed and been provided, you don’t need any other supporting treatments; you’ll be ready to have your implant placed. There are many reasons why you may not have enough bone to hold an implant securely in place, but you might need a bone graft if: -Your teeth are loose or unstable, or you suffer from gum disease. Gum disease can break down gum and bone tissue -You had a tooth extracted some time ago. The gap left following extraction can sometimes affect the teeth on either side, and the bone can begin to deteriorate -You’ve had lots of infections in your mouth. This can lead to bone loss over time -You’ve had an injury to your mouth. The impact could have led to bone loss.",
     
+    "implant_sidebar_title_eat_anything":"Can I eat anything with Dental Implants ?",
     
 
     "invisible_orthodontics_services_title":"Invisible Orthodontics",
@@ -510,7 +511,7 @@
     "gallery_page":"Page",
     "gallery_from":"from",
 
-    "gallery_span":"Our Recent Dental Achievements",
+    "gallery_span":"Our Smile Makeovers",
     "gallery_h2":"Transformative Smiles: Our Before & After Cases",
     "gallery_p":"Unveiling Radiant Smiles: Explore Our Before & After Gallery. Experience the Transformative Power of Our Dental Expertise, Restoring Confidence and Radiance, One Smile at a Time.",
     "gallery_button_previous":"Previous",
@@ -751,7 +752,7 @@
     "sidebar_implants_r2_title":"What makes dental implants 'The Gold Standard'?",
     "sidebar_implants_r3_title":"What is the quality of Dental Implants ?",
     "sidebar_implants_p1_title":"Can I eat anything with Dental Implants ?",
-    "sidebar_implants_p2_title":"Are there ant additional procedures needed ?",
+    "sidebar_implants_p2_title":"Are there any additional procedures needed ?",
     "sidebar_implants_p3_title":"Daily Care",
     "sidebar_implants_p4_title":"After surgery instructions",
 
@@ -759,6 +760,9 @@
     "sidebar_fullmouth_r2_title":"How long can my full-mouth reconstruction can last?",
     "sidebar_fullmouth_p1_title":"After surgery instructions",
     "sidebar_fullmouth_p2_title":"Daily Care",
+
+    "full_mouth_rehab_longevity_sidebar_p":"The future timeline for a full-mouth reconstruction will vary, as it does with all patients, depending on your personal factors, oral structure, health, and the type of procedures you undergone. However, many of the most commonly used reconstruction options have a lifespan of at least a decade. These options include veneers, dental implants, crowns, and bridges, all of which can last ten years or more if patients take the proper care. Proper care, of course, involves daily hygiene habits such as brushing, flossing, and rinsing. Another integral component is scheduling routine check-ups and cleanings. After your full-mouth reconstruction, a follow-up appointment will allow us (or your general dentist) to check that everything is comfortable and that your bite is functional and does not give you any trouble. Additionally, our doctors can provide tips and tricks for correct care to help you extend the lifespan of your reconstruction or make any necessary alterations if you aren't pleased with your results. Then, through routine check-ups, we can monitor your progress, provide professional cleanings, and evaluate the integrity of any implants, fixtures, or veneers.",
+
       
     "sidebar_veneers_r1_title":"Can you get zirconia veneers in a more natural colour/not so white ?",
     "sidebar_veneers_r2_title":"What is E.max® and what are it's benefits ?",

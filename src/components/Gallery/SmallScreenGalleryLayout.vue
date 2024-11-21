@@ -5,7 +5,7 @@
       <div class="section-title">
         <span class="sub-title">
           <i class="flaticon-hashtag-symbol"></i>
-          {{ $t('gallery_title') }}
+          {{ $t('gallery_span') }}
         </span>
         <h2>{{ $t('gallery_h2') }}</h2>
         <p ref="sectionTopNextPrevious">{{ $t('gallery_p') }}</p>

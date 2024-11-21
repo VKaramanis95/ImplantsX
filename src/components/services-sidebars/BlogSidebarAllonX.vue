@@ -16,7 +16,7 @@
 
             <div class="item">
                 <router-link to="/implants-denture-care" class="thumb">
-                    <span class="fullimage cover bg3" role="img"></span>
+                    <span class="fullimage cover bg4" role="img"></span>
                 </router-link>
                 <div class="info">
                      
@@ -27,7 +27,7 @@
             </div>
             <div class="item">
                 <router-link to="/why-smile-make-over" class="thumb">
-                    <span class="fullimage cover bg2" role="img"></span>
+                    <span class="fullimage cover bg9" role="img"></span>
                 </router-link>
                 <div class="info">
                      
@@ -42,19 +42,7 @@
         <div class="widget widget_grin_posts_thumb">
             <h3 class="widget-title">{{ $t('sidebar_popular_posts') }}</h3>
 
-            <div class="item">
-                <router-link to="/cbct-tomography" class="thumb">
-                    <span class="fullimage cover bg1" role="img"></span>
-                </router-link>
-                <div class="info">
-                     
-                    <h4 class="title usmall">
-                        <router-link to="/cbct-tomography">
-                            {{ $t('sidebar_allx_p1_title') }}
-                        </router-link>
-                    </h4>
-                </div>
-            </div>
+           
 
             <div class="item">
                 <router-link to="/additional-adhesives" class="thumb">
@@ -74,7 +62,7 @@
 
             <div class="item">
                 <router-link to="/after-surgery" class="thumb">
-                    <span class="fullimage cover bg2" role="img"></span>
+                    <span class="fullimage cover bg7" role="img"></span>
                 </router-link>
                 <div class="info">
                      

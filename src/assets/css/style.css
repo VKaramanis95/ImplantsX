@@ -3437,11 +3437,11 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_grin_posts_thumb .item .thumb .fullimage {
-  width: 80px;
+  width: 90px;
   height: 80px;
   display: inline-block;
   border-radius: 5px;
-  background-size: cover !important;
+  background-size: contain !important;
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -3451,13 +3451,30 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../../assets/images/blog/blog-2.webp);
+  background-image: url(../../assets/images/blog/sidebar/dailycare.webp);
 }
 
 .widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg3 {
   background-image: url(../../assets/images/blog/blog-3.webp);
 }
-
+.widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg4 {
+  background-image: url(../../assets/images/blog/sidebar/implant.webp);
+}
+.widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg5 {
+  background-image: url(../../assets/images/blog/sidebar/teethloose.webp);
+}
+.widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg6 {
+  background-image: url(../../assets/images/blog/sidebar/eat.webp);
+}
+.widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg7 {
+  background-image: url(../../assets/images/blog/sidebar/aftersurgery.webp);
+}
+.widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg8 {
+  background-image: url(../../assets/images/blog/sidebar/cbtc.webp);
+}
+.widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg9 {
+  background-image: url(../../assets/images/blog/sidebar/why.webp);
+}
 .widget-area .widget_grin_posts_thumb .item .thumb .tourismblogimage.bg1 {
   background-image: url(../../assets/images/dental-tourism/blog-sidebar/watersports.webp);
 }
