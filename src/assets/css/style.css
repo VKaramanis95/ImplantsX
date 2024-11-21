@@ -5107,4 +5107,12 @@ left: -10px; /* Adjust to center the lines */
       }
   }
 
-  
+  .related-articles-footer .related-article-item {
+    margin-bottom: 20px; /* Default space for all screens */
+}
+
+@media (max-width: 576px) {
+    .related-articles-footer .related-article-item {
+        margin-bottom: 30px; /* More space for small screens */
+    }
+}

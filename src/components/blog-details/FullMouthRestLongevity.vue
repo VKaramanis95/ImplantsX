@@ -22,7 +22,8 @@
                         <!-- Footer bar with other articles -->
                         <div class="related-articles-footer">
                             <div class="row">
-                                <div class="col-lg-3 col-md-6">
+                                                                <div class="col-lg-3 col-md-6 col-sm-12 related-article-item">
+
                                     <div class="item">
                                         <div class="info">
                                             <h4 class="title usmall">
@@ -33,7 +34,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6">
+                                                                <div class="col-lg-3 col-md-6 col-sm-12 related-article-item">
+
                                     <div class="item">
                                         <div class="info">
                                             <h4 class="title usmall">
@@ -44,7 +46,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6">
+                                                                <div class="col-lg-3 col-md-6 col-sm-12 related-article-item">
+
                                     <div class="item">
                                         <div class="info">
                                             <h4 class="title usmall">
@@ -55,7 +58,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6">
+                                                                <div class="col-lg-3 col-md-6 col-sm-12 related-article-item">
+
                                     <div class="item">
                                          
                                         <h4 class="title usmall">

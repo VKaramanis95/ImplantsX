@@ -22,8 +22,10 @@
                         <!-- Footer bar with other articles -->
                         <div class="related-articles-footer">
                             <div class="row">
-                                <div class="col-lg-3 col-md-6">
+                                <div class="col-lg-3 col-md-6 col-sm-12 related-article-item">
+
                                     <div class="item">
+                                       
                                         <div class="info">
                                             <h4 class="title usmall">
                                                 <router-link to="/implants-denture-care">
@@ -33,8 +35,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6">
+                                <div class="col-lg-3 col-md-6 col-sm-12 related-article-item">
                                     <div class="item">
+                                        
                                         <div class="info">
                                             <h4 class="title usmall">
                                                 <router-link to="/why-smile-make-over">
@@ -44,8 +47,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6">
+                                <div class="col-lg-3 col-md-6 col-sm-12 related-article-item">
                                     <div class="item">
+                                        
                                         <div class="info">
                                             <h4 class="title usmall">
                                                 <router-link to="/implants-eat-anything">
@@ -55,18 +59,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-6">
+                                <div class="col-lg-3 col-md-6 col-sm-12 related-article-item">
                                     <div class="item">
-                                         
-                                        <h4 class="title usmall">
-                                            <router-link to="/after-surgery">
-                                                {{ $t('sidebar_allx_p3_title') }}
-                                            </router-link>
-                                        </h4>
+                                        
+                                        <div class="info">
+                                            <h4 class="title usmall">
+                                                <router-link to="/daily-care">
+                                                    {{ $t('sidebar_allx_p4_title') }}
+                                                </router-link>
+                                            </h4>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- End of Footer bar with other articles -->
 
                     </div>
                 </div>
@@ -83,3 +90,15 @@ export default {
     },
 }
 </script>
+
+<style scoped>
+.related-articles-footer .related-article-item {
+    margin-bottom: 20px; /* Default space for all screens */
+}
+
+@media (max-width: 576px) {
+    .related-articles-footer .related-article-item {
+        margin-bottom: 30px; /* More space for small screens */
+    }
+}
+</style>
