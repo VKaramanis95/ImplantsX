@@ -1,6 +1,6 @@
 <template>
     <Preloader v-if="isLoading" />
-    <TopHeader />
+    
     <MiddleHeader />
     <TopOffersHeader   /> <!-- v-if="showTopOffersHeader" -->
     <Navbar />
