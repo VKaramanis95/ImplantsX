@@ -25,7 +25,7 @@
                         </div>
                         <div class="blog-content">
                             <h3>
-                                <router-link to="/blog-details">
+                                <router-link to="/pediatric-dentistry">
                                     {{ $t('blog_allpage_pediatric_title') }}
                                 </router-link>
                             </h3>
